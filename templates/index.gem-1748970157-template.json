@@ -1,0 +1,607 @@
+{
+  "sections": {
+    "cfca4268-6358-426c-98ab-d292aeef11e5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop_banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_without_text_1.png",
+            "image_overlay_opacity": 0,
+            "heading": "<strong>Confidence Starts with Self-Care.<\/strong>",
+            "title_highlight_color": "#8b1638",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/bio-collagen-mask",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "color_scheme": "background-2",
+            "transparent_container_color": "white",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#8b1638",
+            "custom_gradient_background": "",
+            "custom_colors_text": "#ffffff",
+            "custom_colors_solid_button_background": "#dd1d1d",
+            "custom_colors_solid_button_text": "#ffffff",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1"
+      ],
+      "settings": {
+        "visibility": "always-display",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "section_divider_nNjq9y": {
+      "type": "section-divider",
+      "name": "Section divider",
+      "settings": {
+        "visibility": "always-display",
+        "shape": "diagonal_1",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_WN6a8U": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>Bestsellers<\/strong>",
+        "title_highlight_color": "#8b1638",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "shop-all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "stretch_cards": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#8b1638"
+      }
+    },
+    "ss_testimonial_10_MzNXP3": {
+      "type": "ss-testimonial-10",
+      "blocks": {
+        "testimonial_84JHMd": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2897_73215749-e2db-4b8e-90ae-26c7e0aa08d2.jpg",
+            "stars_count": 5,
+            "text": "<p>\"I was scared to try anything with collagen because of my acne-prone skin, but this one actually reduced redness and helped my breakouts heal faster.\"<\/p>",
+            "author": "- SYMONE GLAZE"
+          }
+        },
+        "testimonial_aYaAie": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/782128dd71acf43e2f4a370f15a304fa.jpg",
+            "stars_count": 5,
+            "text": "<p>\"My skin looked so tired from work stress, but after using this mask a few times, it felt plumper and smoother. It’s like a reset for my face.\"<\/p>",
+            "author": "- ELIF S"
+          }
+        },
+        "testimonial_gGcxAV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1722543832__20240731_203542__original.png",
+            "stars_count": 5,
+            "text": "<p>\"I started noticing smile lines, and this mask really helped soften them. It’s not magic overnight, but my skin feels firmer and more elastic.\"<\/p>",
+            "author": "- KIRSTEN C"
+          }
+        },
+        "testimonial_4VyiXR": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.jpg",
+            "stars_count": 5,
+            "text": "<p>\"I barely have time for skincare, but this collagen mask is my go-to before bed. It gives me that refreshed glow even after sleepless nights.\"<\/p>",
+            "author": "- VANESSA JOHNSON"
+          }
+        },
+        "testimonial_cmVNpz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-min_4.png",
+            "stars_count": 5,
+            "text": "<p>\"I barely manage a 5-minute skincare routine. This mask is my cheat code for glowing skin when I don’t have time for 5 different products.\"<\/p>",
+            "author": "- KAYA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_84JHMd",
+        "testimonial_aYaAie",
+        "testimonial_gGcxAV",
+        "testimonial_4VyiXR",
+        "testimonial_cmVNpz"
+      ],
+      "settings": {
+        "body_padding_vertical": 36,
+        "body_padding_vertical_mobile": 10,
+        "body_padding_horizontal": 50,
+        "body_padding_horizontal_mobile": 12,
+        "body_radius": 12,
+        "body_border_thickness": 0,
+        "heading": "<p><strong>5000+ Babes Love Nifora<\/strong><\/p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 26,
+        "heading_size_mobile": 22,
+        "heading_height": 90,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "<p>Here's what some of them have to say about their favorite product<\/p>",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 120,
+        "slider_view": 4,
+        "slider_view_mobile": 1.7,
+        "slider_gap": 36,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "image_radius": 12,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "stars_size": 14,
+        "stars_mt": 24,
+        "stars_align": "center",
+        "stars_align_mobile": "center",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 14,
+        "text_height": 110,
+        "text_mt": 12,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 10,
+        "author_height": 130,
+        "author_mt": 8,
+        "author_align": "left",
+        "author_align_mobile": "left",
+        "arrow_size": 32,
+        "arrow_size_mobile": 32,
+        "arrow_icon_size": 40,
+        "arrow_icon_size_mobile": 22,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 9,
+        "dots_mt": 19,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "body_bg_color": "#ffffff",
+        "body_border_color": "#000000",
+        "stars_color": "#00b67a",
+        "text_color": "#121212",
+        "author_color": "#121212",
+        "arrow_color": "#756e67",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#756e67",
+        "arrow_border_color": "#756e67",
+        "arrow_border_hover_color": "#756e67",
+        "dots_color": "#756e67",
+        "heading_color": "#8b1638",
+        "sub_heading_color": "#000000",
+        "background_color": "#f5f5f5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 24,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "featured_product_WgwdGD": {
+      "type": "featured-product",
+      "blocks": {
+        "title_nJeQ6U": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "trustpilot_stars_YxV9aP": {
+          "type": "trustpilot_stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "label": "(5000+ Reviews)",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "price_bTB4rz": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "hide_sale_badge": false,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "quantity_selector_3hjnVe": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "update_prices": false,
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "color_scheme": "accent-1",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons_GDa3pk": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#dd1d1d",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_nDWMt3": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_nJeQ6U",
+        "trustpilot_stars_YxV9aP",
+        "price_bTB4rz",
+        "quantity_selector_3hjnVe",
+        "buy_buttons_GDa3pk",
+        "payment_badges_nDWMt3"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "product": "bio-collagen-mask",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "mobile_media_corner_radius": 12,
+        "full_media_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "sp_video_slideshow_JFncM6": {
+      "type": "sp-video-slideshow",
+      "blocks": {
+        "video_y4mmDr": {
+          "type": "video",
+          "settings": {
+            "video_shopify": "shopify:\/\/files\/videos\/Kopie van SnapInsta.to_AQM7vDvTs_YhCPILHzjQwgvnrG6uw-KNNyl_6k6O80i1avUByr0_YS7_2010EtQye6RoS6jcQ3FXDJb570ysBofLybUhkk8j8u0e9ws.mp4",
+            "video_type": "background-chrome"
+          }
+        },
+        "video_XRRHLT": {
+          "type": "video",
+          "settings": {
+            "video_shopify": "shopify:\/\/files\/videos\/Kopie van SnapInsta.to_AQO4E7zSe0h75XtQDvcED0FEUftHInXknby4eL3AffUYcHXhvfd5aBqwSPgOvITF8WcieEARhk40FYdWuQvPmDoHOdI_nwkG-eXgCFk.mp4",
+            "video_type": "background-chrome"
+          }
+        },
+        "video_mm8QnL": {
+          "type": "video",
+          "settings": {
+            "video_shopify": "shopify:\/\/files\/videos\/Kopie van SnapInsta.to_AQP_TcL-48wrfoOoqcbZFDwA0V-Ml8J3NdZnzVGhAbezfQRMEJXjjP0Bdnovzr7PW_L2zd-SqCltekcXDulsuRmFHO96_pskedXmeBY.mp4",
+            "video_type": "background-chrome"
+          }
+        }
+      },
+      "block_order": [
+        "video_y4mmDr",
+        "video_XRRHLT",
+        "video_mm8QnL"
+      ],
+      "settings": {
+        "slideshow_height": "small",
+        "text_size": "medium"
+      }
+    },
+    "custom_liquid_gyrR9z": {
+      "type": "custom-liquid",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<!DOCTYPE html> \n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Responsive Photo Slider<\/title>\n    <style>\n        body {\n            font-family: 'Avenir Next', sans-serif;\n            background-color: #f7f7f7;\n            margin: 0;\n            padding: 0;\n        }\n\n        .slider-container {\n            position: relative;\n            max-width: 1200px;\n            margin: 20px auto;\n            overflow: hidden;\n            border-radius: 15px;\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);\n            background-color: #fff;\n            padding: 10px;\n        }\n\n        .slider {\n            display: flex;\n            will-change: transform;\n            transition: transform 0.4s ease-out;\n        }\n\n        .slide {\n            min-width: 70%;\n            box-sizing: border-box;\n            margin: 0 10px;\n            position: relative;\n            transition: transform 0.5s ease;\n        }\n\n        .slide img {\n            width: 100%;\n            height: auto;\n            border-radius: 10px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n        }\n\n        .headline {\n            font-size: 1.2rem;\n            font-weight: 700;\n            text-align: center;\n            color: #3a3a3a;\n            margin: 20px 0 10px 0;\n        }\n\n        .subheadline {\n            font-size: 1rem;\n            text-align: center;\n            color: #666;\n            margin-bottom: 30px;\n            max-width: 80%;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .before-after-header {\n            font-size: 1.3rem; \/* Slightly smaller than the main headline *\/\n            font-weight: 600;\n            text-align: center;\n            color: #8b1638; \/* Warm Nude *\/\n            margin-bottom: 10px;\n        }\n\n        \/* Desktop View Adjustments *\/\n        @media (min-width: 768px) {\n            .slide {\n                min-width: 30%;\n            }\n        }\n\n        @media (min-width: 1024px) {\n            .slider-container {\n                max-width: 1400px;\n            }\n        }\n\n        \/* Hover effect for slides *\/\n        .slide:hover img {\n            transform: scale(1.05);\n        }\n\n        \/* Fancy text shadows *\/\n        .headline, .subheadline {\n            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"headline\">Get a Healthier Skin ✨<\/div>\n    <div class=\"subheadline\">From dull and dry to glowy, hydrated and smooth! Our mask provides a glass-like finish, refines skin texture and is suitable for even the most sensitive skin. Perfect for an instant radiant look! 💖<\/div>\n\n    <!-- New Before & After Header -->\n    <div class=\"before-after-header\">Before & After<\/div>\n\n    <div class=\"slider-container\">\n        <div class=\"slider\">\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/12_0dc3cdd5-a145-4b73-94c9-c2e3757ef30a.png?v=1748944785\" alt=\"Image 1\">\n            <\/div>\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/32_df2e5825-dd39-4f21-b55d-bd7beae3dc54.png?v=1748874386\" alt=\"Image 2\">\n            <\/div>\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/33.png?v=1748874385\" alt=\"Image 3\">\n            <\/div>\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/34_75a854e0-a83a-4c19-bbae-acf02c786216.png?v=1748874385\" alt=\"Image 4\">\n            <\/div>\n        <\/div>\n    <\/div>\n\n    <script>\n        (function() {\n            const slider = document.querySelector('.slider');\n            const slides = document.querySelectorAll('.slide');\n            const slideWidth = slides[0].offsetWidth + 20; \/\/ Includes margin\n            const totalSlides = slides.length;\n\n            let isDragging = false;\n            let startX = 0;\n            let currentTranslate = 0;\n            let previousTranslate = 0;\n            let velocity = 0;\n\n            const setSliderPosition = () => {\n                slider.style.transform = `translateX(${currentTranslate}px)`;\n            };\n\n            const startDragging = (x) => {\n                isDragging = true;\n                startX = x;\n                slider.style.transition = 'none';\n            };\n\n            const drag = (x) => {\n                if (!isDragging) return;\n                const delta = x - startX;\n                currentTranslate = previousTranslate + delta;\n                setSliderPosition();\n                velocity = delta;\n            };\n\n            const stopDragging = () => {\n                if (!isDragging) return;\n                isDragging = false;\n\n                const momentumTranslate = currentTranslate + velocity * 3;\n                const maxTranslate = 0;\n                const minTranslate = -(slideWidth * (totalSlides - 1));\n\n                currentTranslate = Math.min(maxTranslate, Math.max(minTranslate, momentumTranslate));\n                previousTranslate = currentTranslate;\n\n                const index = Math.round(-currentTranslate \/ slideWidth);\n                currentTranslate = -index * slideWidth;\n                previousTranslate = currentTranslate;\n\n                slider.style.transition = 'transform 0.5s ease-out';\n                setSliderPosition();\n            };\n\n            slider.addEventListener('mousedown', (e) => startDragging(e.clientX));\n            slider.addEventListener('mousemove', (e) => drag(e.clientX));\n            slider.addEventListener('mouseup', stopDragging);\n            slider.addEventListener('mouseleave', stopDragging);\n            slider.addEventListener('touchstart', (e) => startDragging(e.touches[0].clientX));\n            slider.addEventListener('touchmove', (e) => drag(e.touches[0].clientX));\n            slider.addEventListener('touchend', stopDragging);\n\n            document.addEventListener('dragstart', (e) => e.preventDefault());\n        })();\n    <\/script>\n<\/body>\n<\/html>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa": {
+      "type": "results",
+      "blocks": {
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1": {
+          "type": "row",
+          "settings": {
+            "percentage": 90,
+            "row_text": "<p>Experienced smoother texture and more hydrated skin with reduced dryness within two weeks.<\/p>"
+          }
+        },
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2": {
+          "type": "row",
+          "settings": {
+            "percentage": 90,
+            "row_text": "<p>Saw refined pores, fewer fine lines, and a radiant glow — especially around the eyes and forehead.<\/p>"
+          }
+        },
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3": {
+          "type": "row",
+          "settings": {
+            "percentage": 90,
+            "row_text": "<p>Noticed brighter and more even-looking skin after just one use.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1",
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2",
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>Science Backed <\/strong>Results",
+        "title_highlight_color": "#8b1638",
+        "heading_size": "h1",
+        "text": "<p>Each mask is rigorously tested to meet dermatological standards, ensuring a safe and effective skincare solution.<\/p>",
+        "color_scheme": "background-1",
+        "layout": "results_second",
+        "results_headline": "<strong>Results<\/strong>",
+        "results_title_highlight_color": "#8b1638",
+        "results_headline_size": "h2",
+        "results_text": "",
+        "results_headline_alignment": "left",
+        "caption": "<p><em>*These results are based on feedback from customers who used the mask weekly as directed.<\/em><\/p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_accent": "#8b1638",
+        "custom_colors_solid_button_background": "#8b1638",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "ss_simple_faq_8Qnki9": {
+      "type": "ss-simple-faq",
+      "blocks": {
+        "text_AtVHYy": {
+          "type": "text",
+          "settings": {
+            "question": "How do I use the Mask?",
+            "answer": "<p>🧴 <strong>Evening Routine:<\/strong> Cleanse and tone your face, ensuring your skin is free from oil and creams.<\/p><p>🎭 <strong>Application:<\/strong> Start with the bottom piece, followed by the top. Gently press for optimal adherence. <em>Pro tip:<\/em> Tilt your head back for a perfect fit.<\/p><p>⏳ <strong>Duration:<\/strong><\/p><p><strong>Express Glow:<\/strong> 1-2 hours<\/p><p><strong>Maximum Results:<\/strong> Leave it on overnight (ensure it’s fully dry to prevent shifting).<\/p><p>💖 <strong>The Reveal:<\/strong> Gently remove the mask and pat the remaining essence into your skin. <em>Pro tip:<\/em> Use excess serum on your neck and décolleté.<\/p>"
+          }
+        },
+        "text_HWmgj8": {
+          "type": "text",
+          "settings": {
+            "question": "How many masks come in a pack?",
+            "answer": "<p>Each pack comes with 4 masks. Each mask is single use. We recommend starting with 2 masks per week for a month in order to get your skin glowing fast and rejuvenated. After the first month, you can use one mask per week to maintain a healthy skin.<\/p>"
+          }
+        },
+        "text_46gHgt": {
+          "type": "text",
+          "settings": {
+            "question": "What ingredients are in the mask?",
+            "answer": "<p>Water, glycerin, propylene glycol, betaine, sodium carrageenan, polyurethane-35, glucomannan, 1,2-hexanediol, hydroxyacetophenone, butylene glycol, hydroxyethylcellulose, pentylene glycol, dipotassium glycyrrhizate, panthenol, potassium chloride, allantoin, tocopheryl acetate (vitamin E), niacinamide (vitamin B3), hydrolyzed collagen, hydrolyzed sodium hyaluronate, sodium hyaluronate, hydroxyphenyl propamidobenzoic acid, Glycyrrhiza Uralensis (licorice) root extract, Tremella Fuciformis (snow mushroom) extract, fructose, Centella Asiatica extract, phosphatidylcholine, phenoxyethanol, ceramide NP, copper tripeptide-1, beta-sitosterol, beta-glucan, sodium stearoyl glutamate, ethylhexylglycerin, caprylhydroxamic acid, acetyl hexapeptide-8, palmitoyl tripeptide-5.<\/p>"
+          }
+        },
+        "text_GPaJjh": {
+          "type": "text",
+          "settings": {
+            "question": "100% Money back-guarantee?",
+            "answer": "<p>Yes, we offer a <strong>100% money-back guarantee<\/strong>. If you don’t notice healthier skin, we’ll give you a full refund. Plus, enjoy our <strong>60-day risk-free guarantee<\/strong> for peace of mind.<\/p>"
+          }
+        },
+        "text_tRAGe9": {
+          "type": "text",
+          "settings": {
+            "question": "What are the delivery times?",
+            "answer": "<p><strong>Processing Time: <\/strong>Once your order is placed, please allow 1 business day for us to process and prepare your order for shipment.<br\/><br\/><strong>Shipping Time: <\/strong>After your order is dispatched, it will typically take 3-5 business days to reach you, depending on your location.<br\/><br\/><strong>Tracking Information: <\/strong>Once your order has been shipped, you will receive an email containing your tracking number. You can use this to track your package and stay updated on its delivery status.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_AtVHYy",
+        "text_HWmgj8",
+        "text_46gHgt",
+        "text_GPaJjh",
+        "text_tRAGe9"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
+        "background_color": "#8b1638",
+        "answer_color": "#121212",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5
+      }
+    },
+    "ee8d9ca6-4a41-401f-83a3-37e138a112b9": {
+      "type": "contact-form",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Contact form",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "button_full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "cfca4268-6358-426c-98ab-d292aeef11e5",
+    "section_divider_nNjq9y",
+    "featured_collection_WN6a8U",
+    "ss_testimonial_10_MzNXP3",
+    "featured_product_WgwdGD",
+    "sp_video_slideshow_JFncM6",
+    "custom_liquid_gyrR9z",
+    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa",
+    "ss_simple_faq_8Qnki9",
+    "ee8d9ca6-4a41-401f-83a3-37e138a112b9"
+  ]
+}
