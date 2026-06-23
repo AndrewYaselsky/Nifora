@@ -1,0 +1,245 @@
+<style>
+.transform-section-{{ section.id }} {
+  background-color: {{ section.settings.bg_color }};
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+{% comment %} .transform-wrapper{
+    display: none;
+} {% endcomment %}
+
+.transform-wrapper .text-center {
+  text-align: center;
+  {% comment %} max-width: 600px; {% endcomment %}
+  margin: 0 auto 30px;
+  {% comment %} padding: 0 20px; {% endcomment %}
+}
+
+.transform-title {
+color: #8B1638;
+text-align: center;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 112.5% */
+text-transform: uppercase;
+}
+
+.transform-description {
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* Image Scroller */
+.image-scroller {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 0 20px 20px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.image-scroller::-webkit-scrollbar {
+  display: none; /* Hides scrollbar for clean look */
+}
+
+.scroller-item {
+  position: relative;
+  flex: 0 0 75%; /* On mobile, show 75% of first image to hint at scrolling */
+  scroll-snap-align: start;
+}
+
+.scroller-item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 80%, rgba(0, 0, 0, 0.89) 100%);
+  pointer-events: none;
+}
+
+.scroller-img {
+  width: 100%;
+  aspect-ratio: 78/139;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+}
+
+.image-label {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 1;
+color: #FFF;
+font-family: Avenir;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.4px; /* 160% */
+}
+
+/* Button */
+.action-container {
+  padding: 10px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.atc-button {
+  width: 100%;
+  border-radius: 10px;
+background: #8B1638;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px; /* 100% */
+text-transform: capitalize;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  transition: opacity 0.2s;
+}
+
+.atc-button:hover {
+  opacity: 0.9;
+}
+
+.atc-subtext {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Desktop Adjustments */
+@media screen and (min-width: 768px) {
+  .scroller-item {
+    flex: 0 0 calc(33.333% - 10px);
+  }
+  .transform-title {
+    font-size: 36px;
+  }
+}
+</style>
+<div class="transform-section-{{ section.id }} transform-wrapper">
+  <div class="page-width">
+    <div class="text-center">
+      <h2 class="transform-title">{{ section.settings.title }}</h2>
+      <div class="transform-description">{{ section.settings.description }}</div>
+    </div>
+
+    <div class="image-scroller">
+      {% for block in section.blocks %}
+        <div class="scroller-item">
+          {% if block.settings.image != blank %}
+            {{ block.settings.image | image_url: width: 600 | image_tag: loading: 'lazy', class: 'scroller-img' }}
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+          <span class="image-label">{{ block.settings.label }}</span>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="action-container">
+    {%- if section.settings.target_id != blank -%}
+            <a href="#{{ section.settings.target_id }}" class="atc-button" style="text-decoration: none;">
+            <span class="atc-text">Add To Cart</span>
+            <span class="atc-subtext">
+                 <img src="https://cdn.shopify.com/s/files/1/0798/4028/0923/files/shield_png.png?v=1771591526">
+                {{ section.settings.guarantee_text }}
+            </span>
+            </a>
+  {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Transform Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "TRANSFORM TIRED, DULL SKIN IN JUST 20 MINUTES"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Our bio-collagen face mask delivers instant hydration and radiance..."
+    },
+    {
+    "type": "text",
+    "id": "target_id",
+    "label": "Scroll Target ID",
+    "default": "ProductForm-template--27374092878171__main"
+    },
+    {
+      "type": "text",
+      "id": "guarantee_text",
+      "label": "Guarantee Text",
+      "default": "60 Day Money-Back Guarantee"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#f9f1f3"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_block",
+      "name": "Image Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Slide Image"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Bottom Label",
+          "default": "Instant Plumping"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Transform Section",
+      "blocks": [
+        { "type": "image_block" },
+        { "type": "image_block" },
+        { "type": "image_block" }
+      ]
+    }
+  ]
+}
+{% endschema %}

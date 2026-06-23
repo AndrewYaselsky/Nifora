@@ -1,0 +1,770 @@
+<section class="quiz-tiles" id="quiz-{{ section.id }}">
+  <div class="page-width">
+    {%- comment -%} Brand logo (replaces heading). Falls back to text heading if no image is set. {%- endcomment -%}
+    {% if section.settings.brand_logo != blank %}
+      {%- assign logo_alt = section.settings.brand_logo_alt | default: shop.name -%}
+      {%- assign logo_href = section.settings.logo_link -%}
+
+      {% if logo_href != blank %}
+        <div class="qt-logo__wrapper">
+          <a class="qt-logo" href="{{ logo_href }}" aria-label="Home">
+            <img
+              src="{{ section.settings.brand_logo | image_url }}"
+              alt="{{ logo_alt | escape }}"
+              loading="eager"
+              class="qt-logo__img">
+          </a>
+        </div>
+      {% else %}
+        <div class="qt-logo__wrapper">
+          <div class="qt-logo" role="img" aria-label="{{ logo_alt | escape }}">
+            <img
+              src="{{ section.settings.brand_logo | image_url }}"
+              alt="{{ logo_alt | escape }}"
+              loading="eager"
+              class="qt-logo__img">
+          </div>
+        </div>
+      {% endif %}
+    {% elsif section.settings.heading != blank %}
+      <h1 class="qt-heading">{{ section.settings.heading }}</h1>
+    {% endif %}
+
+    {% if section.settings.intro != blank %}
+      <p class="qt-intro">{{ section.settings.intro }}</p>
+    {% endif %}
+
+    <form id="qt-form-{{ section.id }}" novalidate>
+      {%- comment -%} Count questions (exclude loading/info/detail blocks) for progress {%- endcomment -%}
+      {% assign q_total = 0 %}
+      {% for block in section.blocks %}
+        {% if block.type == 'question' %}
+          {% assign q_total = q_total | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+
+      {% if section.settings.show_progress and q_total > 0 %}
+        <div class="qt-progress" id="qt-progress-{{ section.id }}">
+          {%- comment -%} <span class="qt-progress__label">Question 1 of {{ q_total }}</span> {%- endcomment -%}
+          <div class="qt-bar">
+            <div class="qt-fill" style="width: 0%"></div>
+          </div>
+        </div>
+      {% endif %}
+
+      {%- assign question_index = 0 -%}
+      {% for block in section.blocks %}
+        {% case block.type %}
+
+        {% when 'question' %}
+          {%- assign question_index = question_index | plus: 1 -%}
+          {%- assign q_id = 'q_' | append: block.id -%}
+          {% capture answers -%}
+            {{- block.settings.a1 -}}||
+            {{- block.settings.a2 -}}||
+            {{- block.settings.a3 -}}||
+            {{- block.settings.a4 -}}||
+            {{- block.settings.a5 -}}||
+            {{- block.settings.a6 -}}||
+            {{- block.settings.a7 -}}||
+            {{- block.settings.a8 -}}||
+            {{- block.settings.a9 -}}||
+            {{- block.settings.a10 -}}
+          {%- endcapture %}
+          {% assign answers_array = answers | split: '||' %}
+
+          <fieldset
+            class="qt-step {% if forloop.index == 1 %}is-active{% endif %}"
+            data-kind="question"
+            data-multi="{{ block.settings.multi }}"
+            data-qnum="{{ question_index }}"
+            aria-live="polite"
+            {{ block.shopify_attributes }}
+          >
+            <legend class="qt-question">{{ block.settings.title }}</legend>
+
+            {% if block.settings.subtitle %}
+              <p class="qt-question__subtitle"> {{ block.settings.subtitle }} </p>
+            {% endif %}
+
+            {% if block.settings.multi %}
+              <p class="qt-question__choosemulti">Choose all that apply</p>
+            {% endif %}
+
+            <div class="qt-answers" role="group" aria-label="{{ block.settings.title }}">
+              {% assign a_idx = 0 %}
+              {% for raw in answers_array %}
+                {% assign a = raw | strip %}
+                {% if a != blank %}
+                  {% assign a_idx = a_idx | plus: 1 %}
+                  <button
+                    type="button"
+                    class="qt-tile"
+                    data-value="{{ a | escape }}"
+                    data-name="{{ q_id }}"
+                    aria-pressed="false">
+                    <span class="qt-tile__label">{{ a }}</span>
+                  </button>
+                {% endif %}
+              {% endfor %}
+            </div>
+
+            <div class="qt-nav">
+              <button type="button" class="qt-btn qt-btn--ghost qt-prev">
+                {{ section.settings.prev_label }}
+              </button>
+              <button type="button" class="qt-btn qt-btn--primary qt-next" disabled>
+                {{ section.settings.next_label }}
+              </button>
+            </div>
+          </fieldset>
+
+        {% when 'loading' %}
+          {%- assign dur = block.settings.seconds | default: 10 -%}
+          <div
+            class="qt-step qt-loading {% if forloop.index == 1 %}is-active{% endif %}"
+            data-kind="loading"
+            data-seconds="{{ dur }}"
+            aria-live="polite"
+            {{ block.shopify_attributes }}
+          >
+            <div class="qt-loading__wrap">
+              {% if block.settings.load_title != blank %}
+                <h2 class="qt-loading__title">{{ block.settings.load_title }}</h2>
+              {% endif %}
+              {% if block.settings.load_desc != blank %}
+                <p class="qt-loading__desc">{{ block.settings.load_desc }}</p>
+              {% endif %}
+
+              {% if block.settings.loading_image %}
+                <img src="{{ block.settings.loading_image | image_url }}">
+              {% endif %}
+
+              <div class="qt-loader" role="img" aria-label="Loading">
+                <svg viewBox="0 0 120 120" class="qt-loader__svg" aria-hidden="true">
+                  <circle class="qt-loader__track" cx="60" cy="60" r="50" fill="none" stroke-width="6"/>
+                  <circle class="qt-loader__spin" cx="60" cy="60" r="50" fill="none" stroke-width="6"/>
+                </svg>
+              </div>
+
+              {% if block.settings.loading_label != blank %}
+                <div class="qt-loading__label">{{ block.settings.loading_label }}</div>
+              {% endif %}
+            </div>
+
+            <div class="qt-nav qt-nav--loading">
+              <button type="button" class="qt-btn qt-btn--ghost qt-prev">
+                {{ section.settings.prev_label }}
+              </button>
+            </div>
+          </div>
+
+        {% when 'info' %}
+          <div
+            class="qt-step qt-info {% if forloop.index == 1 %}is-active{% endif %}"
+            data-kind="info"
+            aria-live="polite"
+            {{ block.shopify_attributes }}
+          >
+            {% if block.settings.info_kicker != blank %}
+              <div class="qt-info__kicker">{{ block.settings.info_kicker }}</div>
+            {% endif %}
+            {% if block.settings.info_title != blank %}
+              <h2 class="qt-info__title">{{ block.settings.info_title }}</h2>
+            {% endif %}
+            {% if block.settings.info_desc != blank %}
+              <p class="qt-info__desc">{{ block.settings.info_desc }}</p>
+            {% endif %}
+
+            <div class="qt-nav qt-nav--info">
+              <button type="button" class="qt-btn qt-btn--ghost qt-prev">
+                {{ section.settings.prev_label }}
+              </button>
+              <button type="button" class="qt-btn qt-btn--primary qt-next">
+                {{ block.settings.info_button_label | default: section.settings.next_label }}
+              </button>
+            </div>
+          </div>
+
+        {% when 'detail' %}
+          {%- assign detail_url = section.settings.detail_target_url -%}
+          <div
+            class="qt-step qt-detail {% if forloop.index == 1 %}is-active{% endif %}"
+            data-kind="detail"
+            aria-live="polite"
+            {{ block.shopify_attributes }}
+          >
+            {% if block.settings.detail_title != blank %}
+              <h2 class="qt-detail__title">{{ block.settings.detail_title }}</h2>
+            {% endif %}
+            {% if block.settings.detail_description != blank %}
+              <p class="qt-detail__desc">{{ block.settings.detail_description }}</p>
+            {% endif %}
+            {% if block.settings.detail_richtext != blank %}
+              <div class="qt-detail__body rte">{{ block.settings.detail_richtext }}</div>
+            {% endif %}
+            {% if block.settings.detail_image != blank %}
+              <div class="qt-detail__image">
+                <img
+                  src="{{ block.settings.detail_image | img_url: '900x' }}"
+                  alt="{{ block.settings.detail_image_alt | escape }}"
+                  loading="lazy">
+              </div>
+            {% endif %}
+
+            <div class="qt-nav qt-nav--detail">
+              <button type="button" class="qt-btn qt-btn--ghost qt-prev">
+                {{ section.settings.prev_label }}
+              </button>
+
+              {% if detail_url != blank %}
+                <a href="{{ detail_url }}" class="qt-btn qt-btn--primary" role="button">
+                  {{ block.settings.detail_button_label | default: section.settings.next_label }}
+                </a>
+              {% else %}
+                <button type="button" class="qt-btn qt-btn--primary" disabled>
+                  {{ block.settings.detail_button_label | default: section.settings.next_label }}
+                </button>
+              {% endif %}
+            </div>
+          </div>
+        {% endcase %}
+      {% endfor %}
+
+      <button type="submit" class="qt-submit-sentinel" hidden aria-hidden="true">Submit</button>
+    </form>
+  </div>
+
+  {% if template == 'page.quiz' %}
+  <!-- Page is using the quiz template -->
+  <style>
+    .footer,
+    .announcement-bar,
+    .header-wrapper,
+    .gta-widget{
+        display: none !important;
+    }
+  </style>
+{% endif %}
+
+  <style>
+    .quiz-tiles {
+      height: 100vh;
+      background: #F6F5F1;
+    }
+
+    .qt-logo__wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    .qt-logo { display: inline-flex; align-items: center; }
+
+    .qt-logo__img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      margin: 30px 0px;
+    }
+
+    .qt-heading { font-size: clamp(28px, 5vw, 44px); font-weight: 800; margin: .25rem 0 1rem; }
+
+    .qt-intro { opacity: .85; margin-bottom: 1rem; }
+
+    .qt-step { display: none; margin: 0; }
+    .qt-step.is-active {
+      display: block; border: none; text-align: center; max-width: 600px; margin: 0 auto;
+      position: relative; z-index: 1;
+    }
+
+    .qt-question { font-size: clamp(22px, 3.6vw, 36px); font-weight: 800; margin: 0 0 20px; }
+
+    .qt-question__choosemulti { margin: 0 0 10px; }
+
+    .qt-answers { display: grid; gap: .75rem; position: relative; z-index: 2; pointer-events: auto; max-width: 400px; margin: 0 auto;}
+
+    .qt-tile__label{ text-align: left; }
+
+    .qt-tile {
+      display: flex; width: 100%; align-items: center; gap: .5rem;
+      border-radius: .75rem; border: 1px solid #e8eaee; background: #fff;
+      box-shadow: 0 1px 0 rgba(0,0,0,.03); font-weight: 700; padding: 1em; font-size: 18px;
+      position: relative; z-index: 3; cursor: pointer; user-select: none; pointer-events: auto;
+    }
+
+    .qt-tile[aria-pressed="true"] { background:rgb(94, 13, 37); color: #fff; }
+
+    .qt-nav { display: flex; gap: .75rem; margin-top: 1rem; justify-content: center; position: relative; z-index: 1; }
+
+    /* Base button/link styling so <a> looks like a button */
+    .qt-btn { display: inline-flex; align-items: center; justify-content: center; }
+
+    .qt-btn--primary {
+      padding: .875em 1em; transition-duration: .2s; border-width: 1px; border-style: solid; border-radius: 7.5px;
+      background: #8B1538; transform: none; box-shadow: unset; border-color: transparent; color: #fff;
+      font-size: 18px; font-family: Poppins, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      text-transform: initial; letter-spacing: initial; font-weight: 600; line-height: 1.25; text-decoration: none;
+      cursor: pointer; width: 100%;
+      max-width: 400px;
+    }
+
+    .qt-question__subtitle{ margin: 0 0 10px; }
+
+    .qt-btn--ghost { background: #fff; border-color: #e8eaee; display: none; }
+
+    .qt-progress {
+      display: flex; align-items: center; gap: .75rem; margin: 0 0 .75rem; font-weight: 600;
+      position: relative; z-index: 1; pointer-events: auto;
+    }
+
+    .qt-bar { flex: 1; height: 3px; background: #eaeaeb; border-radius: 999px; overflow: hidden; }
+    .qt-fill { height: 100%; background: #8B1538; transition: width .25s ease; display: block !important; }
+
+    .qt-loading__title,
+    .qt-loading__desc{
+      margin: 0;
+    }
+
+    /* Loading spinner */
+    .qt-loading__wrap { display: grid; place-items: center; gap: 1rem;}
+    .qt-loader { display: grid; place-items: center; height: 220px; }
+    .qt-loader__svg { width: 220px; height: 220px; }
+    .qt-loader__track { stroke: #e1e4e8; }
+    .qt-loader__spin { stroke: #8B1538; stroke-linecap: round; stroke-dasharray: 314 314; stroke-dashoffset: 314; transform-origin: 60px 60px; }
+
+    @media (prefers-reduced-motion: reduce) { .qt-loader__spin { transition: none !important; } }
+
+    /* Global guard */
+    .quiz-tiles .qt-step, .quiz-tiles .qt-answers, .quiz-tiles .qt-tile { pointer-events: auto; }
+
+    @media (max-width: 993px) { .qt-logo__img { width: 150px; } }
+  </style>
+
+<script>
+  (function(){
+    function ready(fn){ if(document.readyState!=='loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+
+    function initQuizSection(root){
+      const form = root.querySelector("#qt-form-{{ section.id }}");
+      if (!form) return;
+      if (form.dataset.qtBound === "1") return;
+      form.dataset.qtBound = "1";
+
+      const steps = Array.from(form.querySelectorAll(".qt-step"));
+      const progress = root.querySelector("#qt-progress-{{ section.id }}");
+      const fill = progress ? progress.querySelector(".qt-fill") : null;
+      const label = progress ? progress.querySelector(".qt-progress__label") : null;
+
+      let current = steps.findIndex(s => s.classList.contains("is-active"));
+      if (current < 0) current = 0;
+
+      const answers = [];
+      const totalQuestions = {{ q_total | json }};
+      const webhook = "https://script.google.com/macros/s/AKfycbx5_BLkXWTi1BLtru3mMKun2Cj6L3i5bkp1cObXlyIjcrmeRcw1yHy2Ance22EjyEE/exec";//
+      {% comment %} https://script.google.com/macros/s/AKfycbxrb1lCK3-_mxvu2trv0oXWPLGDfrbgxKakLyeBcN13xgMWTOGoNCHsLVI1IcFklP4sow/exec {% endcomment %}
+      {% comment %} {{ section.settings.sheets_webhook_url | escape }}"; {% endcomment %}
+      const questionSteps = steps.filter(s => s.dataset.kind === 'question');
+      const lastQuestionStep = questionSteps[questionSteps.length - 1];
+      let hasSentToSheets = false;
+
+      const id = (crypto && crypto.randomUUID) ? crypto.randomUUID() :
+                ('id-' + Date.now() + '-' + Math.random().toString(16).slice(2));
+
+      let countryName = '';
+      fetch('https://ipapi.co/json/')
+        .then(r => r.ok ? r.json() : null)
+        .then(j => { if (j && j.country_name) countryName = j.country_name; })
+        .catch(()=>{});
+
+      const isKind = (el,k) => el && el.dataset.kind === k;
+
+      function syncStepSelection(step){
+        if (!isKind(step,'question')) return;
+        const selected = Array.from(step.querySelectorAll('.qt-tile[aria-pressed="true"]')).map(t => t.dataset.value);
+        const idx = questionSteps.indexOf(step) + 1;
+        if (idx > 0) answers[idx] = selected;
+        return selected;
+      }
+
+      function buildMappedAnswers(){
+        const mapped = {};
+        questionSteps.forEach((s, i) => {
+          const title = (s.querySelector('.qt-question')?.textContent || `Question ${i+1}`).trim();
+          const val = (answers[i+1] || []).join(', ');
+          if (val) mapped[title] = val;
+        });
+        return mapped;
+      }
+
+function sendToSheetsOnce() {
+  if (hasSentToSheets || !webhook) return;
+
+  const payload = { 
+    id: id, 
+    country: countryName || '', 
+    page: window.location.href, 
+    sectionId: "{{ section.id }}", 
+    // Stringify answers so they fit in the URL
+    answers: JSON.stringify(buildMappedAnswers()) 
+  };
+
+  hasSentToSheets = true;
+
+  try {
+    // Convert payload to ?id=...&country=...
+    const params = new URLSearchParams(payload).toString();
+    const finalUrl = `${webhook}?${params}`;
+
+    fetch(finalUrl, { 
+      method: 'GET',
+      mode: 'cors' // This works with GET because there is no preflight
+    })
+    .then(response => response.json())
+    .then(data => console.log('[Quiz] Success:', data))
+    .catch(err => {
+      console.warn('[Quiz] GET failed, trying fallback:', err);
+      if (navigator.sendBeacon) navigator.sendBeacon(finalUrl);
+    });
+
+  } catch(err) { 
+    hasSentToSheets = false; 
+  }
+}
+
+{% comment %} sendToSheetsOnce(); {% endcomment %}
+      function sendToSheetsOnceold(){
+        if (hasSentToSheets || !webhook) return;
+        
+        const payload = { 
+          id, 
+          country: countryName || '', 
+          page: window.location.href, 
+          sectionId: "{{ section.id }}", 
+          answers: buildMappedAnswers() 
+        };
+        
+        hasSentToSheets = true; // Set immediately to prevent double-sends
+        
+        try{
+          const json = JSON.stringify(payload);
+          
+          console.log('[Quiz] Sending payload to Sheets:', payload);
+          
+          // Try fetch first with proper CORS
+          fetch(webhook, { 
+            method: 'POST',
+            headers: { 
+              'Content-Type': 'application/json'
+            }, 
+            body: json,
+            keepalive: true 
+          })
+          .then(response => {
+            console.log('[Quiz] Response status:', response.status);
+            return response.json();
+          })
+          .then(data => {
+            console.log('[Quiz] Successfully sent to Sheets:', data);
+          })
+          .catch(err => {
+            console.warn('[Quiz] Fetch failed, trying sendBeacon fallback:', err);
+            // Fallback to sendBeacon if fetch fails
+            if (navigator.sendBeacon){
+              const blob = new Blob([json], { type: 'application/json' });
+              const sent = navigator.sendBeacon(webhook, blob);
+              console.log('[Quiz] SendBeacon result:', sent);
+            }
+          });
+          
+        } catch(err){ 
+          console.error('[Quiz] sendToSheets error:', err); 
+          hasSentToSheets = false; // Reset on error so it can retry
+        }
+      }
+
+      function setProgressFor(step){
+        if (!progress || !fill || totalQuestions <= 0) return;
+
+        if (isKind(step,'question')){
+          const qIndex = questionSteps.indexOf(step);
+          const pct = Math.max(0, Math.min(100, Math.round(((qIndex + 1) / totalQuestions) * 100)));
+          fill.style.width = pct + '%';
+          if (label) label.textContent = `Question ${qIndex + 1} of ${totalQuestions}`;
+          progress.style.display = '';
+        } else {
+          progress.style.display = 'none';
+        }
+      }
+
+      const loadingTimeouts = new WeakMap();
+
+      function resetLoaderSpinner(spinner){
+        spinner.style.transition = 'none';
+        spinner.style.strokeDashoffset = '314';
+        void spinner.getBoundingClientRect();
+      }
+
+      function playLoaderSpinner(spinner, seconds){
+        spinner.style.transition = `stroke-dashoffset ${seconds}s linear`;
+        requestAnimationFrame(() => { spinner.style.strokeDashoffset = '0'; });
+      }
+
+      function cleanupStep(step){
+        if (!step) return;
+        if (isKind(step,'loading')){
+          const t = loadingTimeouts.get(step);
+          if (t){ clearTimeout(t); loadingTimeouts.delete(step); }
+          const spinner = step.querySelector('.qt-loader__spin');
+          if (spinner){
+            spinner.style.transition = 'none';
+            spinner.style.strokeDashoffset = '314';
+          }
+        }
+      }
+
+      function show(i){
+        const prev = steps[current];
+        if (prev && prev !== steps[i]) cleanupStep(prev);
+
+        steps.forEach((s, idx) => s.classList.toggle('is-active', idx === i));
+        current = i;
+        const step = steps[current];
+        setProgressFor(step);
+        setupStep(step);
+      }
+
+      function hasSelection(step){ return !!step.querySelector('.qt-tile[aria-pressed="true"]'); }
+      function goPrev(){ show(Math.max(0, current - 1)); }
+      function goNext(){ show(Math.min(steps.length - 1, current + 1)); }
+
+      function setupStep(step){
+        if (isKind(step,'question')){
+          const next = step.querySelector('.qt-next');
+          const prev = step.querySelector('.qt-prev');
+          if (prev) prev.disabled = steps.indexOf(step) === 0;
+
+          const tiles = step.querySelectorAll('.qt-tile');
+          const idx = questionSteps.indexOf(step) + 1;
+          if (answers[idx]){
+            const vals = answers[idx];
+            tiles.forEach(t => t.setAttribute('aria-pressed', vals.includes(t.dataset.value) ? 'true' : 'false'));
+          }
+          if (next) next.disabled = !hasSelection(step);
+        }
+
+        if (isKind(step,'loading')){
+          const prev = step.querySelector('.qt-prev');
+          if (prev) prev.disabled = steps.indexOf(step) === 0;
+
+          const seconds = parseInt(step.dataset.seconds || '10', 10);
+          const spinner = step.querySelector('.qt-loader__spin');
+
+          const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+          if (spinner){
+            resetLoaderSpinner(spinner);
+            if (!prefersReduced){
+              playLoaderSpinner(spinner, seconds);
+            } else {
+              spinner.style.transition = 'none';
+              spinner.style.strokeDashoffset = '0';
+            }
+          }
+
+          const timeoutId = setTimeout(goNext, Math.max(0, seconds) * 1000);
+          loadingTimeouts.set(step, timeoutId);
+        }
+
+        if (isKind(step,'info') || isKind(step,'detail')){
+          const prev = step.querySelector('.qt-prev');
+          if (prev) prev.disabled = steps.indexOf(step) === 0;
+        }
+      }
+
+      // Tile clicks (store selections + auto-advance for single-select)
+      form.addEventListener('click', (e) => {
+        const tile = e.target.closest('.qt-tile');
+        if (!tile) return;
+        const step = tile.closest('.qt-step');
+        if (!isKind(step,'question')) return;
+
+        const multi = step.dataset.multi === 'true';
+        const tiles = step.querySelectorAll('.qt-tile');
+
+        if (multi){
+          tile.setAttribute('aria-pressed', tile.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+        } else {
+          tiles.forEach(t => t.setAttribute('aria-pressed','false'));
+          tile.setAttribute('aria-pressed','true');
+        }
+
+        const selected = syncStepSelection(step);
+        const next = step.querySelector('.qt-next');
+        if (next) next.disabled = !selected || selected.length === 0;
+
+        if (!multi && selected && selected.length > 0){
+          const isLastQuestion = step === lastQuestionStep;
+          if (isLastQuestion) sendToSheetsOnce();
+
+          setTimeout(() => {
+            if (steps[current] === step) {
+              if (current === steps.length - 1){
+                form.requestSubmit(form.querySelector('.qt-submit-sentinel'));
+              } else {
+                goNext();
+              }
+            }
+          }, 120);
+        }
+      });
+
+      // Prev / Next
+      form.addEventListener('click', (e) => {
+        const prev = e.target.closest('.qt-prev');
+        const next = e.target.closest('.qt-next');
+
+        if (prev){ e.preventDefault(); goPrev(); return; }
+
+        if (next){
+          e.preventDefault();
+          const step = steps[current];
+
+          if (step === lastQuestionStep){
+            syncStepSelection(step);
+            if (!next.disabled) sendToSheetsOnce();
+          }
+
+          if (current === steps.length - 1){
+            form.requestSubmit(form.querySelector('.qt-submit-sentinel'));
+          } else {
+            if (isKind(step,'question') && next.disabled) return;
+            goNext();
+          }
+        }
+      });
+
+      // Submit (backup send + redirect)
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        console.log('[Quiz] Form submitted');
+        
+        if (!hasSentToSheets) {
+          const last = lastQuestionStep;
+          if (last) syncStepSelection(last);
+          sendToSheetsOnce();
+        }
+        
+        const params = new URLSearchParams();
+        for (let i = 1; i <= totalQuestions; i++){
+          params.set(`q${i}`, (answers[i] || []).join(', '));
+        }
+        const base = "{{ section.settings.results_url | escape }}";
+        const url = base ? (base + (base.includes('?') ? '&' : '?') + params.toString()) : ('?' + params.toString());
+        
+        console.log('[Quiz] Redirecting to:', url);
+        
+        // Small delay to ensure webhook request completes
+        setTimeout(() => {
+          window.location.href = url;
+        }, 500);
+      });
+
+      // Kick off
+      show(current);
+    }
+
+    ready(() => {
+      const root = document.getElementById("quiz-{{ section.id }}")?.closest('section, div') || document;
+      initQuizSection(root);
+    });
+
+    document.addEventListener('shopify:section:load', (evt) => {
+      if (evt?.target?.querySelector?.("#quiz-{{ section.id }}")) {
+        initQuizSection(evt.target);
+      }
+    });
+  })();
+</script>
+
+
+  {% schema %}
+  {
+    "name": "Questionnaire",
+    "settings": [
+      { "type": "image_picker", "id": "brand_logo", "label": "Brand logo (replaces heading)" },
+      { "type": "text", "id": "brand_logo_alt", "label": "Logo alt text", "default": "Brand logo" },
+      { "type": "url", "id": "logo_link", "label": "Logo link (optional)" },
+      { "type": "text", "id": "heading", "label": "Heading (fallback)", "default": "Find your best fit" },
+      { "type": "textarea", "id": "intro", "label": "Intro" },
+      { "type": "checkbox", "id": "show_progress", "label": "Show progress bar", "default": true },
+      { "type": "text", "id": "prev_label", "label": "Back label", "default": "Back" },
+      { "type": "text", "id": "next_label", "label": "Continue label", "default": "Continue" },
+      { "type": "url", "id": "sheets_webhook_url", "label": "Google Sheets webhook URL" },
+      { "type": "url", "id": "results_url", "label": "Results page URL (for redirect at the end)" },
+      { "type": "url", "id": "detail_target_url", "label": "Detail page button URL (used by 'Detailed Page' step)" }
+    ],
+    "blocks": [
+      {
+        "type": "question",
+        "name": "Question",
+        "limit": 50,
+        "settings": [
+          { "type": "text", "id": "title", "label": "Question title", "default": "Question Title" },
+          { "type": "text", "id": "subtitle", "label": "Question subtitle" },
+          { "type": "checkbox", "id": "multi", "label": "Allow multiple answers", "default": false },
+          { "type": "text", "id": "a1", "label": "Answer 1", "default": "Mild" },
+          { "type": "text", "id": "a2", "label": "Answer 2", "default": "Noticeable" },
+          { "type": "text", "id": "a3", "label": "Answer 3", "default": "Severe" },
+          { "type": "text", "id": "a4", "label": "Answer 4" },
+          { "type": "text", "id": "a5", "label": "Answer 5" },
+          { "type": "text", "id": "a6", "label": "Answer 6" },
+          { "type": "text", "id": "a7", "label": "Answer 7" },
+          { "type": "text", "id": "a8", "label": "Answer 8" },
+          { "type": "text", "id": "a9", "label": "Answer 9" },
+          { "type": "text", "id": "a10", "label": "Answer 10" }
+        ]
+      },
+      {
+        "type": "loading",
+        "name": "Loading screen",
+        "limit": 20,
+        "settings": [
+          { "type": "text", "id": "load_title", "label": "Title", "default": "These treatments are just way too expensive, right?" },
+          { "type": "textarea", "id": "load_desc", "label": "Description", "default": "Sure, they may help — but many wear off in months and cost hundreds per session. For most people, that’s just not sustainable long-term." },
+          { "type": "text", "id": "loading_label", "label": "Loading label", "default": "Loading next screen" },
+          { "type": "image_picker", "id": "loading_image", "label": "Image" },
+          { "type": "number", "id": "seconds", "label": "Duration (seconds)", "default": 10 }
+        ]
+      },
+      {
+        "type": "info",
+        "name": "Info page",
+        "limit": 50,
+        "settings": [
+          { "type": "text", "id": "info_kicker", "label": "Kicker", "default": "Congratulations. You Qualify!" },
+          { "type": "textarea", "id": "info_title", "label": "Big title", "default": "BioRoot’s Turmeric Complex is 100% safe, gentle on the stomach, and clinically backed, perfect for your unique health profile" },
+          { "type": "textarea", "id": "info_desc", "label": "Description", "default": "This is dummy content" },
+          { "type": "text", "id": "info_button_label", "label": "Button label", "default": "Continue" }
+        ]
+      },
+      {
+        "type": "detail",
+        "name": "Detailed page",
+        "limit": 50,
+        "settings": [
+          { "type": "text", "id": "detail_title", "label": "Title", "default": "Based on all your answers we know:" },
+          { "type": "textarea", "id": "detail_description", "label": "Short description", "default": "Because you qualify, we guarantee noticeable relief..." },
+          { "type": "richtext", "id": "detail_richtext", "label": "Paragraph (rich text)" },
+          { "type": "image_picker", "id": "detail_image", "label": "Image" },
+          { "type": "text", "id": "detail_image_alt", "label": "Image alt text" },
+          { "type": "text", "id": "detail_button_label", "label": "Button label", "default": "Claim Your Discount" }
+        ]
+      }
+    ],
+    "presets": [ { "name": "Questionnaire" } ]
+  }
+  {% endschema %}
+</section>

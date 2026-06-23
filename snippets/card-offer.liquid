@@ -1,0 +1,50 @@
+{%- comment -%}
+  Renders an offer card inside the collection product grid.
+  Accepts:
+  - block: {Object} Section block with offer card settings
+{%- endcomment -%}
+
+<style>
+  @font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKd2ukDQ.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiukDQ.ttf) format('truetype');
+  }
+</style>
+
+<div class="card-offer">
+  {%- if block.settings.image != blank -%}
+    {{
+      block.settings.image
+      | image_url: width: 1000
+      | image_tag:
+        loading: 'lazy',
+        class: 'card-offer__bg-img',
+        widths: '300, 400, 600, 800, 1000',
+        sizes: '(min-width: 990px) 25vw, (min-width: 750px) 33vw, 50vw'
+    }}
+  {%- endif -%}
+
+  <div
+    class="card-offer__overlay"
+    style="background-color: {{ block.settings.overlay_color }}; opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};"
+  ></div>
+
+  <div class="card-offer__content">
+    {%- if block.settings.title != blank -%}
+      <p class="card-offer__title">{{ block.settings.title }}</p>
+    {%- endif -%}
+    {%- if block.settings.subheading != blank -%}
+      <p class="card-offer__subheading">{{ block.settings.subheading }}</p>
+    {%- endif -%}
+  </div>
+</div>

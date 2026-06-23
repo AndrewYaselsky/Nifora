@@ -1,0 +1,544 @@
+{% comment %}
+  Save this as a new Section (e.g., sections/review-popup.liquid)
+  or as a Custom Liquid block.
+{% endcomment %}
+
+{% style %}
+  .review-popup-container {
+    position: relative;
+    margin: 5px 0;
+    width: 100%;
+    display: none;
+  }
+
+  .review-trigger-btn {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .review-trigger-btn .label {
+    font-size: 15px;
+    color: #0B0B0B;
+        margin-top: 4px;
+  }
+
+  .stars-parent {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .stars-icon {
+    display: flex;
+    width: 16px;
+    height: 16px;
+  }
+
+  /* The Modal Card */
+  .review-card-popup {
+    width: 307px;
+    border: 1px solid #E4E4E7;
+    padding: 16px;
+    color: #222222;
+    position: absolute;
+    z-index: 1;
+    background: white;
+    margin-top: 10px;
+    top: 25px;
+    font-family: Futura;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+    display: none;
+  }
+
+  .review-card-popup.is-visible { display: block; }
+
+  .card-header-info {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .card-header-info .rating {
+    margin-right: 5px;
+  }
+
+  .popup-close-button {
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+  }
+
+  .based-on-text {
+        font-size: 9px;
+    margin-left: 6px;
+    font-weight: 600;
+  }
+
+  /* Progress Bars */
+  .bars-section { margin-bottom: 20px; }
+  .bar-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+  .bar-track {
+    flex: 1;
+    height: 8px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    background: #ffbc0b;
+    display:block !important;
+  }
+  .bar-count { color: #888; width: 30px; text-align: right; }
+
+  /* Slider Styling */
+  .review-slider-wrapper {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    min-height: 150px;
+  }
+
+  .single-slide { display: none; }
+  .single-slide.active { display: block; animation: fadeIn 0.3s; }
+
+  .user-box { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+  .user-box img { width: 50px; height: 50px; border-radius: 6px; object-fit: cover; background: #eee; }
+  .user-name-tag { font-weight: 700; font-size: 15px; color: #333; }
+
+  .verified-badge {
+    color: #27ae60;
+    border: 1px solid #27ae60;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .review-text-content {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  /* Slider Dots */
+  .slider-nav-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .nav-dot {
+   display:block !important;
+    width: 8px;
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .nav-dot.active { background: #333; width: 10px; height: 10px; }
+
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+  /* reviews styling */
+  .reviews-card {
+        display: flex;
+    gap: 10px;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+  .reviews-card .reviews-image {
+       width: 50px;
+    height: 70px;
+    min-width: 50px;
+    min-height: 70px;
+  }
+  .reviews-card .reviews-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .reviews-card .header {
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+    gap: 4px;
+    width: 100%;
+    font-family:inherit !important;
+  }
+  .reviews-card .author-name {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .reviews-card .verified-badge {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 0 !important;
+    background: #ddffe6;
+    padding: 3px 7px;
+    border-radius: 10px;
+    color: #27ae60;
+    border: 1px solid #27ae60;
+  }
+
+  .reviews-card .verified-badge .icon {
+        width: 7px;
+    height: 8px;
+    display: flex;
+   }
+
+   .reviews-card .verified-badge .text {
+    font-size:10px;
+    font-weight:400;
+    text-transform:none;
+   }
+
+   .reviews-card .view-all-text {
+    font-size: 10px;
+    margin-left: auto;
+   }
+
+   .reviews-description {
+    margin:0 !important;
+   }
+
+   .swiper-button-prev:after,.swiper-button-next:after {
+    content:none !important;
+   }
+
+   .navigation-pagination-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .navigation-pagination-wrapper .swiper-button-prev,
+   .navigation-pagination-wrapper .swiper-button-next {
+    position: relative;
+    inset: 0;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+   }
+   .navigation-pagination-wrapper .swiper-button-prev {
+    transform: rotate(180deg);
+   }
+   .navigation-pagination-wrapper .swiper-button-prev svg,
+   .navigation-pagination-wrapper .swiper-button-next svg {
+    pointer-events: none;
+    display: block;
+   }
+   .swiper-pagination.swiper-pagination-styling {
+    position:relative;
+    width:fit-content !important;
+    top:0 !important;
+   }
+
+{% endstyle %}
+
+<div class="review-popup-container" id="reviewContainer">
+  <div class="review-trigger-btn" onclick="toggleReviews()">
+    <div class="stars-parent">
+      {% for i in (1..5) %}
+        <span class="stars-icon">
+          <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 7.09125C16 6.86208 15.8229 6.71625 15.4688 6.65375L10.625 5.935L8.46875 1.56C8.34375 1.31 8.1875 1.185 8 1.185C7.8125 1.185 7.65625 1.31 7.53125 1.56L5.375 5.935L0.53125 6.65375C0.177083 6.71625 0 6.86208 0 7.09125C0 7.23708 0.0833333 7.39333 0.25 7.56L3.75 10.9662L2.90625 15.7787C2.90625 15.8621 2.90625 15.9246 2.90625 15.9662C2.90625 16.0912 2.9375 16.2006 3 16.2944C3.0625 16.3881 3.16667 16.435 3.3125 16.435C3.41667 16.435 3.54167 16.3933 3.6875 16.31L8 14.06L12.3125 16.31C12.4583 16.3933 12.5833 16.435 12.6875 16.435C12.8333 16.435 12.9375 16.3881 13 16.2944C13.0625 16.2006 13.0938 16.0912 13.0938 15.9662C13.0938 15.8829 13.0938 15.8204 13.0938 15.7787L12.25 10.9662L15.75 7.56C15.9167 7.39333 16 7.23708 16 7.09125Z" fill="#FFCD3C"></path>
+          </svg>
+        </span>
+      {% endfor %}
+    </div>
+    <span class="label">
+      {{ block.settings.label }}
+    </span>
+  </div>
+
+  <div class="review-card-popup" id="reviewPopup">
+    <div class="card-header-info">
+      <span class="rating"> {{ block.settings.rating }} </span>
+      <div class="stars-parent">
+        {% for i in (1..5) %}
+          <span class="stars-icon">
+            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 7.09125C16 6.86208 15.8229 6.71625 15.4688 6.65375L10.625 5.935L8.46875 1.56C8.34375 1.31 8.1875 1.185 8 1.185C7.8125 1.185 7.65625 1.31 7.53125 1.56L5.375 5.935L0.53125 6.65375C0.177083 6.71625 0 6.86208 0 7.09125C0 7.23708 0.0833333 7.39333 0.25 7.56L3.75 10.9662L2.90625 15.7787C2.90625 15.8621 2.90625 15.9246 2.90625 15.9662C2.90625 16.0912 2.9375 16.2006 3 16.2944C3.0625 16.3881 3.16667 16.435 3.3125 16.435C3.41667 16.435 3.54167 16.3933 3.6875 16.31L8 14.06L12.3125 16.31C12.4583 16.3933 12.5833 16.435 12.6875 16.435C12.8333 16.435 12.9375 16.3881 13 16.2944C13.0625 16.2006 13.0938 16.0912 13.0938 15.9662C13.0938 15.8829 13.0938 15.8204 13.0938 15.7787L12.25 10.9662L15.75 7.56C15.9167 7.39333 16 7.23708 16 7.09125Z" fill="#FFCD3C"></path>
+            </svg>
+          </span>
+        {% endfor %}
+      </div>
+      <span class="based-on-text">
+        {{ block.settings.based_on_text }}
+      </span>
+      <span class="popup-close-button" onclick="toggleReviews()" >
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="20" height="20" rx="2" fill="black" fill-opacity="0.08"></rect>
+          <path d="M12.25 7.75L7.75 12.25" stroke="#333333" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M12.25 12.25L7.75 7.75" stroke="#333333" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </span>
+    </div>
+
+    <div class="bars-section">
+        {% assign width5 = block.settings.bar_5 | times: 100 | divided_by: 200 %}
+        {% assign width4 = block.settings.bar_4 | times: 100 | divided_by: 200 %}
+        {% assign width3 = block.settings.bar_3 | times: 100 | divided_by: 200 %}
+        {% assign width2 = block.settings.bar_2 | times: 100 | divided_by: 200 %}
+        {% assign width1 = block.settings.bar_1 | times: 100 | divided_by: 200 %}
+      <div class="bar-line">
+        <span
+          >5
+          <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 7.09125C16 6.86208 15.8229 6.71625 15.4688 6.65375L10.625 5.935L8.46875 1.56C8.34375 1.31 8.1875 1.185 8 1.185C7.8125 1.185 7.65625 1.31 7.53125 1.56L5.375 5.935L0.53125 6.65375C0.177083 6.71625 0 6.86208 0 7.09125C0 7.23708 0.0833333 7.39333 0.25 7.56L3.75 10.9662L2.90625 15.7787C2.90625 15.8621 2.90625 15.9246 2.90625 15.9662C2.90625 16.0912 2.9375 16.2006 3 16.2944C3.0625 16.3881 3.16667 16.435 3.3125 16.435C3.41667 16.435 3.54167 16.3933 3.6875 16.31L8 14.06L12.3125 16.31C12.4583 16.3933 12.5833 16.435 12.6875 16.435C12.8333 16.435 12.9375 16.3881 13 16.2944C13.0625 16.2006 13.0938 16.0912 13.0938 15.9662C13.0938 15.8829 13.0938 15.8204 13.0938 15.7787L12.25 10.9662L15.75 7.56C15.9167 7.39333 16 7.23708 16 7.09125Z" fill="#FFCD3C"></path>
+          </svg>
+        </span>
+        <div class="bar-track"><div class="bar-fill" style="width: {{ width5 }}%;"></div></div>
+        <span class="bar-count">({{ block.settings.bar_5 }})</span>
+      </div>
+      <div class="bar-line">
+        <span
+          >4
+          <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 7.09125C16 6.86208 15.8229 6.71625 15.4688 6.65375L10.625 5.935L8.46875 1.56C8.34375 1.31 8.1875 1.185 8 1.185C7.8125 1.185 7.65625 1.31 7.53125 1.56L5.375 5.935L0.53125 6.65375C0.177083 6.71625 0 6.86208 0 7.09125C0 7.23708 0.0833333 7.39333 0.25 7.56L3.75 10.9662L2.90625 15.7787C2.90625 15.8621 2.90625 15.9246 2.90625 15.9662C2.90625 16.0912 2.9375 16.2006 3 16.2944C3.0625 16.3881 3.16667 16.435 3.3125 16.435C3.41667 16.435 3.54167 16.3933 3.6875 16.31L8 14.06L12.3125 16.31C12.4583 16.3933 12.5833 16.435 12.6875 16.435C12.8333 16.435 12.9375 16.3881 13 16.2944C13.0625 16.2006 13.0938 16.0912 13.0938 15.9662C13.0938 15.8829 13.0938 15.8204 13.0938 15.7787L12.25 10.9662L15.75 7.56C15.9167 7.39333 16 7.23708 16 7.09125Z" fill="#FFCD3C"></path>
+          </svg>
+        </span>
+        <div class="bar-track"><div class="bar-fill" style="width: {{ width4 }}%;" ></div></div>
+        <span class="bar-count">({{ block.settings.bar_4 }})</span>
+      </div>
+      <div class="bar-line">
+        <span
+          >3
+          <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 7.09125C16 6.86208 15.8229 6.71625 15.4688 6.65375L10.625 5.935L8.46875 1.56C8.34375 1.31 8.1875 1.185 8 1.185C7.8125 1.185 7.65625 1.31 7.53125 1.56L5.375 5.935L0.53125 6.65375C0.177083 6.71625 0 6.86208 0 7.09125C0 7.23708 0.0833333 7.39333 0.25 7.56L3.75 10.9662L2.90625 15.7787C2.90625 15.8621 2.90625 15.9246 2.90625 15.9662C2.90625 16.0912 2.9375 16.2006 3 16.2944C3.0625 16.3881 3.16667 16.435 3.3125 16.435C3.41667 16.435 3.54167 16.3933 3.6875 16.31L8 14.06L12.3125 16.31C12.4583 16.3933 12.5833 16.435 12.6875 16.435C12.8333 16.435 12.9375 16.3881 13 16.2944C13.0625 16.2006 13.0938 16.0912 13.0938 15.9662C13.0938 15.8829 13.0938 15.8204 13.0938 15.7787L12.25 10.9662L15.75 7.56C15.9167 7.39333 16 7.23708 16 7.09125Z" fill="#FFCD3C"></path>
+          </svg>
+        </span>
+        <div class="bar-track"><div class="bar-fill" style="width: {{ width3 }}%;" ></div></div>
+        <span class="bar-count">({{ block.settings.bar_3 }})</span>
+      </div>
+      <div class="bar-line">
+        <span
+          >2
+          <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 7.09125C16 6.86208 15.8229 6.71625 15.4688 6.65375L10.625 5.935L8.46875 1.56C8.34375 1.31 8.1875 1.185 8 1.185C7.8125 1.185 7.65625 1.31 7.53125 1.56L5.375 5.935L0.53125 6.65375C0.177083 6.71625 0 6.86208 0 7.09125C0 7.23708 0.0833333 7.39333 0.25 7.56L3.75 10.9662L2.90625 15.7787C2.90625 15.8621 2.90625 15.9246 2.90625 15.9662C2.90625 16.0912 2.9375 16.2006 3 16.2944C3.0625 16.3881 3.16667 16.435 3.3125 16.435C3.41667 16.435 3.54167 16.3933 3.6875 16.31L8 14.06L12.3125 16.31C12.4583 16.3933 12.5833 16.435 12.6875 16.435C12.8333 16.435 12.9375 16.3881 13 16.2944C13.0625 16.2006 13.0938 16.0912 13.0938 15.9662C13.0938 15.8829 13.0938 15.8204 13.0938 15.7787L12.25 10.9662L15.75 7.56C15.9167 7.39333 16 7.23708 16 7.09125Z" fill="#FFCD3C"></path>
+          </svg>
+        </span>
+        <div class="bar-track"><div class="bar-fill" style="width: {{ width2 }}%;"></div></div>
+        <span class="bar-count">({{ block.settings.bar_2 }})</span>
+      </div>
+      <div class="bar-line">
+        <span
+          >1
+          <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 7.09125C16 6.86208 15.8229 6.71625 15.4688 6.65375L10.625 5.935L8.46875 1.56C8.34375 1.31 8.1875 1.185 8 1.185C7.8125 1.185 7.65625 1.31 7.53125 1.56L5.375 5.935L0.53125 6.65375C0.177083 6.71625 0 6.86208 0 7.09125C0 7.23708 0.0833333 7.39333 0.25 7.56L3.75 10.9662L2.90625 15.7787C2.90625 15.8621 2.90625 15.9246 2.90625 15.9662C2.90625 16.0912 2.9375 16.2006 3 16.2944C3.0625 16.3881 3.16667 16.435 3.3125 16.435C3.41667 16.435 3.54167 16.3933 3.6875 16.31L8 14.06L12.3125 16.31C12.4583 16.3933 12.5833 16.435 12.6875 16.435C12.8333 16.435 12.9375 16.3881 13 16.2944C13.0625 16.2006 13.0938 16.0912 13.0938 15.9662C13.0938 15.8829 13.0938 15.8204 13.0938 15.7787L12.25 10.9662L15.75 7.56C15.9167 7.39333 16 7.23708 16 7.09125Z" fill="#FFCD3C"></path>
+          </svg>
+        </span>
+        <div class="bar-track"><div class="bar-fill" style="width: {{ width1 }}%;"></div></div>
+        <span class="bar-count">({{ block.settings.bar_1 }})</span>
+      </div>
+    </div>
+
+    <div class="reviews-slider-wrapper">
+      <div class="reviewsslider__container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            {% for i in (1..6) %}
+              {% capture img_key %}review_image_{{ i }}{% endcapture %}
+              {% capture name_key %}review_name_{{ i }}{% endcapture %}
+              {% capture text_key %}review_desc_{{ i }}{% endcapture %}
+              {% capture verified_key %}review_verified_{{ i }}{% endcapture %}
+              <div class="swiper-slide" {{ block.shopify_attributes }}>
+                <div class="reviews-card">
+                  {% if block.settings[img_key] %}
+                  <div class="reviews-image">
+                    <img src="{{ block.settings[img_key] | img_url: 'master'}}" width="100%" height="100%">
+                  </div>
+                  {% endif %}
+                  <div class="reviews-content">
+                    <div class="header">
+                      <span class="author-name">
+                        {{ block.settings[name_key] }}
+                      </span>
+                      {% if block.settings[verified_key] %}
+                        <div class="verified-badge">
+                          <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" viewBox="0 0 7 7" fill="none">
+                              <path d="M6.55937 2.7125C6.44062 2.59063 6.31875 2.4625 6.27187 2.35313C6.225 2.24375 6.22813 2.08125 6.225 1.91563C6.22187 1.6125 6.21562 1.26562 5.975 1.025C5.73438 0.784375 5.3875 0.778125 5.08437 0.775L5.08362 0.774986C4.91824 0.771865 4.74984 0.768688 4.64687 0.728125C4.54375 0.6875 4.40937 0.559375 4.2875 0.440625C4.07188 0.234375 3.825 0 3.5 0C3.175 0 2.92813 0.234375 2.7125 0.440625C2.59063 0.559375 2.4625 0.68125 2.35313 0.728125C2.24375 0.775 2.08125 0.771875 1.91563 0.775C1.6125 0.778125 1.26562 0.784375 1.025 1.025C0.784375 1.26562 0.778125 1.6125 0.775 1.91563L0.774986 1.91638C0.771865 2.08176 0.768688 2.25016 0.728125 2.35313C0.6875 2.45625 0.559375 2.59063 0.440625 2.7125C0.234375 2.92813 0 3.175 0 3.5C0 3.825 0.234375 4.07188 0.440625 4.2875C0.559375 4.40937 0.68125 4.5375 0.728125 4.64687C0.775 4.75625 0.771875 4.91875 0.775 5.08437C0.778125 5.3875 0.784375 5.73438 1.025 5.975C1.26562 6.21562 1.6125 6.22187 1.91563 6.225L1.91639 6.22501C2.08177 6.22813 2.25016 6.23131 2.35313 6.27187C2.45625 6.3125 2.59063 6.44062 2.7125 6.55937C2.92813 6.76562 3.175 7 3.5 7C3.825 7 4.07188 6.76562 4.2875 6.55937C4.40937 6.44062 4.5375 6.31875 4.64687 6.27187C4.75625 6.225 4.91875 6.22813 5.08437 6.225C5.3875 6.22187 5.73438 6.21562 5.975 5.975C6.21562 5.73438 6.22187 5.3875 6.225 5.08437L6.22501 5.08361C6.22813 4.91823 6.23131 4.74984 6.27187 4.64687C6.3125 4.54375 6.44062 4.40937 6.55937 4.2875C6.76562 4.07188 7 3.825 7 3.5C7 3.175 6.76562 2.92813 6.55937 2.7125Z" fill="#2C964A"></path>
+                              <path d="M4.93483 2.87819L3.24444 4.43869C3.20074 4.4784 3.1429 4.50035 3.0829 4.5C3.02379 4.50021 2.9669 4.47823 2.92425 4.43869L2.07906 3.65844C2.05561 3.63868 2.03655 3.61455 2.02301 3.58749C2.00947 3.56044 2.00173 3.53101 2.00026 3.50099C1.99879 3.47097 2.00362 3.44098 2.01445 3.41281C2.02529 3.38463 2.04191 3.35887 2.06332 3.33706C2.08472 3.31526 2.11047 3.29786 2.13902 3.28591C2.16757 3.27396 2.19832 3.26771 2.22943 3.26753C2.26054 3.26736 2.29136 3.27326 2.32005 3.28489C2.34874 3.29652 2.3747 3.31363 2.39637 3.3352L3.0829 3.96775L4.61752 2.55495C4.66239 2.51713 4.72066 2.49753 4.78014 2.50025C4.83962 2.50297 4.89571 2.52779 4.93668 2.56953C4.97766 2.61127 5.00034 2.6667 5 2.72422C4.99965 2.78175 4.9763 2.83691 4.93483 2.87819Z" fill="white"></path>
+                            </svg>
+                          </span>
+                          <span class="text"> Verified </span>
+                        </div>
+                      {% endif %}
+                      <span class="view-all-text">
+                      <a href="#shopify-section-template--25650689278299__1743412114f5f405d4" >
+                            View All 
+
+                        </a>
+                          </span>
+                    </div>
+                    {% if block.settings[text_key] %}
+                      <p class="reviews-description">
+                        {{ block.settings[text_key] }}
+                      </p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+
+          <!-- navigation & pagination --> 
+          <div class="navigation-pagination-wrapper">
+            <button
+              type="button"
+              class="swiper-button-prev custom-prev-button"
+              aria-label="Previous slide"
+            >
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="35" y="35" width="34" height="34" rx="17" transform="rotate(-180 35 35)" stroke="black" stroke-width="2"/>
+                <path d="M16.0955 24L21.7691 18.3264C21.9494 18.1461 21.9494 17.8539 21.7691 17.6736L16.0955 12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="swiper-pagination swiper-pagination-styling"></div>
+            <button
+              type="button"
+              class="swiper-button-next custom-next-button"
+              aria-label="Next slide"
+            >
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="35" y="35" width="34" height="34" rx="17" transform="rotate(-180 35 35)" stroke="black" stroke-width="2"/>
+                <path d="M16.0955 24L21.7691 18.3264C21.9494 18.1461 21.9494 17.8539 21.7691 17.6736L16.0955 12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+<script>
+  let reviewSwiper = null;
+
+  function initReviewSwiper() {
+    const popup = document.getElementById('reviewPopup');
+    if (!popup) return;
+    
+    const swiperElement = popup.querySelector('.mySwiper');
+    if (!swiperElement) return;
+
+    // If Swiper already exists, destroy it first
+    if (reviewSwiper) {
+      reviewSwiper.destroy(true, true);
+      reviewSwiper = null;
+    }
+
+    // Check if Swiper is loaded
+    if (typeof Swiper === 'undefined') {
+      // Wait for Swiper to load
+      setTimeout(initReviewSwiper, 100);
+      return;
+    }
+
+    // Get the navigation buttons from within the popup
+    const prevButton = popup.querySelector('.custom-prev-button');
+    const nextButton = popup.querySelector('.custom-next-button');
+    // Find pagination element - it's inside the swiper container
+    const paginationEl = swiperElement.querySelector('.swiper-pagination');
+
+    if (!prevButton || !nextButton) {
+      console.error('Navigation buttons not found');
+      return;
+    }
+
+    // Build config object
+    const swiperConfig = {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: false,
+      navigation: {
+        nextEl: nextButton,
+        prevEl: prevButton,
+        disabledClass: 'swiper-button-disabled',
+      },
+      breakpoints: {
+        750: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+      },
+    };
+
+    // Only add pagination if the element exists
+    if (paginationEl) {
+      swiperConfig.pagination = {
+        el: paginationEl,
+        clickable: true,
+        type: 'bullets',
+      };
+    }
+
+    // Initialize Swiper
+    reviewSwiper = new Swiper(swiperElement, swiperConfig);
+  }
+
+  function toggleReviews() {
+    const popup = document.getElementById('reviewPopup');
+    popup.classList.toggle('is-visible');
+    
+    // Initialize or update Swiper when popup becomes visible
+    if (popup.classList.contains('is-visible')) {
+      // Small delay to ensure popup is rendered
+      setTimeout(function() {
+        initReviewSwiper();
+      }, 100);
+    }
+  }
+
+  // Initialize when DOM is ready and Swiper is loaded
+  document.addEventListener('DOMContentLoaded', function () {
+    // Wait a bit for Swiper script to load
+    setTimeout(function() {
+      const popup = document.getElementById('reviewPopup');
+      if (popup && popup.classList.contains('is-visible')) {
+        initReviewSwiper();
+      }
+    }, 200);
+  });
+
+  // Also try to initialize when Swiper loads
+  window.addEventListener('load', function() {
+    const popup = document.getElementById('reviewPopup');
+    if (popup && popup.classList.contains('is-visible')) {
+      setTimeout(initReviewSwiper, 100);
+    }
+  });
+
+  // Close when clicking outside
+  window.addEventListener('click', function (e) {
+    const container = document.getElementById('reviewContainer');
+    if (container && !container.contains(e.target)) {
+      document.getElementById('reviewPopup').classList.remove('is-visible');
+    }
+  });
+</script>

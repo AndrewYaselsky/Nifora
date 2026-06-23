@@ -1,0 +1,270 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscribe to our emails",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "solid",
+        "button_label": "Sign up",
+        "button_style_secondary": false,
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    },
+    "quiz_MTm8rG": {
+      "type": "quiz",
+      "blocks": {
+        "question_6erWbQ": {
+          "type": "question",
+          "settings": {
+            "title": "How old are you?",
+            "subtitle": "Take this 1 minute quiz to get your tailored product recommendation!",
+            "multi": false,
+            "a1": "Under 35",
+            "a2": "35-44",
+            "a3": "45-54",
+            "a4": "55-64",
+            "a5": "65+",
+            "a6": "",
+            "a7": "",
+            "a8": "",
+            "a9": "",
+            "a10": ""
+          }
+        },
+        "question_DhgbQc": {
+          "type": "question",
+          "settings": {
+            "title": "What is your main goal for your skin today?",
+            "subtitle": "",
+            "multi": false,
+            "a1": "I want something that actually works this time.",
+            "a2": "I want to glow, like actually glow.",
+            "a3": "I want to look refreshed and well-rested, even when I'm not.",
+            "a4": "I want my skin to feel firm and plump again.",
+            "a5": "I want to see results fast.",
+            "a6": "",
+            "a7": "",
+            "a8": "",
+            "a9": "",
+            "a10": ""
+          }
+        },
+        "question_7ez7er": {
+          "type": "question",
+          "settings": {
+            "title": "What are the main skin challenges you're currently facing?",
+            "subtitle": "",
+            "multi": true,
+            "a1": "Fine Lines or Wrinkles",
+            "a2": "Dullness or Uneven Skin Tone",
+            "a3": "Dryness and Dehydration",
+            "a4": "Loss of Firmness and Elasticity",
+            "a5": "Damaged Skin Barrier or Redness",
+            "a6": "",
+            "a7": "",
+            "a8": "",
+            "a9": "",
+            "a10": ""
+          }
+        },
+        "question_xJMqq8": {
+          "type": "question",
+          "settings": {
+            "title": "Have you ever tried any of the following professional treatments?",
+            "subtitle": "",
+            "multi": true,
+            "a1": "Chemical peels",
+            "a2": "Prescription Retinoids (e.g., Tretinoin)",
+            "a3": "Microneedling",
+            "a4": "Laser treatments",
+            "a5": "Botox",
+            "a6": "Not yet",
+            "a7": "",
+            "a8": "",
+            "a9": "",
+            "a10": ""
+          }
+        },
+        "loading_KnL9xP": {
+          "type": "loading",
+          "settings": {
+            "load_title": "These treatments can be harsh and expensive, right?",
+            "load_desc": "Sure, they may help – but often require downtime and cost hundreds per session. For most people, that's just not sustainable long-term.",
+            "loading_label": "Loading next screen",
+            "loading_image": "shopify://shop_images/Loading_Page_1.png",
+            "seconds": 8
+          }
+        },
+        "question_6p4bXp": {
+          "type": "question",
+          "settings": {
+            "title": "When do you usually find time for yourself?",
+            "subtitle": "",
+            "multi": false,
+            "a1": "Morning when I’m alone at home",
+            "a2": "During work/chores",
+            "a3": "Right before bed",
+            "a4": "Weekends Only",
+            "a5": "",
+            "a6": "",
+            "a7": "",
+            "a8": "",
+            "a9": "",
+            "a10": ""
+          }
+        },
+        "loading_ximq77": {
+          "type": "loading",
+          "settings": {
+            "load_title": "A busy life is the #1 reason routines fail. We’re prioritizing 'Passive Skincare' that works while you do life..",
+            "load_desc": "With Nifora's Korean Collagen Masks, you can achieve radiant, firm skin in just 1-2 hours a week without any use of other skincare products",
+            "loading_label": "Loading next screen",
+            "loading_image": "shopify://shop_images/Loading_Page_2.png",
+            "seconds": 8
+          }
+        },
+        "question_kcjxRP": {
+          "type": "question",
+          "settings": {
+            "title": "How long have you been dealing with your main skin concern?",
+            "subtitle": "",
+            "multi": false,
+            "a1": "Less than 1 year",
+            "a2": "1 - 3 years",
+            "a3": "5 - 10 years",
+            "a4": "10 Years +",
+            "a5": "",
+            "a6": "",
+            "a7": "",
+            "a8": "",
+            "a9": "",
+            "a10": ""
+          }
+        },
+        "question_GphEVD": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have sensitive skin or suffer from redness?",
+            "subtitle": "",
+            "multi": false,
+            "a1": "Yes",
+            "a2": "No",
+            "a3": "",
+            "a4": "",
+            "a5": "",
+            "a6": "",
+            "a7": "",
+            "a8": "",
+            "a9": "",
+            "a10": ""
+          }
+        },
+        "loading_mGLDjY": {
+          "type": "loading",
+          "settings": {
+            "load_title": "Calculating the best collagen mask for your skin",
+            "load_desc": "",
+            "loading_label": "Calculating...",
+            "seconds": 10
+          }
+        },
+        "detail_fQbry3": {
+          "type": "detail",
+          "settings": {
+            "detail_title": "Based on all your answers we know:",
+            "detail_description": "With just 1-2 uses a week of Nifora's Bio-Collagen Mask you can see significant results within 30 Days.",
+            "detail_richtext": "<p>We guarantee noticeably firmer, plumper, and more radiant skin with a 1 month supply. If not, you'll receive a full refund - no questions asked!</p>",
+            "detail_image": "shopify://shop_images/Result.png",
+            "detail_image_alt": "",
+            "detail_button_label": "Get yours here!"
+          }
+        }
+      },
+      "block_order": [
+        "question_6erWbQ",
+        "question_DhgbQc",
+        "question_7ez7er",
+        "question_xJMqq8",
+        "loading_KnL9xP",
+        "question_6p4bXp",
+        "loading_ximq77",
+        "question_kcjxRP",
+        "question_GphEVD",
+        "loading_mGLDjY",
+        "detail_fQbry3"
+      ],
+      "custom_css": [],
+      "name": "Questionnaire",
+      "settings": {
+        "brand_logo": "shopify://shop_images/Logo_1_318faf80-84b0-4216-a0ae-038755932a04.png",
+        "brand_logo_alt": "Brand logo",
+        "logo_link": "",
+        "heading": "Find your best fit",
+        "intro": "",
+        "show_progress": true,
+        "prev_label": "Back",
+        "next_label": "Continue",
+        "sheets_webhook_url": "https://script.google.com/macros/s/AKfycbxzHVRmPJgxr1YANGqTX2h8SRgMz94uERvKdZiArxU6oWjeMhoCGH5iXTuT19r6rOE/exec",
+        "results_url": "shopify://products/bio-collagen-mask",
+        "detail_target_url": "shopify://products/bio-collagen-mask"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "quiz_MTm8rG"
+  ]
+}

@@ -1,0 +1,311 @@
+  <style>
+    .product-upsells-scrollable {
+      {% comment %} display: flex; {% endcomment %}
+       display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .product-upsells-scrollable__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .product-upsells-scrollable__title {
+      color: #000;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .product-upsells-scrollable__container-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .product-upsells-scrollable__container {
+      width: 100%;
+      max-height: 260px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-right: 8px;
+    }
+
+    /* Scrollbar styling */
+    .product-upsells-scrollable__container::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .product-upsells-scrollable__container::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 3px;
+    }
+
+    .product-upsells-scrollable__container::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 3px;
+    }
+
+    .product-upsells-scrollable__container::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    /* Scroll indicator - gradient fade at bottom */
+    .product-upsells-scrollable__scroll-indicator {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 8px;
+      height: 40px;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 100%);
+      pointer-events: none;
+      opacity: 1;
+      transition: opacity 0.3s ease;
+    }
+
+    .product-upsells-scrollable__container.scrolled-to-bottom + .product-upsells-scrollable__scroll-indicator {
+      opacity: 0;
+    }
+
+    .product-upsells-scrollable__items {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .product-upsell-scrollable__item {
+      display: flex;
+      padding: 8px 16px;
+      align-items: center;
+      gap: 16px;
+      align-self: stretch;
+      border-radius: 6px;
+      border: 1px solid #DDD;
+      flex-shrink: 0;
+    }
+
+    .product-upsell-scrollable__image {
+      flex-shrink: 0;
+      width: 80px;
+      height: 80px;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .product-upsell-scrollable__image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .product-upsell-scrollable__details {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .product-upsell-scrollable__title {
+      color: #000;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0;
+    }
+
+    .product-upsell-scrollable__variant-select {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      color: #333;
+      background-color: white;
+      cursor: pointer;
+      transition: border-color 0.2s ease;
+    }
+
+    .product-upsell-scrollable__variant-select:hover {
+      border-color: #999;
+    }
+
+    .product-upsell-scrollable__variant-select:focus {
+      outline: none;
+      border-color: #333;
+      box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-upsell-scrollable__action {
+      flex-shrink: 0;
+    }
+
+    .product-upsell-scrollable__add-btn {
+      display: flex;
+      padding: 8px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      border-radius: 4px;
+      background: #000;
+      color: #FFF;
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      cursor: pointer;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+      white-space: nowrap;
+      border: none;
+    }
+
+    .product-upsell-scrollable__add-btn:hover {
+      background-color: #333;
+      transform: translateY(-1px);
+    }
+
+    .product-upsell-scrollable__add-btn:active {
+      transform: translateY(0);
+    }
+
+    .product-upsell-scrollable__add-btn:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+      transform: none;
+    }
+  </style>
+
+    {%- assign total_upsells = 0 -%}
+                {%- for i in (1..4) -%}
+                  {%- assign upsell_product_key = 'upsell_product_' | append: i -%}
+                  {%- if block.settings[upsell_product_key] != blank -%}
+                    {%- assign total_upsells = total_upsells | plus: 1 -%}
+                  {%- endif -%}
+                {%- endfor -%}
+                
+                <div class="product-upsells-scrollable" {{ block.shopify_attributes }}>
+                  {%- if block.settings.title != blank -%}
+                    <div class="product-upsells-scrollable__header">
+                      <h3 class="product-upsells-scrollable__title">{{ block.settings.title | escape }}</h3>
+                    </div>
+                  {%- endif -%}
+                  
+                  <div class="product-upsells-scrollable__container-wrapper">
+                    <div class="product-upsells-scrollable__container">
+                      <div class="product-upsells-scrollable__items">
+                      {%- for i in (1..4) -%}
+                        {%- assign upsell_product_key = 'upsell_product_' | append: i -%}
+                        {%- assign upsell_product = block.settings[upsell_product_key] -%}
+                        {%- if upsell_product != blank -%}
+                          <div class="product-upsell-scrollable__item" data-product-id="{{ upsell_product.id }}">
+                            <div class="product-upsell-scrollable__image">
+                              <img src="{{ upsell_product.featured_media | image_url: width: 80 }}" 
+                                   alt="{{ upsell_product.title | escape }}" 
+                                   width="80" 
+                                   height="80">
+                            </div>
+                            <div class="product-upsell-scrollable__details">
+                              <h4 class="product-upsell-scrollable__title">{{ upsell_product.title | escape }}</h4>
+                              {%- unless upsell_product.has_only_default_variant -%}
+                                <select class="product-upsell-scrollable__variant-select" data-product-id="{{ upsell_product.id }}">
+                                  {%- for variant in upsell_product.variants -%}
+                                    <option value="{{ variant.id }}" 
+                                            data-price="{{ variant.price }}"
+                                            {% if variant == upsell_product.selected_or_first_available_variant %}selected{% endif %}
+                                            {% unless variant.available %}disabled{% endunless %}>
+                                      {{ variant.title }}{% unless variant.available %} - Sold out{% endunless %}
+                                    </option>
+                                  {%- endfor -%}
+                                </select>
+                              {%- endunless -%}
+                            </div>
+                            <div class="product-upsell-scrollable__action">
+                              <button class="product-upsell-scrollable__add-btn" 
+                                      data-variant-id="{{ upsell_product.selected_or_first_available_variant.id }}"
+                                      data-product-title="{{ upsell_product.title | escape }}"
+                                      data-product-id="{{ upsell_product.id }}">
+                                + <span class="price-display">{{ upsell_product.selected_or_first_available_variant.price | money }}</span>
+                              </button>
+                            </div>
+                          </div>
+                        {%- endif -%}
+                      {%- endfor -%}
+                      </div>
+                    </div>
+                    <div class="product-upsells-scrollable__scroll-indicator"></div>
+                  </div>
+                </div>
+
+<script>
+  (function() {
+    const upsellRoot = document.currentScript.previousElementSibling;
+    if (!upsellRoot || !upsellRoot.classList.contains('product-upsells-scrollable')) return;
+
+    // Handle scroll indicator visibility
+    const container = upsellRoot.querySelector('.product-upsells-scrollable__container');
+    if (container) {
+      function checkScroll() {
+        const isAtBottom = container.scrollHeight - container.scrollTop <= container.clientHeight + 1;
+        if (isAtBottom) {
+          container.classList.add('scrolled-to-bottom');
+        } else {
+          container.classList.remove('scrolled-to-bottom');
+        }
+      }
+      container.addEventListener('scroll', checkScroll);
+      checkScroll(); // Initial check
+    }
+
+    // Variant selection updates button variant id only (price stays static)
+    upsellRoot.querySelectorAll('.product-upsell-scrollable__variant-select').forEach(function(select) {
+      select.addEventListener('change', function() {
+        const selectedOption = this.options[this.selectedIndex];
+        const variantId = selectedOption.value;
+        const item = this.closest('.product-upsell-scrollable__item');
+        const button = item ? item.querySelector('.product-upsell-scrollable__add-btn') : null;
+
+        if (button && variantId) {
+          button.dataset.variantId = variantId;
+        }
+      });
+    });
+
+    // Add to cart handler
+    async function addToCart(variantId, button) {
+      if (!variantId) return;
+      button.disabled = true;
+      button.classList.add('is-loading');
+      try {
+        const response = await fetch('/cart/add.js', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ items: [{ id: variantId, quantity: 1 }] })
+        });
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.description || error.message || 'Unable to add item');
+        }
+        document.dispatchEvent(new CustomEvent('dispatch:cart-drawer:refresh'));
+        document.dispatchEvent(new CustomEvent('dispatch:cart-drawer:open'));
+      } catch (err) {
+        console.error('Upsell add error', err);
+        alert(err.message || 'Unable to add item to cart');
+      } finally {
+        button.disabled = false;
+        button.classList.remove('is-loading');
+      }
+    }
+
+    upsellRoot.querySelectorAll('.product-upsell-scrollable__add-btn').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        const variantId = this.dataset.variantId;
+        addToCart(variantId, this);
+      });
+    });
+  })();
+</script>
+

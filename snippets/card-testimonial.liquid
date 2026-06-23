@@ -1,0 +1,43 @@
+{%- comment -%}
+  Renders a testimonial card inside the collection product grid.
+  Accepts:
+  - block: {Object} Section block with testimonial settings
+{%- endcomment -%}
+
+<div class="card-testimonial">
+  {%- if block.settings.image != blank -%}
+    <div class="card-testimonial__media">
+      {{
+        block.settings.image
+        | image_url: width: 800
+        | image_tag:
+          loading: 'lazy',
+          class: 'card-testimonial__img',
+          widths: '300, 400, 600, 800',
+          sizes: '(min-width: 990px) 25vw, (min-width: 750px) 33vw, 50vw'
+      }}
+    </div>
+  {%- endif -%}
+
+  <div class="card-testimonial__body">
+    {%- if block.settings.quote != blank -%}
+      <p class="card-testimonial__quote">&ldquo;{{ block.settings.quote }}&rdquo;</p>
+    {%- endif -%}
+
+    {%- if block.settings.name != blank -%}
+      <p class="card-testimonial__name">{{ block.settings.name }}</p>
+    {%- endif -%}
+
+    {%- if block.settings.show_verified -%}
+      <div class="card-testimonial__verified">
+        <span class="card-testimonial__verified-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none">
+            <circle cx="12" cy="12" r="12" fill="#8B1538"/>
+            <path d="M6.5 12.5l3.5 3.5 7.5-7.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="card-testimonial__verified-text">{{ block.settings.verified_label }}</span>
+      </div>
+    {%- endif -%}
+  </div>
+</div>

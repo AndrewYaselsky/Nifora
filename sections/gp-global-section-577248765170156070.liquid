@@ -1,0 +1,1451 @@
+
+{% render 'gp-head', 'isThemeSection: true' %}
+<style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-577248765170156070.gps.gpsil [style*="--aspect:"]{aspect-ratio:var(--aspect)}.gps-577248765170156070.gps.gpsil [style*="--bg:"]{background:var(--bg)}.gps-577248765170156070.gps.gpsil [style*="--bga:"]{background-attachment:var(--bga)}.gps-577248765170156070.gps.gpsil [style*="--bgc:"]{background-color:var(--bgc)}.gps-577248765170156070.gps.gpsil [style*="--bgi:"]{background-image:var(--bgi)}.gps-577248765170156070.gps.gpsil [style*="--bgp:"]{background-position:var(--bgp)}.gps-577248765170156070.gps.gpsil [style*="--bgr:"]{background-repeat:var(--bgr)}.gps-577248765170156070.gps.gpsil [style*="--bgs:"]{background-size:var(--bgs)}.gps-577248765170156070.gps.gpsil [style*="--b:"]{border:var(--b)}.gps-577248765170156070.gps.gpsil [style*="--bb:"]{border-bottom:var(--bb)}.gps-577248765170156070.gps.gpsil [style*="--bc:"]{border-color:var(--bc)}.gps-577248765170156070.gps.gpsil [style*="--bblr:"]{border-bottom-left-radius:var(--bblr)}.gps-577248765170156070.gps.gpsil [style*="--bbrr:"]{border-bottom-right-radius:var(--bbrr)}.gps-577248765170156070.gps.gpsil [style*="--bl:"]{border-left:var(--bl)}.gps-577248765170156070.gps.gpsil [style*="--radius:"]{border-radius:var(--radius)}.gps-577248765170156070.gps.gpsil [style*="--bs:"]{border-style:var(--bs)}.gps-577248765170156070.gps.gpsil [style*="--bt:"]{border-top:var(--bt)}.gps-577248765170156070.gps.gpsil [style*="--btlr:"]{border-top-left-radius:var(--btlr)}.gps-577248765170156070.gps.gpsil [style*="--btrr:"]{border-top-right-radius:var(--btrr)}.gps-577248765170156070.gps.gpsil [style*="--bw:"]{border-width:var(--bw)}.gps-577248765170156070.gps.gpsil [style*="--shadow:"]{box-shadow:var(--shadow)}.gps-577248765170156070.gps.gpsil [style*="--c:"]{color:var(--c)}.gps-577248765170156070.gps.gpsil [style*="--cg:"]{-moz-column-gap:var(--cg);column-gap:var(--cg)}.gps-577248765170156070.gps.gpsil [style*="--ff:"]{font-family:var(--ff)}.gps-577248765170156070.gps.gpsil [style*="--size:"]{font-size:var(--size)}.gps-577248765170156070.gps.gpsil [style*="--weight:"]{font-weight:var(--weight)}.gps-577248765170156070.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-577248765170156070.gps.gpsil [style*="--h:"]{height:var(--h)}.gps-577248765170156070.gps.gpsil [style*="--jc:"]{justify-content:var(--jc)}.gps-577248765170156070.gps.gpsil [style*="--lh:"]{line-height:var(--lh)}.gps-577248765170156070.gps.gpsil [style*="--m:"]{margin:var(--m)}.gps-577248765170156070.gps.gpsil [style*="--mb:"]{margin-bottom:var(--mb)}.gps-577248765170156070.gps.gpsil [style*="--ml:"]{margin-left:var(--ml)}.gps-577248765170156070.gps.gpsil [style*="--mr:"]{margin-right:var(--mr)}.gps-577248765170156070.gps.gpsil [style*="--mt:"]{margin-top:var(--mt)}.gps-577248765170156070.gps.gpsil [style*="--objf:"]{-o-object-fit:var(--objf);object-fit:var(--objf)}.gps-577248765170156070.gps.gpsil [style*="--op:"]{opacity:var(--op)}.gps-577248765170156070.gps.gpsil [style*="--o:"]{order:var(--o)}.gps-577248765170156070.gps.gpsil [style*="--pc:"]{place-content:var(--pc)}.gps-577248765170156070.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-577248765170156070.gps.gpsil [style*="--pb:"]{padding-bottom:var(--pb)}.gps-577248765170156070.gps.gpsil [style*="--pl:"]{padding-left:var(--pl)}.gps-577248765170156070.gps.gpsil [style*="--pr:"]{padding-right:var(--pr)}.gps-577248765170156070.gps.gpsil [style*="--pt:"]{padding-top:var(--pt)}.gps-577248765170156070.gps.gpsil [style*="--ta:"]{text-align:var(--ta)}.gps-577248765170156070.gps.gpsil [style*="--ts:"]{text-shadow:var(--ts)}.gps-577248765170156070.gps.gpsil [style*="--t:"]{transform:var(--t)}.gps-577248765170156070.gps.gpsil [style*="--w:"]{width:var(--w)}.gps-577248765170156070.gps.gpsil [style*="--line-clamp:"]{-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp);display:-webkit-box;overflow:hidden}@media only screen and (max-width:1024px){.gps-577248765170156070.gps.gpsil [style*="--aspect-tablet:"]{aspect-ratio:var(--aspect-tablet)}.gps-577248765170156070.gps.gpsil [style*="--cg-tablet:"]{-moz-column-gap:var(--cg-tablet);column-gap:var(--cg-tablet)}.gps-577248765170156070.gps.gpsil [style*="--size-tablet:"]{font-size:var(--size-tablet)}.gps-577248765170156070.gps.gpsil [style*="--h-tablet:"]{height:var(--h-tablet)}.gps-577248765170156070.gps.gpsil [style*="--lh-tablet:"]{line-height:var(--lh-tablet)}.gps-577248765170156070.gps.gpsil [style*="--mb-tablet:"]{margin-bottom:var(--mb-tablet)}.gps-577248765170156070.gps.gpsil [style*="--mt-tablet:"]{margin-top:var(--mt-tablet)}.gps-577248765170156070.gps.gpsil [style*="--pb-tablet:"]{padding-bottom:var(--pb-tablet)}.gps-577248765170156070.gps.gpsil [style*="--pl-tablet:"]{padding-left:var(--pl-tablet)}.gps-577248765170156070.gps.gpsil [style*="--pr-tablet:"]{padding-right:var(--pr-tablet)}.gps-577248765170156070.gps.gpsil [style*="--pt-tablet:"]{padding-top:var(--pt-tablet)}.gps-577248765170156070.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}.gps-577248765170156070.gps.gpsil [style*="--line-clamp-tablet:"]{-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-tablet);display:-webkit-box;overflow:hidden}}@media only screen and (max-width:767px){.gps-577248765170156070.gps.gpsil [style*="--aspect-mobile:"]{aspect-ratio:var(--aspect-mobile)}.gps-577248765170156070.gps.gpsil [style*="--cg-mobile:"]{-moz-column-gap:var(--cg-mobile);column-gap:var(--cg-mobile)}.gps-577248765170156070.gps.gpsil [style*="--size-mobile:"]{font-size:var(--size-mobile)}.gps-577248765170156070.gps.gpsil [style*="--gtc-mobile:"]{grid-template-columns:var(--gtc-mobile)}.gps-577248765170156070.gps.gpsil [style*="--h-mobile:"]{height:var(--h-mobile)}.gps-577248765170156070.gps.gpsil [style*="--lh-mobile:"]{line-height:var(--lh-mobile)}.gps-577248765170156070.gps.gpsil [style*="--mb-mobile:"]{margin-bottom:var(--mb-mobile)}.gps-577248765170156070.gps.gpsil [style*="--ml-mobile:"]{margin-left:var(--ml-mobile)}.gps-577248765170156070.gps.gpsil [style*="--mr-mobile:"]{margin-right:var(--mr-mobile)}.gps-577248765170156070.gps.gpsil [style*="--mt-mobile:"]{margin-top:var(--mt-mobile)}.gps-577248765170156070.gps.gpsil [style*="--pb-mobile:"]{padding-bottom:var(--pb-mobile)}.gps-577248765170156070.gps.gpsil [style*="--pl-mobile:"]{padding-left:var(--pl-mobile)}.gps-577248765170156070.gps.gpsil [style*="--pr-mobile:"]{padding-right:var(--pr-mobile)}.gps-577248765170156070.gps.gpsil [style*="--pt-mobile:"]{padding-top:var(--pt-mobile)}.gps-577248765170156070.gps.gpsil [style*="--ta-mobile:"]{text-align:var(--ta-mobile)}.gps-577248765170156070.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}.gps-577248765170156070.gps.gpsil [style*="--line-clamp-mobile:"]{-webkit-box-orient:vertical;-webkit-line-clamp:var(--line-clamp-mobile);display:-webkit-box;overflow:hidden}}.gps-577248765170156070 .gp-relative{position:relative}.gps-577248765170156070 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-577248765170156070 .gp-mb-0{margin-bottom:0}.gps-577248765170156070 .gp-flex{display:flex}.gps-577248765170156070 .gp-grid{display:grid}.gps-577248765170156070 .gp-contents{display:contents}.gps-577248765170156070 .\!gp-hidden{display:none!important}.gps-577248765170156070 .gp-hidden{display:none}.gps-577248765170156070 .gp-h-auto{height:auto}.gps-577248765170156070 .gp-h-full{height:100%}.gps-577248765170156070 .gp-w-full{width:100%}.gps-577248765170156070 .gp-max-w-full{max-width:100%}.gps-577248765170156070 .gp-flex-1{flex:1 1 0%}.gps-577248765170156070 .gp-flex-none{flex:none}.gps-577248765170156070 .gp-grid-rows-\[1fr\]{grid-template-rows:1fr}.gps-577248765170156070 .gp-flex-col{flex-direction:column}.gps-577248765170156070 .gp-gap-y-0{row-gap:0}.gps-577248765170156070 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-577248765170156070 .gp-duration-200{transition-duration:.2s}.gps-577248765170156070 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (max-width:1024px){.gps-577248765170156070 .tablet\:\!gp-hidden{display:none!important}.gps-577248765170156070 .tablet\:gp-hidden{display:none}.gps-577248765170156070 .tablet\:gp-h-auto{height:auto}.gps-577248765170156070 .tablet\:gp-h-full{height:100%}.gps-577248765170156070 .tablet\:gp-flex-1{flex:1 1 0%}.gps-577248765170156070 .tablet\:gp-flex-none{flex:none}}@media (max-width:767px){.gps-577248765170156070 .mobile\:\!gp-hidden{display:none!important}.gps-577248765170156070 .mobile\:gp-hidden{display:none}.gps-577248765170156070 .mobile\:gp-h-auto{height:auto}.gps-577248765170156070 .mobile\:gp-h-full{height:100%}.gps-577248765170156070 .mobile\:gp-flex-1{flex:1 1 0%}.gps-577248765170156070 .mobile\:gp-flex-none{flex:none}}.gps-577248765170156070 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}.gps-577248765170156070 .\[\&_p\]\:gp-inline p{display:inline}.gps-577248765170156070 .\[\&_p\]\:after\:gp-whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-577248765170156070 .\[\&_p\]\:after\:gp-content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}</style>
+
+       
+      
+            <section
+              class="gp-mx-auto gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="gh_9LKZEjw" data-id="gh_9LKZEjw"
+        style="--blockPadding:base;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--pt:24px;--pb:23px;--pt-mobile:25px;--pl-mobile:var(--g-s-m);--pb-mobile:25px;--pr-mobile:var(--g-s-m);--pt-tablet:40px;--pl-tablet:var(--g-s-l);--pb-tablet:25px;--pr-tablet:var(--g-s-l);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gh_9LKZEjw gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gFR0G9q-u9 gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="gpJyMKcPkT" data-id="gpJyMKcPkT"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mt:0px;--pt:15px;--pl:15px;--pb:15px;--pr:15px;--mt-mobile:0px;--mb-mobile:0px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:1050px;--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gpJyMKcPkT gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gvWOyNeiie gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="gYdQZqe1Wr" data-id="gYdQZqe1Wr"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mt:0px;--mt-mobile:0px;--mb-mobile:0px;--mt-tablet:20px;--mb-tablet:20px;--cg:30px;--cg-tablet:30px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gYdQZqe1Wr gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gX68K5crXh gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="g2XoN8cHoK" data-id="g2XoN8cHoK"
+        style="--mt:0px;--ml:auto;--mb:0px;--mr:auto;--pt:45px;--pl:25px;--pb:55px;--pr:25px;--mt-mobile:0px;--ml-mobile:auto;--mb-mobile:0px;--mr-mobile:auto;--pt-mobile:35px;--pl-mobile:20px;--pb-mobile:45px;--pr-mobile:20px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--bblr:8px;--bbrr:8px;--btlr:8px;--btrr:8px;--shadow:none;--op:100%;--cg:8px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:#FBEFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g2XoN8cHoK gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gQMRRB7neL gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="ghVZY8R9Zu">
+    <div
+      parentTag="Col"
+        class="ghVZY8R9Zu "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--pt:0px;--pb:0px;--mt-mobile:0px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:700;--size:35px;--size-tablet:38px;--size-mobile:24px;--lh:135%;--lh-tablet:130%;--lh-mobile:130%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.gghVZY8R9Zu_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gym8OQ9l3G">
+    <div
+      parentTag="Col"
+        class="gym8OQ9l3G "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:12px;--pt:0px;--pb:0px;--mt-mobile:14px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:700;--size:18px;--size-tablet:38px;--size-mobile:16px;--lh:135%;--lh-tablet:130%;--lh-mobile:135%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggym8OQ9l3G_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+       
+      
+    <div
+      parentTag="Col" id="gq7Tf7mOQO" data-id="gq7Tf7mOQO"
+        style="--mt:45px;--mt-mobile:30px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--cg:25px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gq7Tf7mOQO gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gxqU8QkHVE gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="g_wxFAR5rR" data-id="g_wxFAR5rR"
+        style="--mt:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--cg:25px;--cg-mobile:20px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g_wxFAR5rR gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gPAN0G0FQJ gp-relative gp-flex gp-flex-col"
+    >
+      
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--mb:0px;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--ta:left"
+      data-keep-class="true"
+      class="gZautKdkbi "
+    ><div><!-- Google Fonts: Poppins 700 -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<!-- HTML Block -->
+<div class="ismail" style="
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #8B1638;
+  text-align: center;
+">
+  <span>+0.0%</span>
+</div>
+
+<!-- Responsive Font Size -->
+<style>
+  @media only screen and (max-width: 768px) {
+    .ismail {
+      font-size: 25px !important;
+    }
+  }
+</style>
+
+<!-- JavaScript for +42.5% -->
+<script>
+(function(){
+  let countStarted = false;
+  const finalValue = 42.5;
+  const decimals = 1;
+  const duration = 1000;
+  const fps = 60;
+  const totalFrames = Math.round((duration / 1000) * fps);
+  const increment = finalValue / totalFrames;
+
+  const container = document.querySelector(".ismail");
+  const textSpan = container?.querySelector("span");
+
+  if (container && textSpan) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !countStarted) {
+          countStarted = true;
+          let count = 0;
+          let frame = 0;
+
+          const update = () => {
+            count += increment;
+            frame++;
+            if (frame < totalFrames) {
+              textSpan.innerText = `+${count.toFixed(decimals)}%`;
+              requestAnimationFrame(update);
+            } else {
+              textSpan.innerText = `+${finalValue.toFixed(decimals)}%`;
+            }
+          };
+
+          requestAnimationFrame(update);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(container);
+  }
+})();
+</script></div></div>
+  
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gTlh7BQdZs">
+    <div
+      parentTag="Col"
+        class="gTlh7BQdZs "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:12px;--pt:0px;--pb:0px;--mt-mobile:8px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:500;--size:18px;--size-tablet:38px;--size-mobile:16px;--lh:135%;--lh-tablet:130%;--lh-mobile:135%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggTlh7BQdZs_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gMC-2FmK-5 gp-relative gp-flex gp-flex-col"
+    >
+      
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--ta:left"
+      data-keep-class="true"
+      class="ghFdW2R81O "
+    ><div><!-- HTML -->
+<div class="jamal" style="
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #8B1638;
+  text-align: center;
+">
+  <span>+0.0%</span>
+</div>
+
+<!-- Responsive Style -->
+<style>
+  @media only screen and (max-width: 768px) {
+    .jamal {
+      font-size: 25px !important;
+    }
+  }
+</style>
+
+<!-- JS for +55.2% -->
+<script>
+(function(){
+  let countStarted = false;
+  const finalValue = 55.2;
+  const decimals = 1;
+  const duration = 1000;
+  const fps = 60;
+  const totalFrames = Math.round((duration / 1000) * fps);
+  const increment = finalValue / totalFrames;
+
+  const container = document.querySelector(".jamal");
+  const textSpan = container?.querySelector("span");
+
+  if (container && textSpan) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !countStarted) {
+          countStarted = true;
+          let count = 0;
+          let frame = 0;
+
+          const update = () => {
+            count += increment;
+            frame++;
+            if (frame < totalFrames) {
+              textSpan.innerText = `+${count.toFixed(decimals)}%`;
+              requestAnimationFrame(update);
+            } else {
+              textSpan.innerText = `+${finalValue.toFixed(decimals)}%`;
+            }
+          };
+
+          requestAnimationFrame(update);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(container);
+  }
+})();
+</script></div></div>
+  
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gaW_FVHABX">
+    <div
+      parentTag="Col"
+        class="gaW_FVHABX "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:12px;--pt:0px;--pb:0px;--mt-mobile:8px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:500;--size:18px;--size-tablet:38px;--size-mobile:16px;--lh:135%;--lh-tablet:130%;--lh-mobile:135%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggaW_FVHABX_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div>
+    </div>
+   
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gUbI3M1Tnj gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="ggBveemy-m" data-id="ggBveemy-m"
+        style="--mt:0px;--mt-mobile:25px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--cg:25px;--cg-mobile:20px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="ggBveemy-m gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gt9zhC1dgP gp-relative gp-flex gp-flex-col"
+    >
+      
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--ta:left"
+      data-keep-class="true"
+      class="g2O7zN8WW7 "
+    ><div><!-- Google Fonts: Poppins 700 -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<!-- HTML -->
+<div class="karim" style="
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #8B1638;
+  text-align: center;
+">
+  <span>+0.0%</span>
+</div>
+
+<!-- Responsive Styles -->
+<style>
+  @media only screen and (max-width: 768px) {
+    .karim {
+      font-size: 25px !important;
+    }
+  }
+</style>
+
+<!-- JS: Animate to +68.9% on scroll -->
+<script>
+(function(){
+  let countStarted = false;
+  const finalValue = 68.9;
+  const decimals = 1;
+  const duration = 1000;
+  const fps = 60;
+  const totalFrames = Math.round((duration / 1000) * fps);
+  const increment = finalValue / totalFrames;
+
+  function animateCountUp(el) {
+    let count = 0;
+    let frame = 0;
+
+    const update = () => {
+      count += increment;
+      frame++;
+      if (frame < totalFrames) {
+        el.innerText = `+${count.toFixed(decimals)}%`;
+        requestAnimationFrame(update);
+      } else {
+        el.innerText = `+${finalValue.toFixed(decimals)}%`;
+      }
+    };
+
+    requestAnimationFrame(update);
+  }
+
+  const container = document.querySelector(".karim");
+  const textSpan = container.querySelector("span");
+
+  if (container) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !countStarted) {
+          countStarted = true;
+          animateCountUp(textSpan);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(container);
+  }
+})();
+</script></div></div>
+  
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="grYq8XW2NC">
+    <div
+      parentTag="Col"
+        class="grYq8XW2NC "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:12px;--pt:0px;--pb:0px;--mt-mobile:8px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:500;--size:18px;--size-tablet:38px;--size-mobile:16px;--lh:135%;--lh-tablet:130%;--lh-mobile:135%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggrYq8XW2NC_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gsIVoDZkTd gp-relative gp-flex gp-flex-col"
+    >
+      
+  
+    <div
+      
+      style="--d:block;--d-tablet:block;--d-mobile:block;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--mb:0px;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;--ta:left"
+      data-keep-class="true"
+      class="gJyBkQM0qQ "
+    ><div><!-- Google Fonts: Poppins 700 -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<!-- HTML -->
+<div class="rafiq" style="
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.2;
+  color: #8B1638;
+  text-align: center;
+">
+  <span>+0.0%</span>
+</div>
+
+<!-- Responsive Style -->
+<style>
+  @media only screen and (max-width: 768px) {
+    .rafiq {
+      font-size: 25px !important;
+    }
+  }
+</style>
+
+<!-- JS for +31.4% -->
+<script>
+(function(){
+  let countStarted = false;
+  const finalValue = 31.4;
+  const decimals = 1;
+  const duration = 1000;
+  const fps = 60;
+  const totalFrames = Math.round((duration / 1000) * fps);
+  const increment = finalValue / totalFrames;
+
+  const container = document.querySelector(".rafiq");
+  const textSpan = container?.querySelector("span");
+
+  if (container && textSpan) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !countStarted) {
+          countStarted = true;
+          let count = 0;
+          let frame = 0;
+
+          const update = () => {
+            count += increment;
+            frame++;
+            if (frame < totalFrames) {
+              textSpan.innerText = `+${count.toFixed(decimals)}%`;
+              requestAnimationFrame(update);
+            } else {
+              textSpan.innerText = `+${finalValue.toFixed(decimals)}%`;
+            }
+          };
+
+          requestAnimationFrame(update);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(container);
+  }
+})();
+</script></div></div>
+  
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="ghMkDGfSoq">
+    <div
+      parentTag="Col"
+        class="ghMkDGfSoq "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:12px;--pt:0px;--pb:0px;--mt-mobile:8px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:500;--size:18px;--size-tablet:38px;--size-mobile:16px;--lh:135%;--lh-tablet:130%;--lh-mobile:135%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.gghMkDGfSoq_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+       
+      
+    <div
+      parentTag="Col" id="gddC6Mwxv6" data-id="gddC6Mwxv6"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mt:55px;--mt-mobile:35px;--mb-mobile:0px;--mt-tablet:20px;--mb-tablet:20px;--cg:30px;--cg-tablet:30px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gddC6Mwxv6 gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g1DviAhUZS gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gA-A-p77bP">
+    <div
+      parentTag="Col"
+        class="gA-A-p77bP "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mb:0px;--pt:0px;--pb:0px;--mt-mobile:0px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:700;--size:35px;--size-tablet:38px;--size-mobile:24px;--lh:135%;--lh-tablet:130%;--lh-mobile:130%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggA-A-p77bP_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gubW__nN2L">
+    <div
+      parentTag="Col"
+        class="gubW__nN2L "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:15px;--mb:0px;--mt-mobile:15px;--pt-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggubW__nN2L_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    <div
+    
+     data-id="gIlPXrJjRQ"
+    role="presentation"
+    class="gp-group/image gIlPXrJjRQ gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:20px;--mb:10px;--mt-mobile:20px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-e19ae1b4-f5dc-45d4-bd43-89995c0e33af.png" | file_url }}" srcset="{{ "gempages_560737037540394069-e19ae1b4-f5dc-45d4-bd43-89995c0e33af.png" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-e19ae1b4-f5dc-45d4-bd43-89995c0e33af.png" | file_url }}" srcset="{{ "gempages_560737037540394069-e19ae1b4-f5dc-45d4-bd43-89995c0e33af.png" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-e19ae1b4-f5dc-45d4-bd43-89995c0e33af.png" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-e19ae1b4-f5dc-45d4-bd43-89995c0e33af.png" | file_url }}"
+        width="100%"
+        alt=""
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gC3LLE4e-w">
+    <div
+      parentTag="Col"
+        class="gC3LLE4e-w "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:15px;--mt-mobile:15px;--pt-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggC3LLE4e-w_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    <div
+    
+     data-id="gaidxS30XG"
+    role="presentation"
+    class="gp-group/image gaidxS30XG gp-flex-none gp-h-auto mobile:gp-flex-none mobile:gp-h-auto tablet:gp-flex-none tablet:gp-h-auto"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:20px;--mb:10px;--mt-mobile:20px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-5236c813-9031-46b2-8480-9bc0b6b92e8a.png" | file_url }}" srcset="{{ "gempages_560737037540394069-5236c813-9031-46b2-8480-9bc0b6b92e8a.png" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-5236c813-9031-46b2-8480-9bc0b6b92e8a.png" | file_url }}" srcset="{{ "gempages_560737037540394069-5236c813-9031-46b2-8480-9bc0b6b92e8a.png" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-5236c813-9031-46b2-8480-9bc0b6b92e8a.png" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-5236c813-9031-46b2-8480-9bc0b6b92e8a.png" | file_url }}"
+        width="100%"
+        alt=""
+        style="--aspect:auto;--aspect-tablet:auto;--aspect-mobile:auto;--objf:cover;--h:auto;--h-tablet:auto;--h-mobile:auto;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--radiusType:none;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="g-Huys1NI2">
+    <div
+      parentTag="Col"
+        class="g-Huys1NI2 "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:15px;--mt-mobile:15px;--pt-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.gg-Huys1NI2_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div>
+    </div>
+   
+    
+       
+      
+    <div
+      parentTag="Col" id="govCsYg__N" data-id="govCsYg__N"
+        style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--mt:55px;--mt-mobile:35px;--mb-mobile:0px;--mt-tablet:20px;--mb-tablet:20px;--cg:30px;--cg-tablet:30px;--pc:start;--gtc:minmax(0, 12fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="govCsYg__N gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gXw7aql0Rc gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="g0VrVnJWvm">
+    <div
+      parentTag="Col"
+        class="g0VrVnJWvm "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mb:0px;--pt:0px;--pb:0px;--mt-mobile:0px;--mb-mobile:0px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:0px;--mb-tablet:0px;--pt-tablet:0px;--pb-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <h2
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-heading, heading);--weight:700;--size:35px;--size-tablet:38px;--size-mobile:24px;--lh:135%;--lh-tablet:130%;--lh-mobile:130%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.gg0VrVnJWvm_text | replace: '$locationOrigin', locationOrigin }}</h2>
+      </div>
+    </div>
+    </gp-text>
+    
+       
+      
+    <div
+      parentTag="Col" id="ggUOmCzp06" data-id="ggUOmCzp06"
+        style="--mt:25px;--mb:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--cg:30px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="ggUOmCzp06 gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gcxgyh3JaH gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="gze6LC5Pvn" data-id="gze6LC5Pvn"
+        style="--pl:10px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--bblr:10px;--bbrr:10px;--btlr:10px;--btrr:10px;--shadow:none;--op:100%;--cg:12px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:#F8F8FA;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gze6LC5Pvn gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gnYomMEfEr gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gf_f5b-gEy">
+    <div
+      parentTag="Col"
+        class="gf_f5b-gEy "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mt-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:700;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggf_f5b-gEy_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="g-JDAXEujk">
+    <div
+      parentTag="Col"
+        class="g-JDAXEujk "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mb:10px;--mt-mobile:10px;--mb-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.gg-JDAXEujk_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="grSwzfB5O8 gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+     data-id="g1lwZIRSP3"
+    role="presentation"
+    class="gp-group/image g1lwZIRSP3 gp-flex-1 gp-h-full mobile:gp-flex-1 mobile:gp-h-full tablet:gp-flex-1 tablet:gp-h-full"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mt-mobile:0px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-cf8b2d29-5a60-4e4b-b391-b74a74fba836.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-cf8b2d29-5a60-4e4b-b391-b74a74fba836.webp" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-cf8b2d29-5a60-4e4b-b391-b74a74fba836.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-cf8b2d29-5a60-4e4b-b391-b74a74fba836.webp" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-cf8b2d29-5a60-4e4b-b391-b74a74fba836.webp" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-cf8b2d29-5a60-4e4b-b391-b74a74fba836.webp" | file_url }}"
+        width="100%"
+        alt=""
+        style="--objf:cover;--h:100%;--h-tablet:100%;--h-mobile:100%;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--btrr:10px;--bblr:0px;--bbrr:10px;--btlr:0px;--radiusType:custom;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+    </div>
+    </div>
+   
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gqOJLrc1sj gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="gWUsqupdgz" data-id="gWUsqupdgz"
+        style="--pl:10px;--mt-mobile:30px;--pl-mobile:10px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--bblr:10px;--bbrr:10px;--btlr:10px;--btrr:10px;--shadow:none;--op:100%;--cg:12px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:#F8F8FA;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gWUsqupdgz gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gwPGB6jvqi gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gHfEd1M4LN">
+    <div
+      parentTag="Col"
+        class="gHfEd1M4LN "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mt-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:700;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggHfEd1M4LN_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gATd0xFXc2">
+    <div
+      parentTag="Col"
+        class="gATd0xFXc2 "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mb:10px;--mt-mobile:10px;--mb-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggATd0xFXc2_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gwIzwPPUHY gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+     data-id="gRvaqPWKWy"
+    role="presentation"
+    class="gp-group/image gRvaqPWKWy gp-flex-1 gp-h-full mobile:gp-flex-1 mobile:gp-h-full tablet:gp-flex-1 tablet:gp-h-full"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mt-mobile:0px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-9755813b-42c9-43bb-9aae-813ff00423ef.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-9755813b-42c9-43bb-9aae-813ff00423ef.webp" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-9755813b-42c9-43bb-9aae-813ff00423ef.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-9755813b-42c9-43bb-9aae-813ff00423ef.webp" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-9755813b-42c9-43bb-9aae-813ff00423ef.webp" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-9755813b-42c9-43bb-9aae-813ff00423ef.webp" | file_url }}"
+        width="100%"
+        alt=""
+        style="--objf:cover;--h:100%;--h-tablet:100%;--h-mobile:100%;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--btrr:10px;--bblr:0px;--bbrr:10px;--btlr:0px;--radiusType:custom;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+       
+      
+    <div
+      parentTag="Col" id="gEbpDG-0ok" data-id="gEbpDG-0ok"
+        style="--mt:35px;--mb:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--cg:30px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gEbpDG-0ok gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gyhnmi8ZBz gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="g87e2tH5b9" data-id="g87e2tH5b9"
+        style="--pl:10px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--bblr:10px;--bbrr:10px;--btlr:10px;--btrr:10px;--shadow:none;--op:100%;--cg:12px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:#F8F8FA;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g87e2tH5b9 gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gCH7HaBvEo gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="g6JRIIz3D1">
+    <div
+      parentTag="Col"
+        class="g6JRIIz3D1 "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mt-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:700;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.gg6JRIIz3D1_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gLe5bacAQ-">
+    <div
+      parentTag="Col"
+        class="gLe5bacAQ- "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mb:10px;--mt-mobile:10px;--mb-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggLe5bacAQ-_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gl4-ouyavq gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+     data-id="gT-w9v8o0U"
+    role="presentation"
+    class="gp-group/image gT-w9v8o0U gp-flex-1 gp-h-full mobile:gp-flex-1 mobile:gp-h-full tablet:gp-flex-1 tablet:gp-h-full"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mt-mobile:0px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-29e025dd-e8e1-4c72-8f40-488865a543b2.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-29e025dd-e8e1-4c72-8f40-488865a543b2.webp" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-29e025dd-e8e1-4c72-8f40-488865a543b2.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-29e025dd-e8e1-4c72-8f40-488865a543b2.webp" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-29e025dd-e8e1-4c72-8f40-488865a543b2.webp" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-29e025dd-e8e1-4c72-8f40-488865a543b2.webp" | file_url }}"
+        width="100%"
+        alt=""
+        style="--objf:cover;--h:100%;--h-tablet:100%;--h-mobile:100%;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--btrr:10px;--bblr:0px;--bbrr:10px;--btlr:0px;--radiusType:custom;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+    </div>
+    </div>
+   
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gSQVjn6kaf gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="gAjTjacpJZ" data-id="gAjTjacpJZ"
+        style="--pl:10px;--mt-mobile:30px;--pl-mobile:10px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--bblr:10px;--bbrr:10px;--btlr:10px;--btrr:10px;--shadow:none;--op:100%;--cg:12px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:#F8F8FA;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gAjTjacpJZ gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gGdYa5Z8NP gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gSJu52xBfG">
+    <div
+      parentTag="Col"
+        class="gSJu52xBfG "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mt-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:700;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggSJu52xBfG_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gaij6DTdlU">
+    <div
+      parentTag="Col"
+        class="gaij6DTdlU "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mb:10px;--mt-mobile:10px;--mb-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggaij6DTdlU_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gM-JHiv4gn gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+     data-id="gbS29k_ZqR"
+    role="presentation"
+    class="gp-group/image gbS29k_ZqR gp-flex-1 gp-h-full mobile:gp-flex-1 mobile:gp-h-full tablet:gp-flex-1 tablet:gp-h-full"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mt-mobile:0px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-e98e6c5c-d6a0-455c-9945-3c8298cf9628.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-e98e6c5c-d6a0-455c-9945-3c8298cf9628.webp" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-e98e6c5c-d6a0-455c-9945-3c8298cf9628.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-e98e6c5c-d6a0-455c-9945-3c8298cf9628.webp" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-e98e6c5c-d6a0-455c-9945-3c8298cf9628.webp" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-e98e6c5c-d6a0-455c-9945-3c8298cf9628.webp" | file_url }}"
+        width="100%"
+        alt=""
+        style="--objf:cover;--h:100%;--h-tablet:100%;--h-mobile:100%;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--btrr:10px;--bblr:0px;--bbrr:10px;--btlr:0px;--radiusType:custom;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+       
+      
+    <div
+      parentTag="Col" id="gWgrNLyVKw" data-id="gWgrNLyVKw"
+        style="--mt:35px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--op:100%;--cg:30px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gWgrNLyVKw gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gTYwH82OJc gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="geeo2UZPVB" data-id="geeo2UZPVB"
+        style="--pl:10px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--bblr:10px;--bbrr:10px;--btlr:10px;--btrr:10px;--shadow:none;--op:100%;--cg:12px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:#F8F8FA;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="geeo2UZPVB gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gH5iq5hU3w gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gGO1MINhw7">
+    <div
+      parentTag="Col"
+        class="gGO1MINhw7 "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mt-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:700;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggGO1MINhw7_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gjwNMBqo2P">
+    <div
+      parentTag="Col"
+        class="gjwNMBqo2P "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mb:10px;--mt-mobile:10px;--mb-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggjwNMBqo2P_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="guU5hKVFB- gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+     data-id="gjVTN4YINC"
+    role="presentation"
+    class="gp-group/image gjVTN4YINC gp-flex-1 gp-h-full mobile:gp-flex-1 mobile:gp-h-full tablet:gp-flex-1 tablet:gp-h-full"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mt-mobile:0px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-a9ea91c4-6366-440e-99bd-9b073e077fa1.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-a9ea91c4-6366-440e-99bd-9b073e077fa1.webp" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-a9ea91c4-6366-440e-99bd-9b073e077fa1.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-a9ea91c4-6366-440e-99bd-9b073e077fa1.webp" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-a9ea91c4-6366-440e-99bd-9b073e077fa1.webp" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-a9ea91c4-6366-440e-99bd-9b073e077fa1.webp" | file_url }}"
+        width="100%"
+        alt=""
+        style="--objf:cover;--h:100%;--h-tablet:100%;--h-mobile:100%;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--btrr:10px;--bblr:0px;--bbrr:10px;--btlr:0px;--radiusType:custom;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+    </div>
+    </div>
+   
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gFebAV5CI4 gp-relative gp-flex gp-flex-col"
+    >
+      
+       
+      
+    <div
+      parentTag="Col" id="g6mfAAh4rs" data-id="g6mfAAh4rs"
+        style="--pl:10px;--mt-mobile:30px;--pl-mobile:10px;--d:grid;--d-tablet:grid;--d-mobile:grid;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--bblr:10px;--bbrr:10px;--btlr:10px;--btrr:10px;--shadow:none;--op:100%;--cg:12px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 6fr) minmax(0, 6fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--h:auto;--bgc:#F8F8FA;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g6mfAAh4rs gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-gap-y-0 gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]"
+    >
+    <div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gRr3g8wuZk gp-relative gp-flex gp-flex-col"
+    >
+      
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gzMOk5M0Ol">
+    <div
+      parentTag="Col"
+        class="gzMOk5M0Ol "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mt-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:700;--size:18px;--size-tablet:16px;--size-mobile:16px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggzMOk5M0Ol_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+  {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+  <gp-text data-id="gcXW7SXK-G">
+    <div
+      parentTag="Col"
+        class="gcXW7SXK-G "
+        style="--ta:left;--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:10px;--mb:10px;--mt-mobile:10px;--mb-mobile:10px;--pt-mobile:0px;--pb-mobile:0px;--mt-tablet:20px;--pt-tablet:0px"
+      >
+      <div class="gp-flex" style="--jc:left">
+        <div
+          
+          data-gp-text
+          class="[&_p]:gp-inline [&_p]:after:gp-whitespace-pre-wrap [&_p]:after:gp-content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--ta-mobile:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Poppins, 'Poppins'), var(--g-font-body, body);--weight:400;--size:16px;--size-tablet:16px;--size-mobile:14px;--lh:150%;--lh-tablet:150%;--lh-mobile:150%;--c:#2C2C2C;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden"
+        >{{ section.settings.ggcXW7SXK-G_text | replace: '$locationOrigin', locationOrigin }}</div>
+      </div>
+    </div>
+    </gp-text>
+    
+    </div><div
+      tag="Col" label="Block" type="component"
+      style="--jc:center"
+      class="gp5a-szklv gp-relative gp-flex gp-flex-col"
+    >
+      <div
+    
+     data-id="go5_wsgEAi"
+    role="presentation"
+    class="gp-group/image go5_wsgEAi gp-flex-1 gp-h-full mobile:gp-flex-1 mobile:gp-h-full tablet:gp-flex-1 tablet:gp-h-full"
+    style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mt-mobile:0px;--mb-mobile:0px;--ta:center"
+    >
+      <div
+        class="pointer-events-auto gp-h-full gp-flex"
+        
+        class="gp-h-full gp-w-full"
+        style="--shadow:none;border-radius:inherit;--jc:center"
+      >
+        
+  <picture style="border-radius: inherit" class="gp-contents">
+  
+      <source media="(max-width: 767px)" data-srcSet="{{ "gempages_560737037540394069-dd4a3a95-64fb-4199-a5ac-2db2d08f3e9e.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-dd4a3a95-64fb-4199-a5ac-2db2d08f3e9e.webp" | file_url }}" />
+      <source media="(max-width: 1024px)" data-srcSet="{{ "gempages_560737037540394069-dd4a3a95-64fb-4199-a5ac-2db2d08f3e9e.webp" | file_url }}" srcset="{{ "gempages_560737037540394069-dd4a3a95-64fb-4199-a5ac-2db2d08f3e9e.webp" | file_url }}" />
+      <img
+        
+        class="gp-h-full gp-max-w-full gp-flex"
+        src="{{ "gempages_560737037540394069-dd4a3a95-64fb-4199-a5ac-2db2d08f3e9e.webp" | file_url }}"
+        data-src="{{ "gempages_560737037540394069-dd4a3a95-64fb-4199-a5ac-2db2d08f3e9e.webp" | file_url }}"
+        width="100%"
+        alt=""
+        style="--objf:cover;--h:100%;--h-tablet:100%;--h-mobile:100%;--b:none;--bc:#000000;--bw:1px 1px 1px 1px;--btrr:10px;--bblr:0px;--bbrr:10px;--btlr:0px;--radiusType:custom;--shadow:none"
+      />
+    
+  </picture>
+      </div>
+  </div>
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+   
+    
+    </div>
+    </div>
+  
+            </section>
+           
+    
+<style {% if section.settings.section_preload == "false" %} class="gps-link" type="text/disabled-css" {% endif %}>@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfedA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z1xlEw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z1xlEw.woff) format('woff');
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+{% schema %}
+  {
+    "presets": [{ "name": "Science Behind Nifora" }],
+    "name": "Science Behind Nifora",
+    "tag": "section",
+    "class": "gps-577248765170156070 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/223a18-2/apps/gempages-cro/app/shopify/edit?pageType=THEME_SECTION&editorId=577248765170156070)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"off_lazy_script"},{"type":"text","label":"Checksum","id":"checksum"},{"type":"html","id":"gghVZY8R9Zu_text","label":"gghVZY8R9Zu_text","default":"The Science Behind <span style=\"color:#8B1638;\">Nifora</span>"},{"type":"html","id":"ggym8OQ9l3G_text","label":"ggym8OQ9l3G_text","default":"Reported results from real users and clinical-backed ingredients:"},{"type":"html","id":"ggTlh7BQdZs_text","label":"ggTlh7BQdZs_text","default":"Improvement in skin firmness after 6 weeks"},{"type":"html","id":"ggaW_FVHABX_text","label":"ggaW_FVHABX_text","default":"Reduction in fine lines and wrinkles"},{"type":"html","id":"ggrYq8XW2NC_text","label":"ggrYq8XW2NC_text","default":"Increase in skin hydration with consistent use"},{"type":"html","id":"gghMkDGfSoq_text","label":"gghMkDGfSoq_text","default":"Improved elasticity and skin bounce"},{"type":"html","id":"ggA-A-p77bP_text","label":"ggA-A-p77bP_text","default":"Not All Masks Are Created Equal. Here’s Why:"},{"type":"html","id":"ggubW__nN2L_text","label":"ggubW__nN2L_text","default":"<p>Most masks are made from cotton or paper.</p><p>&nbsp;</p><p>They’re soaked in liquid that evaporates before your skin can absorb it.</p><p>&nbsp;</p><p>They barely cling to the skin—and even less of what’s inside reaches beneath the surface.</p><p>&nbsp;</p><p>That’s not skincare.</p><p>&nbsp;</p><p>That’s wasted time.</p>"},{"type":"html","id":"ggC3LLE4e-w_text","label":"ggC3LLE4e-w_text","default":"<p>Nifora’s hydrogel mask was engineered differently.</p><p>&nbsp;</p><p>It uses a&nbsp;<strong>structured hydrogel matrix</strong>—a flexible, skin-mimicking material that adheres to your face like a second skin.</p><p>&nbsp;</p><p>As it warms from your body heat, the gel slowly dissolves—releasing active ingredients over 3–4 hours or overnight.</p>"},{"type":"html","id":"gg-Huys1NI2_text","label":"gg-Huys1NI2_text","default":"<p>No rushing. No evaporation.</p><p>&nbsp;</p><p>Just deep, consistent absorption.</p><p>&nbsp;</p><p>It forms a moisture-sealing barrier that gives the ingredients time to work.</p><p>&nbsp;</p><p>That’s what makes the difference.</p>"},{"type":"html","id":"gg0VrVnJWvm_text","label":"gg0VrVnJWvm_text","default":"What Happens When You Combine These Actives in One Mask"},{"type":"html","id":"ggf_f5b-gEy_text","label":"ggf_f5b-gEy_text","default":"<p>Hydrolyzed Collagen</p>"},{"type":"html","id":"gg-JDAXEujk_text","label":"gg-JDAXEujk_text","default":"<p>Sinks deep into the skin to stimulate natural collagen renewal—supporting firmer, plumper, and more elastic skin with each use.</p>"},{"type":"html","id":"ggHfEd1M4LN_text","label":"ggHfEd1M4LN_text","default":"<p>Hyaluronic Acid</p>"},{"type":"html","id":"ggATd0xFXc2_text","label":"ggATd0xFXc2_text","default":"<p>A hydration powerhouse that draws moisture deep into the skin, leaving it visibly plump, dewy, and refreshed.</p>"},{"type":"html","id":"gg6JRIIz3D1_text","label":"gg6JRIIz3D1_text","default":"<p>Vitamin E</p>"},{"type":"html","id":"ggLe5bacAQ-_text","label":"ggLe5bacAQ-_text","default":"<p>A potent antioxidant that supports skin repair, smooths texture, and helps protect against environmental damage.</p>"},{"type":"html","id":"ggSJu52xBfG_text","label":"ggSJu52xBfG_text","default":"<p>Niacinamide (Vitamin B3)</p>"},{"type":"html","id":"ggaij6DTdlU_text","label":"ggaij6DTdlU_text","default":"<p>Brightens, balances, and strengthens the skin barrier. Helps reduce redness, dark spots, and signs of fatigue—perfect for stressed or aging skin.</p>"},{"type":"html","id":"ggGO1MINhw7_text","label":"ggGO1MINhw7_text","default":"<p>Glycerin</p>"},{"type":"html","id":"ggjwNMBqo2P_text","label":"ggjwNMBqo2P_text","default":"<p>Acts like a moisture magnet, locking in hydration and keeping your skin soft, supple, and resilient all day long.</p>"},{"type":"html","id":"ggzMOk5M0Ol_text","label":"ggzMOk5M0Ol_text","default":"<p>Galactomyces</p>"},{"type":"html","id":"ggcXW7SXK-G_text","label":"ggcXW7SXK-G_text","default":"<p>A fermented ingredient known for boosting radiance, refining skin texture, and enhancing glow—often used in cult-favorite Korean skincare for a reason.</p>"}],
+    "blocks": [{"type": "@app"}],
+    "locales": {}
+  }
+{% endschema %}

@@ -1,0 +1,516 @@
+<style>
+    .black-friday-banner-container {
+        position: relative;
+        z-index: 0;
+        padding: 108px 0 90px;
+        overflow: hidden;
+        background: #E1D2BF;
+        {% comment %} display: none; {% endcomment %}
+    }
+    .banner-content {
+        max-width: 1500px;
+        margin: auto;
+        padding: 0 20px;
+        overflow: hidden;
+        text-align: left;
+    }
+    .banner-ratings {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .banner-ratings p {
+        color: {{ section.settings.ratings_text_color }};
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+    }
+    .banner-header {
+        margin-bottom: 10px;
+    }
+    .banner-header * {
+        color:#000;
+        text-align: left;
+        font-family: "Playfair Display";
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin:0;
+    }
+    .banner-bottom-header p{
+        color: var(--Text, #333);
+        text-align: left;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 14px 0px;
+    }
+    .banner-header em {
+        color: {{ section.settings.subheader_color }};
+        font-family: "Awesome Serif Italic";
+        font-size: 110px;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .banner-subheader {
+        margin-bottom: 5px;
+    }
+    .banner-subheader * {
+        color: {{ section.settings.subheader_color }};
+        {% comment %} color: #000; {% endcomment %}
+        {% comment %} text-align: center; {% endcomment %}
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px; /* 110% */
+        text-transform: capitalize;
+        margin:0;
+    }
+    .banner-button {
+        padding: 17px 195px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        background: {{ section.settings.button_color }};;
+        max-width: 500px;
+        white-space: nowrap;
+    }
+    .banner-button * {
+        color: {{ section.settings.button_text_color }};
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+    }
+    .black-friday-banner-image {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        height: 100%;
+    }
+    .desktop_banner_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .mobile_banner_image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: none;
+        object-position: bottom;
+    }
+    .black-friday-banner-tags {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 24px;
+        align-items: center;
+    }
+    .black-friday-banner-tag {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 5px;
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 1408.797px;
+        background: #FFE1CE;        
+    }
+    .banner-tag__svg {
+        width: 20px;
+        height: 20px;
+        position: relative;
+    }
+    .banner-tag__svg svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px;
+        line-height: 0;
+    }
+    .banner-tag__text {
+        color: #541819;
+        text-align: left;
+        font-family: "Helvetica Now Display";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .banner-mobile-header {
+        display: none;
+    }
+    .banner-mobile-header {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .banner-mobile-header * {
+        color: {{ section.settings.header_color }};
+        text-align: center;
+        font-family: "Awesome Serif";
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 67.5px;
+        letter-spacing: 1.16px;
+        background: linear-gradient(90deg, #781718, #5F1819, #541819);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .banner-mobile-header em {
+        font-family: "Awesome Serif Italic";
+        font-size: 58px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 52.5px;
+        letter-spacing: 1.16px;
+    }
+    @media screen and (max-width: 580px) {
+        .banner-bottom-header p{
+            text-align:center;
+        }
+            .black-friday-banner-image {
+        position: relative;
+    }
+        .black-friday-banner-tags {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 12.5px;
+            align-items: center;
+            max-width: 326px;
+            margin: auto;
+        }
+         .banner-header * {
+            text-align:center;
+        }
+        .black-friday-banner-tag {
+            max-width: 130px;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 5px;
+            align-items: center;
+            padding: 4.73px 8.402px 5.27px 10.598px;
+            border-radius: 1408.797px;
+            background: #FFE1CE;        
+        }
+        .banner-tag__svg {
+            width: 11.667px;
+            height: 11.667px;
+        }
+        .banner-tag__svg svg {
+            width: 11.667px;
+            height: 11.667px;
+            line-height: 0;
+        }
+        .banner-tag__text {
+            max-width: 120px;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 12px;
+        }
+        .black-friday-banner-container {
+            padding: 32px 0px 0px;
+        }   
+        .banner-content {
+            padding: 0 16px;
+            margin: 0 auto;
+        }
+        .banner-ratings {
+            gap: 7px;
+            justify-content: center;
+            margin-bottom: 6px;
+        }
+        .banner-ratings svg {
+            width: 69.16px;
+            height: 12.967px;
+        }
+        .banner-ratings p {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 14.56px;
+        }
+
+        .banner-subheader {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .banner-button {
+            padding: 10px 80px;
+            max-width: 226px;
+            margin: 0 auto;
+        }
+        .banner-button * {
+            font-size: 14.04px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .desktop_banner_image {
+            display: none;
+        }
+       .mobile_banner_image {
+            display: block;
+            margin-top: -40px;
+            z-index: -1;
+            position: relative;
+        }  
+    }
+
+ 
+</style>
+
+<div class="black-friday-banner-container">
+    <div class="banner-content">
+        {% if section.settings.show_ratings %}
+            <div class="banner-ratings">
+                <svg xmlns="http://www.w3.org/2000/svg" width="99" height="19" viewBox="0 0 99 19" fill="none">
+                <mask id="mask0_7265_18" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="99" height="19">
+                    <path d="M98.8 0H0V18.525H98.8V0Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_7265_18)">
+                    <path d="M18.525 0H0V18.525H18.525V0Z" fill="#00B67A"/>
+                    <path d="M38.5934 0.000228882H20.0684V18.5252H38.5934V0.000228882Z" fill="#00B67A"/>
+                    <path d="M58.6622 0.000228882H40.1372V18.5252H58.6622V0.000228882Z" fill="#00B67A"/>
+                    <path d="M78.7335 0.000228882H60.2085V18.5252H78.7335V0.000228882Z" fill="#00B67A"/>
+                    <path d="M98.8025 0.000228882H89.54V18.5252H98.8025V0.000228882Z" fill="white" fill-opacity="0.2"/>
+                    <path d="M89.5398 0.000228882H80.2773V18.5252H89.5398V0.000228882Z" fill="#00B67A"/>
+                    <path d="M9.26109 12.4848L12.0784 11.7708L13.2555 15.3986L9.26109 12.4848ZM15.7449 7.79566H10.7856L9.26109 3.12581L7.73664 7.79566H2.77734L6.79109 10.6902L5.26664 15.36L9.28039 12.4654L11.7504 10.6902L15.7449 7.79566Z" fill="white"/>
+                    <path d="M29.3299 12.4848L32.1472 11.7708L33.3243 15.3986L29.3299 12.4848ZM35.8137 7.79566H30.8543L29.3299 3.12581L27.8054 7.79566H22.8462L26.8599 10.6902L25.3354 15.36L29.3492 12.4654L31.8192 10.6902L35.8137 7.79566Z" fill="white"/>
+                    <path d="M49.3988 12.4848L52.216 11.7708L53.3932 15.3986L49.3988 12.4848ZM55.8825 7.79566H50.9232L49.3988 3.12581L47.8743 7.79566H42.915L46.9288 10.6902L45.4043 15.36L49.418 12.4654L51.888 10.6902L55.8825 7.79566Z" fill="white"/>
+                    <path d="M69.4701 12.4848L72.2873 11.7708L73.4645 15.3986L69.4701 12.4848ZM75.9538 7.79566H70.9945L69.4701 3.12581L67.9456 7.79566H62.9863L67.0001 10.6902L65.4756 15.36L69.4893 12.4654L71.9593 10.6902L75.9538 7.79566Z" fill="white"/>
+                    <path d="M89.5389 12.4848L92.3562 11.7708L93.5333 15.3986L89.5389 12.4848ZM96.0227 7.79566H91.0633L89.5389 3.12581L88.0144 7.79566H83.0552L87.0689 10.6902L85.5444 15.36L89.5582 12.4654L92.0282 10.6902L96.0227 7.79566Z" fill="white"/>
+                </g>
+                </svg>
+                {{ section.settings.ratings_text }}
+            </div>
+        {% endif %}
+
+        {% if section.settings.header_text != blank %}
+            <div class="banner-header">{{ section.settings.header_text }}</div>
+        {% endif %}
+
+        {% if section.settings.bottom_header_text != blank %}
+            <div class="banner-mobile-header">{{ section.settings.bottom_header_text }}</div>
+        {% endif %}
+
+        {% if section.settings.subheader_text != blank %}
+            <div class="banner-subheader">
+                {{ section.settings.subheader_text }}
+            </div>
+        {% endif %}
+
+        {% if section.settings.bottom_header_text != blank and section.settings.show_line %}
+            <div class="banner-bottom-header">{{ section.settings.bottom_header_text }}</div>
+        {% endif %}
+
+        {% if section.settings.show_button and section.settings.button_text != blank %}
+            <a class="banner-button" href="{{ section.settings.button_link }}">
+                {{ section.settings.button_text }}
+            </a>
+        {% endif %}
+
+        {% if section.settings.show_tags %}
+        <div class="black-friday-banner-tags">
+
+            {% for block in section.blocks %}
+                {% if block.type == 'banner_tags' %}
+                    {% if block.settings.tag_text != blank %}
+                    <div class="black-friday-banner-tag">
+
+                        <div class="banner-tag__svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.77083 13.7917L14.6667 7.89582L13.7083 6.95832L8.77083 11.8958L6.27083 9.39582L5.33333 10.3333L8.77083 13.7917ZM10 18.3333C8.86113 18.3333 7.78471 18.1146 6.77083 17.6771C5.75696 17.2396 4.87154 16.6424 4.11458 15.8854C3.35764 15.1284 2.76042 14.243 2.32292 13.2292C1.88542 12.2153 1.66667 11.1389 1.66667 9.99999C1.66667 8.8472 1.88542 7.76386 2.32292 6.74999C2.76042 5.73611 3.35764 4.85416 4.11458 4.10416C4.87154 3.35416 5.75696 2.76041 6.77083 2.32291C7.78471 1.88541 8.86113 1.66666 10 1.66666C11.1528 1.66666 12.2361 1.88541 13.25 2.32291C14.2639 2.76041 15.1458 3.35416 15.8958 4.10416C16.6458 4.85416 17.2396 5.73611 17.6771 6.74999C18.1146 7.76386 18.3333 8.8472 18.3333 9.99999C18.3333 11.1389 18.1146 12.2153 17.6771 13.2292C17.2396 14.243 16.6458 15.1284 15.8958 15.8854C15.1458 16.6424 14.2639 17.2396 13.25 17.6771C12.2361 18.1146 11.1528 18.3333 10 18.3333Z" fill="#541819"/>
+                            </svg>
+                        </div>
+
+                        <div class="banner-tag__text">
+                            {{ block.settings.tag_text }}
+                        </div>
+
+                    </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+        </div>
+        {% endif %}
+
+    </div>
+
+    <div class="black-friday-banner-image">
+        {% if section.settings.desktop_banner_image != blank %}
+            <img src="{{ section.settings.desktop_banner_image |  image_url  }}" class="desktop_banner_image" alt="Black Friday Banner" width="{{ section.settings.desktop_banner_image.width }}" height="{{ section.settings.desktop_banner_image.height }}">
+        {% endif %}
+        {% if section.settings.mobile_banner_image != blank %}
+            <img src="{{ section.settings.mobile_banner_image | image_url  }}" class="mobile_banner_image" alt="Black Friday Banner Mobile" width="{{ section.settings.mobile_banner_image.width }}" height="{{ section.settings.mobile_banner_image.height }}">
+        {% endif %}
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Hero Banner V2",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktop_banner_image",
+      "label": "Desktop Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_banner_image",
+      "label": "Mobile Banner Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_ratings",
+      "label": "Show Ratings",
+      "default": false
+    },
+    {
+      "type": "richtext",
+      "id": "ratings_text",
+      "label": "Ratings Text"
+    },
+    {
+      "type": "color",
+      "id": "ratings_text_color",
+      "label": "Ratings Text Color",
+      "default": "#fff"
+    },
+    {
+      "type": "richtext",
+      "id": "header_text",
+      "label": "Header Text"
+    },
+    {
+      "type": "text",
+      "id": "header_color",
+      "label": "Header Text Color",
+      "default": "#fff"
+    },
+    {
+    "type": "range",
+    "id": "header_text_size",
+    "label": "Header Text Size",
+    "min": 1,
+    "max": 100,
+    "step": 1,
+    "default": 75
+    },
+    {
+    "type": "range",
+    "id": "em_header_text_size",
+    "label": "em Header Text Size",
+    "min": 1,
+    "max": 100,
+    "step": 1,
+    "default": 75
+    },
+    {
+    "type": "range",
+    "id": "strong_header_text_size",
+    "label": "strong Header Text Size",
+    "min": 1,
+    "max": 100,
+    "step": 1,
+    "default": 75
+    },
+    {
+      "type": "richtext",
+      "id": "bottom_header_text",
+      "label": "Bottom Header Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_line",
+      "label": "Show Line",
+      "default": false
+    },
+    {
+      "type": "richtext",
+      "id": "subheader_text",
+      "label": "Subheader Text"
+    },
+    {
+      "type": "text",
+      "id": "subheader_color",
+      "label": "Subheader Text Color",
+      "default": "#fff"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button",
+      "default": false
+    },
+    {
+      "type": "richtext",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#000"
+    },
+    {
+      "type": "text",
+      "id": "button_color",
+      "label": "Button Color",
+      "default": "#fff"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tags",
+      "label": "Show Tags",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+        "type": "banner_tags",
+        "name": "Banner Tags",
+        "settings": [
+            {
+            "type": "text",
+            "id": "tag_text",
+            "label": "Tag Text"
+            }
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner V2",
+    }
+  ]
+}
+{% endschema %}
