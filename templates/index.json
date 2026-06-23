@@ -1,1 +1,1859 @@
-{"sections":{"image_banner_ELV3Jx":{"type":"image-banner","disabled":true,"name":"t:sections.image-banner.presets.name","settings":{"display_id":false,"visibility":"always-display","image":"shopify:\/\/shop_images\/Black_Friday_Desktop_8e023d34-9c30-42ef-9a2a-af9e2952dac6.jpg","image_1_visibility":"always-display","image_2_visibility":"always-display","image_overlay_opacity":0,"image_height":"adapt","url":"shopify:\/\/collections\/all","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"background-1","transparent_container_color":"white","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"ss_hero_29_64ify6":{"type":"ss-hero-29","blocks":{"review_PWd68A":{"type":"review","settings":{"stars_count":5,"stars_size":18,"stars_size_mobile":14,"stars_text":"<p><strong>40,000+<\/strong> Happy Customers<\/p>","review_custom":false,"review_font":"poppins_n4","review_size":16,"review_size_mobile":11,"review_height":130,"review_mt":0,"review_mt_mobile":0,"review_color":"#ffffff","review_accent_color":"#ffffff","stars_color":"#ffffff","stars_bg_color":"#00b67a","stars_bg_half_color":"#dddddd"}},"text_kB9fd4":{"type":"text","settings":{"text":"","text_custom":false,"text_font":"josefin_sans_n4","text_size":18,"text_size_mobile":15,"text_height":150,"text_mt":52,"text_mt_mobile":34,"text_color":"#ffffff"}},"heading_CKthrC":{"type":"heading","settings":{"heading":"<h1>EASTER SALE<\/h1>","heading_custom":false,"heading_font":"poppins_n7","heading_size":58,"heading_size_mobile":30,"heading_height":100,"heading_mt":20,"heading_mt_mobile":16,"heading_color":"#ffffff","heading_accent_color":"#ffffff"}},"text_aniJqJ":{"type":"text","settings":{"text":"<p><strong>UP TO 75% OFF SITEWIDE <\/strong><\/p><p><strong>+ SPECIAL BUNDLE<\/strong><\/p>","text_custom":false,"text_font":"josefin_sans_n4","text_size":26,"text_size_mobile":15,"text_height":120,"text_mt":28,"text_mt_mobile":26,"text_color":"#ffffff"}},"button_6HnPa8":{"type":"button","settings":{"button":"SHOP NOW","url":"shopify:\/\/collections\/shop-all","button_custom":false,"button_font":"poppins_n7","button_size":21,"button_size_mobile":15,"button_height":100,"button_padding_horizontal":32,"button_padding_horizontal_mobile":32,"button_padding_vertical":18,"button_padding_vertical_mobile":18,"button_radius":8,"button_border_thickness":1,"button_mt":48,"button_mt_mobile":58,"button_style":"non_outline","button_color":"#ffffff","button_hover_color":"#121212","button_bg_color":"#8b1638","button_bg_hover_color":"#ffffff","button_border_color":"#8b1638","button_border_hover_color":"#121212"}}},"block_order":["review_PWd68A","text_kB9fd4","heading_CKthrC","text_aniJqJ","button_6HnPa8"],"disabled":true,"name":"SS - Hero #29","settings":{"layout_height":"fixed_height","layout_fixed_height":750,"layout_fixed_height_mobile":400,"layout_padding_horizontal":24,"layout_padding_horizontal_mobile":16,"layout_padding_vertical":0,"layout_padding_vertical_mobile":20,"layout_radius":0,"bg_image":"shopify:\/\/shop_images\/Black_Friday_Mobile_4.png","bg_image_mobile":"shopify:\/\/shop_images\/Mobile_13.png","bg_image_overlay":0,"content_max_width":72,"content_align":"left","content_align_mobile":"center","content_vertical_align":"center","content_vertical_align_mobile":"center","features_gap":16,"features_gap_mobile":12,"features_mt":-100,"features_mt_mobile":-72,"feature_padding_horizontal":16,"feature_padding_horizontal_mobile":14,"feature_padding_vertical":16,"feature_padding_vertical_mobile":14,"feature_radius":10,"feature_border_thickness":0,"feature_align":"left","feature_align_mobile":"left","feature_shadow":true,"feature_title_custom":false,"feature_title_font":"josefin_sans_n4","feature_title_size":24,"feature_title_size_mobile":20,"feature_title_height":130,"feature_text_custom":false,"feature_text_font":"josefin_sans_n4","feature_text_size":15,"feature_text_size_mobile":12,"feature_text_height":150,"feature_text_mt":12,"feature_text_mt_mobile":8,"feature_title_color":"#121212","feature_text_color":"#707070","feature_bg_color":"#ffffff","feature_border_color":"#121212","bg_image_overlay_color":"#121212","background_color":"#ffffff","background_gradient":"","border_color":"#121212","margin_top":0,"margin_bottom":0,"margin_horizontal":0,"margin_horizontal_mobile":0,"padding_top":36,"padding_bottom":36,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":1200,"border_thickness":0,"section_radius":0,"lazy":false}},"hero_new_VAtAwq":{"type":"hero-new","name":"Hero Banner V2","settings":{"desktop_banner_image":"shopify:\/\/shop_images\/ee324cc0115c7ec7d707756780f7685599c7096b.jpg","mobile_banner_image":"shopify:\/\/shop_images\/ee324cc0115c7ec7d707756780f7685599c7096b_1.jpg","show_ratings":true,"ratings_text":"<p>50,000+ Happy Customers<\/p>","ratings_text_color":"#121212","header_text":"<p>Summer Sale<\/p>","header_color":"#000","header_text_size":75,"em_header_text_size":75,"strong_header_text_size":75,"bottom_header_text":"<p>Korean-inspired collagen masks that deliver visible results after just one use.<\/p>","show_line":true,"subheader_text":"<p>UP TO 75% OFF SITEWIDE<\/p>","subheader_color":"#000","show_button":true,"button_text":"<p>Shop Now<\/p>","button_text_color":"#ffffff","button_color":"#8B1638","button_link":"shopify:\/\/collections\/shop-all","show_tags":false}},"cfca4268-6358-426c-98ab-d292aeef11e5":{"type":"slideshow","blocks":{"template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Black_Friday_Mobile_4.png","mobile_image":"shopify:\/\/shop_images\/Mobile_11.png","image_overlay_opacity":0,"heading":"BLACK FRIDAY SALE","title_highlight_color":"#8b1638","heading_size":"h1","subheading":"Up to 80% OFF Sitewide","button_label":"Shop now","link":"shopify:\/\/collections\/all","button_style_secondary":false,"atc_button_label":"","atc_product":"","atc_skip_cart":false,"box_align":"bottom-left","show_text_box":false,"text_alignment":"left","color_scheme":"background-1","transparent_container_color":"black","text_alignment_mobile":"center","custom_colors_background":"#8b1638","custom_gradient_background":"radial-gradient(rgba(137, 143, 239, 1) 3%, rgba(120, 196, 245, 1) 100%)","custom_colors_text":"#f3f3f3","custom_colors_solid_button_background":"#8b1638","custom_colors_solid_button_text":"#8b1638","custom_colors_outline_button":"#dd1d1d"}}},"block_order":["template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1"],"disabled":true,"settings":{"visibility":"always-display","layout":"full_bleed","slide_height":"adapt_image","slider_visual":"dots","desktop_pagination_position":"over","auto_rotate":false,"change_slides_speed":5,"show_text_below":false,"mobile_pagination_position":"under","accessibility_info":"Slideshow about our brand"}},"section_divider_nNjq9y":{"type":"section-divider","disabled":true,"settings":{"visibility":"always-display","shape":"diagonal_1","flip_horizontal":false,"flip_vertical":false,"shape_color":"accent-1","custom_shape_color":"#dd1d1d","background_color":"background-1","custom_background_color":"#ffffff","padding_top":0,"padding_bottom":0}},"featured_collection_WN6a8U":{"type":"featured-collection","settings":{"display_id":false,"visibility":"always-display","title":"<strong>Bestsellers<\/strong>","title_highlight_color":"#8b1638","heading_size":"h1","description":"","show_description":false,"description_style":"body","color_scheme":"background-1","collection":"shop-all","products_to_show":4,"columns_desktop":4,"stretch_cards":true,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"cards_color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"badges":"regular","show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":32,"padding_bottom":28,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#ffffff","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#8b1638"}},"ss_product_ingredients_6_ypJenR":{"type":"ss-product-ingredients-6","blocks":{"heading_NnT3j4":{"type":"heading","settings":{"heading":"<p><strong>Every Ingredient Carefully Chosen<\/strong><\/p>","heading_custom":false,"heading_font":"poppins_n7","heading_size":36,"heading_size_mobile":24,"heading_height":130,"heading_mt":0,"heading_mt_mobile":0,"heading_color":"#8b1638"}},"text_WmV6A7":{"type":"text","settings":{"text":"<p>Each ingredient in our Bio-Collagen Mask is <strong>thoughtfully selected and supported by science<\/strong>—not hype. We use no harsh fillers or hidden additives—just a clean, transparent formula formulated with well-researched ingredients like low-molecular collagen, hyaluronic acid, niacinamide, and more for visible, skin-loving results.<\/p>","text_custom":false,"text_font":"josefin_sans_n4","text_size":13,"text_size_mobile":13,"text_height":130,"text_mt":4,"text_mt_mobile":12,"text_color":"#121212"}},"card_NTWq3A":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/Collagen-ing.png","title":"Hydrolyzed Collagen","text":"<p>Deep Absorption<\/p>","source":"","modal_text":"<p><strong>Our Bio-Collagen Mask uses fish collagen<\/strong> — a type of animal collagen extracted from the skin, scales, and gills of fish. It is widely used in food, health care products, and cosmetics due to its excellent absorption and skin-rejuvenating properties. <strong>It helps boost firmness and elasticity<\/strong>, enhances hydration by locking in moisture, and <strong>supports skin repair<\/strong>—visibly reducing the appearance of fine lines and <strong>promoting a smoother, plumper complexion<\/strong>.<br\/><\/p>","modal_subtitle":"","modal_sub_text":"","url":""}},"card_UPJaTJ":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/Hyaluronix.png","title":"Hyaluronic Acid","text":"<p>Boosts Skin Hydration<\/p>","source":"","modal_text":"<p><strong>Hyaluronic acid <\/strong>is a moisture-binding ingredient that <strong>deeply hydrates the skin<\/strong>, helping it appear plump, smooth, and supple. It holds up to 1,000 times its weight in water,<strong> supporting skin elasticity<\/strong> and <strong>reducing the look of fine lines<\/strong>. In the Bio-Collagen Mask, it enhances absorption and boosts the mask’s firming and rejuvenating effects.<\/p>","modal_subtitle":"","modal_sub_text":"","url":""}},"card_hpjA6m":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/Vitamin_E.png","title":"Vitamin E","text":"<p>Skin Repair<\/p>","source":"","modal_text":"<p><strong>Vitamin E <\/strong>is a powerful <strong>antioxidant<\/strong> that helps protect the skin from free radical damage and environmental stressors. It <strong>supports skin repair<\/strong>, <strong>soothes irritation<\/strong>, and <strong>strengthens the skin barrier<\/strong>. It works to nourish and protect the skin while enhancing moisture retention and promoting a smoother, healthier complexion.<\/p>","modal_subtitle":"","modal_sub_text":"","url":""}},"card_gbywcR":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/Niacinamide.png","title":"Niacinamide","text":"<p>Brightening Agent<\/p>","source":"","modal_text":"<p><strong>Niacinamide <\/strong>is an ingredient that helps <strong>brighten skin tone<\/strong>, <strong>reduce the appearance of pores<\/strong>, and <strong>improve skin texture<\/strong>. It also strengthens the skin barrier, regulates oil production, and soothes inflammation—making it ideal for sensitive or aging skin. In the Bio-Collagen Mask, it enhances the overall <strong>clarity, smoothness, and resilience<\/strong> of the skin.<\/p>","modal_subtitle":"","modal_sub_text":"","url":""}},"card_J4YxU4":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/Glycerin.png","title":"Glycerin","text":"<p>Moisture Lock<\/p>","source":"","modal_text":"<p><strong>Glycerin <\/strong>is a powerful humectant that draws moisture into the skin and <strong>helps maintain hydration levels<\/strong>. It works to soften rough patches, improve skin elasticity, and support the skin’s natural barrier. In the Bio-Collagen Mask, it helps lock in moisture,<strong> keeping the skin plump<\/strong>, smooth, and comfortable during and after use.<\/p>","modal_subtitle":"","modal_sub_text":"","url":""}},"card_Gqgzwt":{"type":"card","settings":{"image":"shopify:\/\/shop_images\/Galactomyces.png","title":"Galactomyces","text":"<p>Radiance Booster<\/p>","source":"","modal_text":"<p><strong>Galactomyces<\/strong> is a fermented yeast extract rich in vitamins, amino acids, and antioxidants that <strong>help nourish and revitalize the skin<\/strong>. It works to improve skin clarity, <strong>refine pores<\/strong>, and balance sebum production. It <strong>enhances radiance<\/strong>, <strong>smooths texture<\/strong>, and supports a brighter, more even complexion.<br\/><\/p>","modal_subtitle":"","modal_sub_text":"","url":""}},"card_649xEy":{"type":"card","disabled":true,"settings":{"title":"Title","text":"<p>Tell your story<\/p>","source":"Source","modal_text":"<p>Tell your story<\/p>","modal_subtitle":"MODAL SUBTITLE","modal_sub_text":"<p>Tell your story<\/p>","url":""}},"card_KTb94T":{"type":"card","disabled":true,"settings":{"title":"Title","text":"<p>Tell your story<\/p>","source":"Source","modal_text":"<p>Tell your story<\/p>","modal_subtitle":"MODAL SUBTITLE","modal_sub_text":"<p>Tell your story<\/p>","url":""}},"card_ALjFEP":{"type":"card","disabled":true,"settings":{"title":"Title","text":"<p>Tell your story<\/p>","source":"Source","modal_text":"<p>Tell your story<\/p>","modal_subtitle":"MODAL SUBTITLE","modal_sub_text":"<p>Tell your story<\/p>","url":""}}},"block_order":["heading_NnT3j4","text_WmV6A7","card_NTWq3A","card_UPJaTJ","card_hpjA6m","card_gbywcR","card_J4YxU4","card_Gqgzwt","card_649xEy","card_KTb94T","card_ALjFEP"],"name":"SS - Product ingredients #6","settings":{"content_align":"center","content_align_mobile":"center","content_maxwidth":700,"cards_view":3,"cards_view_mobile":1,"cards_gap":22,"cards_gap_mobile":16,"cards_mt":48,"cards_mt_mobile":36,"cards_limits":6,"card_padding_horizontal":38,"card_padding_horizontal_mobile":4,"card_padding_vertical":44,"card_padding_vertical_mobile":30,"card_radius":0,"card_border_thickness":0,"card_align":"left","card_align_mobile":"left","title_custom":false,"title_font":"poppins_n4","title_size":24,"title_size_mobile":16,"title_height":130,"text_custom":false,"text_font":"poppins_n4","text_size":16,"text_size_mobile":14,"text_height":130,"text_mt":8,"text_mt_mobile":8,"source_custom":false,"source_font":"poppins_n4","source_size":14,"source_size_mobile":12,"source_height":130,"source_mt":48,"source_mt_mobile":40,"plus_icon_size":24,"plus_icon_size_mobile":24,"see_all":"See all","see_less":"See less","see_custom":false,"see_font":"poppins_n4","see_size":14,"see_size_mobile":14,"see_height":130,"slides_per_view":2,"modal_slide_padding_horizontal":56,"modal_slide_padding_horizontal_mobile":24,"modal_slide_padding_vertical":56,"modal_slide_padding_vertical_mobile":24,"modal_slide_radius":0,"modal_slide_border_thickness":0,"modal_slide_align":"left","modal_slide_align_mobile":"left","modal_close_size":16,"modal_close_size_mobile":16,"slide_text_custom":false,"slide_text_font":"poppins_n4","slide_text_size":14,"slide_text_size_mobile":14,"slide_text_height":150,"slide_text_mt":24,"slide_text_mt_mobile":16,"slide_title_custom":false,"slide_title_font":"poppins_n4","slide_title_size":12,"slide_title_size_mobile":12,"slide_title_height":150,"slide_title_mt":32,"slide_title_mt_mobile":24,"slide_sub_text_custom":false,"slide_sub_text_font":"poppins_n4","slide_sub_text_size":14,"slide_sub_text_size_mobile":14,"slide_sub_text_height":130,"slide_sub_text_mt":8,"slide_sub_text_mt_mobile":8,"button":"Learn more","button_custom":false,"button_font":"poppins_n4","button_size":14,"button_size_mobile":14,"button_height":100,"button_padding_vertical":16,"button_padding_vertical_mobile":16,"button_padding_horizontal":24,"button_padding_horizontal_mobile":24,"button_radius":100,"button_border_thickness":1,"button_mt":32,"button_mt_mobile":24,"button_style":"link","pagination_custom":false,"pagination_font":"poppins_n4","pagination_size":14,"pagination_size_mobile":14,"pagination_height":130,"title_color":"#8b1638","text_color":"#121212","source_color":"#121212","plus_icon_color":"#ffffff","plus_icon_bg_color":"#afafaf","card_bg_color":"#f8f8fa","card_border_color":"#121212","see_color":"#121212","slide_text_color":"#121212","slide_title_color":"#a7afc9","slide_sub_text_color":"#121212","modal_close_color":"#121212","modal_slide_bg_color":"#ffffff","modal_slide_border_color":"#121212","button_color":"#121212","button_hover_color":"#121212","button_bg_color":"#f3f3f3","button_bg_hover_color":"#f3f3f3","button_border_color":"#121212","button_border_hover_color":"#121212","pagination_color":"#ffffff","pagination_arrow_color":"#ffffff","modal_overlay_color":"#121212","background_color":"#ffffff","background_gradient":"","border_color":"#121212","margin_top":0,"margin_bottom":0,"margin_horizontal":0,"margin_horizontal_mobile":0,"padding_top":36,"padding_bottom":36,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":1000,"border_thickness":0,"section_radius":0,"lazy":true}},"ss_hero_38_DHcz6K":{"type":"ss-hero-38","blocks":{"heading_DAqQJE":{"type":"heading","settings":{"heading":"<p>What Sets Our Bio-Collagen Mask Apart?<\/p>","heading_custom":false,"heading_font":"josefin_sans_n4","heading_size":26,"heading_size_mobile":24,"heading_height":130,"heading_mt":0,"heading_mt_mobile":0,"heading_color":"#8b1638"}},"text_4Vbrfr":{"type":"text","settings":{"text":"<p>Most sheet masks look the same—but there are <em>critical differences<\/em> that determine how well they actually perform for your skin. Here’s why ours stands out:<\/p>","text_custom":false,"text_font":"josefin_sans_n4","text_size":16,"text_size_mobile":16,"text_height":150,"text_mt":16,"text_mt_mobile":12,"text_color":"#121212"}},"button_nQLmNp":{"type":"button","disabled":true,"settings":{"button":"Shop now","url":"","new_tab":false,"button_style":"outline_arrow","button_custom":false,"button_font":"josefin_sans_n4","button_size":20,"button_size_mobile":18,"button_height":100,"button_padding_horizontal":32,"button_padding_horizontal_mobile":32,"button_padding_vertical":16,"button_padding_vertical_mobile":16,"button_radius":100,"button_border_thickness":1,"button_mt":16,"button_mt_mobile":16,"button_color":"#ffffff","button_hover_color":"#121212","button_bg_color":"#121212","button_bg_hover_color":"#ffffff","button_border_color":"#121212","button_border_hover_color":"#121212"}},"review_G6z9XY":{"type":"review","disabled":true,"settings":{"review_mt":24,"review_mt_mobile":16,"image_size":40,"image_size_mobile":40,"image_radius":50,"image_border_thickness":2,"stars_count":5,"stars_size":18,"stars_size_mobile":16,"review_align":"left","review_align_mobile":"left","stars_text":"Excellent 4.9","review_custom":false,"review_font":"josefin_sans_n4","review_size":16,"review_size_mobile":12,"review_height":130,"review_color":"#121212","stars_color":"#ffffff","stars_bg_color":"#00b67a","stars_bg_half_color":"#dddddd","image_border_color":"#ffffff"}},"bullet_fDftmA":{"type":"bullet","settings":{"text":"<p><strong>Korean-Inspired Skincare Formula<\/strong> - We don’t just add “collagen” for the label—our mask is infused with low molecular weight hydrolyzed collagen and probiotics (Galactomyces ferment filtrate), ingredients that are backed by dermatological research for visible skin hydration, firmness, and resilience. This formula is designed to mimic the results seen in clinical skin studies.<br\/><\/p>"}},"bullet_xWWenL":{"type":"bullet","settings":{"text":"<p><strong>Enhanced Absorption with Hydrogel Technology <\/strong>- Unlike thin cotton masks that dry out quickly, our unique jelly-like hydrogel texture locks in serum and molds to your skin for maximum contact. This ensures deep penetration of active ingredients and prevents quick evaporation—so your skin can drink in every drop of hydration.<\/p>"}},"bullet_9F8GB3":{"type":"bullet","settings":{"text":"<p><strong>Sourced for Purity & Potency<\/strong> - <br\/>Our mask is produced under strict quality standards, formulated without parabens, sulfates, artificial dyes, or harsh preservatives. Only skin-loving ingredients are included to target hydration, plumping, and smoothing.<\/p>"}},"bullet_B8LpEK":{"type":"bullet","settings":{"text":"<p><strong>Inspired by skincare professionals<\/strong> - this mask blends scientific formulation with the experience of thousands of customers, helping skin appear more hydrated, visibly plumper-looking, and radiantly healthy after every use.<\/p>"}}},"block_order":["heading_DAqQJE","text_4Vbrfr","button_nQLmNp","review_G6z9XY","bullet_fDftmA","bullet_xWWenL","bullet_9F8GB3","bullet_B8LpEK"],"name":"SS - Hero #38","settings":{"layout":"content_image","layout_mobile":"content_image","image_width":50,"layout_gap":40,"layout_gap_mobile":20,"content_align":"left","content_align_mobile":"center","content_vertical_align":"center","image":"shopify:\/\/shop_images\/00688525fcc564c81156d04998786ad6.jpg","image_ratio":"square","image_ratio_mobile":"portrait","image_radius":0,"image_border_thickness":0,"bullet_advanced":false,"bullet_border_style":"dashed","bullet_border_thickness":1,"bullets_mt":20,"bullets_mt_mobile":8,"bullet_align":"left","bullet_align_mobile":"left","icon_size":18,"icon_size_mobile":18,"bullet_text_custom":false,"bullet_text_font":"josefin_sans_n4","bullet_text_size":15,"bullet_text_size_mobile":14,"bullet_text_height":150,"features_advanced":false,"features_gap":20,"features_gap_mobile":12,"features_mt":12,"features_mt_mobile":12,"feature_align":"center","feature_align_mobile":"center","feature_gap":6,"feature_gap_mobile":6,"feature_icon_size":26,"feature_icon_size_mobile":20,"feature_text_custom":false,"feature_text_font":"josefin_sans_n4","feature_text_size":14,"feature_text_size_mobile":14,"feature_text_height":150,"feature_icon_color":"#121212","feature_text_color":"#121212","bullet_border_color":"#afafaf","bullet_text_color":"#121212","icon_color":"#ffffff","icon_bg_color":"#121212","image_border_color":"#121212","background_color":"#ffffff","background_gradient":"","border_color":"#121212","margin_top":0,"margin_bottom":0,"margin_horizontal":0,"margin_horizontal_mobile":0,"padding_top":36,"padding_bottom":36,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":1200,"border_thickness":0,"section_radius":0,"lazy":false}},"ss_testimonial_10_MzNXP3":{"type":"ss-testimonial-10","blocks":{"testimonial_84JHMd":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/IMG_2897_73215749-e2db-4b8e-90ae-26c7e0aa08d2.jpg","stars_count":5,"text":"<p>\"I was scared to try anything with collagen because of my acne-prone skin, but this one actually reduced redness and helped my breakouts heal faster.\"<\/p>","author":"- SYMONE GLAZE"}},"testimonial_aYaAie":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/782128dd71acf43e2f4a370f15a304fa.jpg","stars_count":5,"text":"<p>\"My skin looked so tired from work stress, but after using this mask a few times, it felt plumper and smoother. It’s like a reset for my face.\"<\/p>","author":"- ELIF S"}},"testimonial_gGcxAV":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/1722543832__20240731_203542__original.png","stars_count":5,"text":"<p>\"I started noticing smile lines, and this mask really helped soften them. It’s not magic overnight, but my skin feels firmer and more elastic.\"<\/p>","author":"- KIRSTEN C"}},"testimonial_4VyiXR":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/4.jpg","stars_count":5,"text":"<p>\"I barely have time for skincare, but this collagen mask is my go-to before bed. It gives me that refreshed glow even after sleepless nights.\"<\/p>","author":"- VANESSA JOHNSON"}},"testimonial_cmVNpz":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/2-min_4.png","stars_count":5,"text":"<p>\"I barely manage a 5-minute skincare routine. This mask is my cheat code for glowing skin when I don’t have time for 5 different products.\"<\/p>","author":"- KAYA"}}},"block_order":["testimonial_84JHMd","testimonial_aYaAie","testimonial_gGcxAV","testimonial_4VyiXR","testimonial_cmVNpz"],"disabled":true,"settings":{"body_padding_vertical":36,"body_padding_vertical_mobile":10,"body_padding_horizontal":50,"body_padding_horizontal_mobile":12,"body_radius":12,"body_border_thickness":0,"heading":"<p><strong>50,000+ Babes Love Nifora<\/strong><\/p>","heading_custom":false,"heading_font":"josefin_sans_n4","heading_size":26,"heading_size_mobile":22,"heading_height":90,"heading_align":"center","heading_align_mobile":"center","sub_heading":"<p>Here's what some of them have to say about their favorite product<\/p>","sub_heading_custom":false,"sub_heading_font":"josefin_sans_n4","sub_heading_size":18,"sub_heading_size_mobile":14,"sub_heading_height":120,"slider_view":4,"slider_view_mobile":1.7,"slider_gap":36,"slider_gap_mobile":20,"slider_mt":20,"image_radius":12,"image_border_thickness":0,"image_ratio":"square","image_ratio_mobile":"square","stars_size":14,"stars_mt":24,"stars_align":"center","stars_align_mobile":"center","text_custom":false,"text_font":"josefin_sans_n4","text_size":18,"text_size_mobile":14,"text_height":110,"text_mt":12,"text_align":"left","text_align_mobile":"left","author_custom":false,"author_font":"josefin_sans_n4","author_size":14,"author_size_mobile":10,"author_height":130,"author_mt":8,"author_align":"left","author_align_mobile":"left","arrow_size":32,"arrow_size_mobile":32,"arrow_icon_size":40,"arrow_icon_size_mobile":22,"arrow_border_thickness":0,"arrow_show_desktop":true,"arrow_show_mobile":false,"dots_size":12,"dots_size_mobile":9,"dots_mt":19,"dots_show_desktop":false,"dots_show_mobile":true,"body_bg_color":"#ffffff","body_border_color":"#000000","stars_color":"#00b67a","text_color":"#121212","author_color":"#121212","arrow_color":"#756e67","arrow_hover_color":"#ffffff","arrow_bg_color":"#ffffff","arrow_bg_hover_color":"#756e67","arrow_border_color":"#756e67","arrow_border_hover_color":"#756e67","dots_color":"#756e67","heading_color":"#8b1638","sub_heading_color":"#000000","background_color":"#f5f5f5","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":32,"padding_bottom":24,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":true,"content_width":120,"border_thickness":0,"lazy":true}},"ss_comparison_table_4_e43mkf":{"type":"ss-comparison-table-4","blocks":{"item_ffCBDY":{"type":"item","settings":{"row_heading":"Long-Lasting Hydration","first_column":"Yes","second_column":"No","third_column":"","four_column":""}},"item_JcLKKK":{"type":"item","settings":{"row_heading":"Skin-Firming Effect","first_column":"Yes","second_column":"No","third_column":"","four_column":""}},"item_yWg3XW":{"type":"item","settings":{"row_heading":"Visible Results After 1 Use","first_column":"Yes","second_column":"No","third_column":"","four_column":""}},"item_8eKKhA":{"type":"item","settings":{"row_heading":"Gentle on All Skin Types","first_column":"Yes","second_column":"No","third_column":"","four_column":""}}},"block_order":["item_ffCBDY","item_JcLKKK","item_yWg3XW","item_8eKKhA"],"name":"SS - Comparison Table #4","settings":{"heading":"<h2>Why Choose Nifora?<\/h2>","heading_custom":false,"heading_font":"poppins_n4","heading_size":34,"heading_size_mobile":32,"heading_height":130,"heading_align":"center","heading_align_mobile":"center","table_width":80,"table_columns":2,"table_align":"center","table_mt":44,"table_column_active":"1","table_column_active_radius":16,"table_column_active_border_thickness":2,"table_heading_image_size":66,"table_heading_image_size_mobile":40,"first_heading":"NIFORA","second_heading":"OTHERS","third_heading":"","four_heading":"","table_heading_custom":false,"table_heading_font":"assistant_n4","table_heading_size":16,"table_heading_size_mobile":10,"table_heading_height":100,"table_heading_align":"center","table_heading_padding_horizontal":12,"table_heading_padding_horizontal_mobile":4,"table_heading_padding_vertical":10,"table_heading_padding_vertical_mobile":10,"table_row_padding_horizontal":16,"table_row_padding_horizontal_mobile":10,"table_row_padding_vertical":16,"table_row_padding_vertical_mobile":10,"table_row_border_thickness":1,"table_row_heading_image_size":66,"table_row_heading_image_size_mobile":40,"table_row_heading_width_mobile":66,"table_row_heading_custom":false,"table_row_heading_font":"poppins_n4","table_row_heading_size":22,"table_row_heading_size_mobile":16,"table_row_heading_height":130,"table_row_heading_align":"left","table_row_text_custom":false,"table_row_text_font":"poppins_n4","table_row_text_size":20,"table_row_text_size_mobile":16,"table_row_text_height":130,"table_row_text_align":"center","table_row_image_size":52,"table_row_image_size_mobile":40,"buttons_mt":44,"buttons_gap":16,"button":"","button_url":"","button_custom":false,"button_font":"poppins_n4","button_size":22,"button_size_mobile":18,"button_height":100,"button_padding_vertical":20,"button_padding_horizontal":40,"button_radius":6,"button_border_thickness":2,"second_button":"","second_button_url":"","second_button_custom":false,"second_button_font":"poppins_n4","second_button_size":22,"second_button_size_mobile":18,"second_button_height":100,"second_button_padding_vertical":20,"second_button_padding_horizontal":40,"second_button_radius":6,"second_button_border_thickness":2,"table_heading_color":"#8b1638","table_heading_active_color":"#ffffff","table_heading_bg_active_color":"#8b1638","table_column_active_bg_color":"#ffffff","table_column_active_border_color":"#aa1b26","table_row_border_color":"#d3cabc","table_row_heading_color":"#2f1718","table_row_text_color":"#2f1718","table_row_active_text_color":"#aa1b26","button_color":"#a8252e","button_hover_color":"#ffffff","button_bg_color":"","button_bg_hover_color":"#a8252e","button_border_color":"#a8252e","button_border_hover_color":"#a8252e","second_button_color":"#ffffff","second_button_hover_color":"#ffffff","second_button_bg_color":"#a8252e","second_button_bg_hover_color":"#791119","second_button_border_color":"#a8252e","second_button_border_hover_color":"#791119","heading_color":"#2f1718","background_color":"#ffffff","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":36,"padding_bottom":28,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":false,"content_width":120,"border_thickness":0,"lazy":true}},"featured_product_WgwdGD":{"type":"featured-product","blocks":{"title_nJeQ6U":{"type":"title","settings":{"text_size":"h1","title_alignment":"left","uppercase_title":false,"margin_top":0,"margin_bottom":15}},"trustpilot_stars_YxV9aP":{"type":"trustpilot_stars","settings":{"rating":5,"star_color":"#00b67a","bg_star_color":"#c8c8c8","star_symbol_color":"#ffffff","label":"(5000+ Reviews)","size":16,"alignment":"flex-start","scroll_id":"","margin_top":15,"margin_bottom":15}},"price_bTB4rz":{"type":"price","settings":{"layout":"price_first","price_color":"accent-1","compare_price_color":"text","hide_sale_badge":false,"margin_top":15,"margin_bottom":15}},"quantity_selector_3hjnVe":{"type":"quantity_selector","settings":{"full_width_classic":false,"enable_quantity_discounts":false,"style":"normal","headline":"BUNDLE & SAVE","preselected":"option_1","update_prices":false,"enable_variant_selectors":true,"enable_variant_selectors_on_quantity_of_1":false,"hide_pickers_overlay":true,"pickers_label":"","image_width":70,"space_images":true,"color_scheme":"accent-1","option_1_quantity":1,"option_1_badge":"","option_1_label":"Buy [quantity]","option_1_benefit":"","option_1_caption":"You save [amount_saved]","option_1_percentage_off_text":"0","option_1_fixed_amount_off":"0","option_1_price_text":"[price]","option_1_compare_price":"compare_price","option_1_compare_price_text":"[compare_price]","option_2_quantity":2,"option_2_badge":"","option_2_label":"Buy [quantity]","option_2_benefit":"","option_2_caption":"You save [amount_saved]","option_2_percentage_off_text":"0","option_2_fixed_amount_off":"0","option_2_price_text":"[price]","option_2_compare_price":"compare_price","option_2_compare_price_text":"[compare_price]","option_3_quantity":3,"option_3_badge":"","option_3_label":"Buy [quantity]","option_3_benefit":"","option_3_caption":"You save [amount_saved]","option_3_percentage_off_text":"0","option_3_fixed_amount_off":"0","option_3_price_text":"[price]","option_3_compare_price":"compare_price","option_3_compare_price_text":"[compare_price]","option_4_quantity":4,"option_4_badge":"","option_4_label":"Buy [quantity]","option_4_benefit":"","option_4_caption":"You save [amount_saved]","option_4_percentage_off_text":"0","option_4_fixed_amount_off":"0","option_4_price_text":"[price]","option_4_compare_price":"compare_price","option_4_compare_price_text":"[compare_price]","margin_top":15,"margin_bottom":15}},"buy_buttons_GDa3pk":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"skip_cart":false,"uppercase_text":true,"icon_scale":120,"icon_spacing":10,"display_price":false,"enable_custom_color":false,"custom_color":"#dd1d1d","enable_secondary_btn":false,"secondary_btn_label":"Buy It Now","secondary_btn_enable_custom_color":false,"secondary_btn_custom_color":"#dd1d1d","margin_top":24,"margin_bottom":24}},"payment_badges_nDWMt3":{"type":"payment_badges","settings":{"enabled_payment_types":"","margin_top":15,"margin_bottom":15}}},"block_order":["title_nJeQ6U","trustpilot_stars_YxV9aP","price_bTB4rz","quantity_selector_3hjnVe","buy_buttons_GDa3pk","payment_badges_nDWMt3"],"disabled":true,"settings":{"display_id":false,"visibility":"always-display","product":"bio-collagen-mask","color_scheme":"background-1","secondary_background":false,"media_size":"small","constrain_to_viewport":true,"media_fit":"contain","media_position":"left","image_zoom":"lightbox","hide_variants":false,"enable_video_looping":false,"mobile_media_corner_radius":12,"full_media_width":false,"padding_top":36,"padding_bottom":36}},"sp_video_slideshow_JFncM6":{"type":"sp-video-slideshow","blocks":{"video_y4mmDr":{"type":"video","settings":{"video_shopify":"shopify:\/\/files\/videos\/Kopie van SnapInsta.to_AQM7vDvTs_YhCPILHzjQwgvnrG6uw-KNNyl_6k6O80i1avUByr0_YS7_2010EtQye6RoS6jcQ3FXDJb570ysBofLybUhkk8j8u0e9ws.mp4","video_type":"background-chrome"}},"video_XRRHLT":{"type":"video","settings":{"video_shopify":"shopify:\/\/files\/videos\/Kopie van SnapInsta.to_AQO4E7zSe0h75XtQDvcED0FEUftHInXknby4eL3AffUYcHXhvfd5aBqwSPgOvITF8WcieEARhk40FYdWuQvPmDoHOdI_nwkG-eXgCFk.mp4","video_type":"background-chrome"}},"video_mm8QnL":{"type":"video","settings":{"video_shopify":"shopify:\/\/files\/videos\/Kopie van SnapInsta.to_AQP_TcL-48wrfoOoqcbZFDwA0V-Ml8J3NdZnzVGhAbezfQRMEJXjjP0Bdnovzr7PW_L2zd-SqCltekcXDulsuRmFHO96_pskedXmeBY.mp4","video_type":"background-chrome"}}},"block_order":["video_y4mmDr","video_XRRHLT","video_mm8QnL"],"disabled":true,"settings":{"slideshow_height":"small","text_size":"medium"}},"custom_liquid_gyrR9z":{"type":"custom-liquid","disabled":true,"settings":{"display_id":false,"visibility":"always-display","custom_liquid":"<!DOCTYPE html> \n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Responsive Photo Slider<\/title>\n    <style>\n        body {\n            font-family: 'Avenir Next', sans-serif;\n            background-color: #f7f7f7;\n            margin: 0;\n            padding: 0;\n        }\n\n        .slider-container {\n            position: relative;\n            max-width: 1200px;\n            margin: 20px auto;\n            overflow: hidden;\n            border-radius: 15px;\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);\n            background-color: #fff;\n            padding: 10px;\n        }\n\n        .slider {\n            display: flex;\n            will-change: transform;\n            transition: transform 0.4s ease-out;\n        }\n\n        .slide {\n            min-width: 70%;\n            box-sizing: border-box;\n            margin: 0 10px;\n            position: relative;\n            transition: transform 0.5s ease;\n        }\n\n        .slide img {\n            width: 100%;\n            height: auto;\n            border-radius: 10px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n        }\n\n        .headline {\n            font-size: 1.2rem;\n            font-weight: 700;\n            text-align: center;\n            color: #3a3a3a;\n            margin: 20px 0 10px 0;\n        }\n\n        .subheadline {\n            font-size: 1rem;\n            text-align: center;\n            color: #666;\n            margin-bottom: 30px;\n            max-width: 80%;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .before-after-header {\n            font-size: 1.3rem; \/* Slightly smaller than the main headline *\/\n            font-weight: 600;\n            text-align: center;\n            color: #8b1638; \/* Warm Nude *\/\n            margin-bottom: 10px;\n        }\n\n        \/* Desktop View Adjustments *\/\n        @media (min-width: 768px) {\n            .slide {\n                min-width: 30%;\n            }\n        }\n\n        @media (min-width: 1024px) {\n            .slider-container {\n                max-width: 1400px;\n            }\n        }\n\n        \/* Hover effect for slides *\/\n        .slide:hover img {\n            transform: scale(1.05);\n        }\n\n        \/* Fancy text shadows *\/\n        .headline, .subheadline {\n            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"headline\">Get a Healthier Skin ✨<\/div>\n    <div class=\"subheadline\">From dull and dry to glowy, hydrated and smooth! Our mask provides a glass-like finish, refines skin texture and is suitable for even the most sensitive skin. Perfect for an instant radiant look! 💖<\/div>\n\n    <!-- New Before & After Header -->\n    <div class=\"before-after-header\">Before & After<\/div>\n\n    <div class=\"slider-container\">\n        <div class=\"slider\">\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/12_0dc3cdd5-a145-4b73-94c9-c2e3757ef30a.png?v=1748944785\" alt=\"Image 1\">\n            <\/div>\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/32_df2e5825-dd39-4f21-b55d-bd7beae3dc54.png?v=1748874386\" alt=\"Image 2\">\n            <\/div>\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/33.png?v=1748874385\" alt=\"Image 3\">\n            <\/div>\n            <div class=\"slide\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0798\/4028\/0923\/files\/34_75a854e0-a83a-4c19-bbae-acf02c786216.png?v=1748874385\" alt=\"Image 4\">\n            <\/div>\n        <\/div>\n    <\/div>\n\n    <script>\n        (function() {\n            const slider = document.querySelector('.slider');\n            const slides = document.querySelectorAll('.slide');\n            const slideWidth = slides[0].offsetWidth + 20; \/\/ Includes margin\n            const totalSlides = slides.length;\n\n            let isDragging = false;\n            let startX = 0;\n            let currentTranslate = 0;\n            let previousTranslate = 0;\n            let velocity = 0;\n\n            const setSliderPosition = () => {\n                slider.style.transform = `translateX(${currentTranslate}px)`;\n            };\n\n            const startDragging = (x) => {\n                isDragging = true;\n                startX = x;\n                slider.style.transition = 'none';\n            };\n\n            const drag = (x) => {\n                if (!isDragging) return;\n                const delta = x - startX;\n                currentTranslate = previousTranslate + delta;\n                setSliderPosition();\n                velocity = delta;\n            };\n\n            const stopDragging = () => {\n                if (!isDragging) return;\n                isDragging = false;\n\n                const momentumTranslate = currentTranslate + velocity * 3;\n                const maxTranslate = 0;\n                const minTranslate = -(slideWidth * (totalSlides - 1));\n\n                currentTranslate = Math.min(maxTranslate, Math.max(minTranslate, momentumTranslate));\n                previousTranslate = currentTranslate;\n\n                const index = Math.round(-currentTranslate \/ slideWidth);\n                currentTranslate = -index * slideWidth;\n                previousTranslate = currentTranslate;\n\n                slider.style.transition = 'transform 0.5s ease-out';\n                setSliderPosition();\n            };\n\n            slider.addEventListener('mousedown', (e) => startDragging(e.clientX));\n            slider.addEventListener('mousemove', (e) => drag(e.clientX));\n            slider.addEventListener('mouseup', stopDragging);\n            slider.addEventListener('mouseleave', stopDragging);\n            slider.addEventListener('touchstart', (e) => startDragging(e.touches[0].clientX));\n            slider.addEventListener('touchmove', (e) => drag(e.touches[0].clientX));\n            slider.addEventListener('touchend', stopDragging);\n\n            document.addEventListener('dragstart', (e) => e.preventDefault());\n        })();\n    <\/script>\n<\/body>\n<\/html>","color_scheme":"background-1","padding_top":40,"padding_bottom":52}},"0f1fc9e4-bc4c-4052-9747-62d1f8472caa":{"type":"results","blocks":{"template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1":{"type":"row","settings":{"percentage":90,"row_text":"<p>Experienced smoother texture and more hydrated skin with reduced dryness within two weeks.<\/p>"}},"template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2":{"type":"row","settings":{"percentage":90,"row_text":"<p>Saw refined pores, fewer fine lines, and a radiant glow — especially around the eyes and forehead.<\/p>"}},"template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3":{"type":"row","settings":{"percentage":90,"row_text":"<p>Noticed brighter and more even-looking skin after just one use.<\/p>"}}},"block_order":["template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1","template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2","template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3"],"disabled":true,"settings":{"display_id":false,"visibility":"always-display","title":"<strong>Science Backed <\/strong>Results","title_highlight_color":"#8b1638","heading_size":"h1","text":"<p>Each mask is rigorously tested to meet dermatological standards, ensuring a safe and effective skincare solution.<\/p>","color_scheme":"background-1","layout":"results_second","results_headline":"<strong>Results<\/strong>","results_title_highlight_color":"#8b1638","results_headline_size":"h2","results_text":"","results_headline_alignment":"left","caption":"<p><em>*These results are based on feedback from customers who used the mask weekly as directed.<\/em><\/p>","button_label":"","link":"","button_style_secondary":false,"atc_button_label":"","atc_product":"","atc_skip_cart":false,"padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_accent":"#8b1638","custom_colors_solid_button_background":"#8b1638","custom_colors_solid_button_text":"#ffffff","custom_colors_outline_button":"#dd1d1d"}},"featured_product_NqJJpX":{"type":"featured-product","blocks":{"title_KPUhBa":{"type":"title","settings":{"text_size":"h1","title_alignment":"left","uppercase_title":false,"margin_top":0,"margin_bottom":15}},"price_Rej4Bc":{"type":"price","settings":{"layout":"price_first","price_color":"accent-1","compare_price_color":"text","hide_sale_badge":false,"margin_top":15,"margin_bottom":15}},"text_id67WU":{"type":"text","settings":{"mobile_text_size":14,"desktop_text_size":16,"alignment":"left","text_color":"#121212","text_1":"<strong>Collagen Boost<\/strong> for your skin","text_2":"","text_3":"","icon_scale":120,"icon_color":"#121212","icon_1":"check_circle","filled_icon_1":false,"icon_2":"check_circle","filled_icon_2":false,"icon_3":"check_circle","filled_icon_3":false,"width":"100%","direction":"horizontal","column_gap":2,"enable_bg":false,"bg_color":"#f3f3f3","corner_radius":40,"padding":2,"border_size":0,"border_color":"#b7b7b7","margin_top":9,"margin_bottom":6}},"text_UNeHVB":{"type":"text","settings":{"mobile_text_size":14,"desktop_text_size":16,"alignment":"left","text_color":"#121212","text_1":"<strong>Instant glow <\/strong>after 1 mask a week","text_2":"","text_3":"","icon_scale":120,"icon_color":"#121212","icon_1":"check_circle","filled_icon_1":false,"icon_2":"check_circle","filled_icon_2":false,"icon_3":"check_circle","filled_icon_3":false,"width":"100%","direction":"horizontal","column_gap":3,"enable_bg":false,"bg_color":"#f3f3f3","corner_radius":40,"padding":3,"border_size":0,"border_color":"#b7b7b7","margin_top":3,"margin_bottom":6}},"text_UCEpqM":{"type":"text","settings":{"mobile_text_size":14,"desktop_text_size":16,"alignment":"left","text_color":"#121212","text_1":"Helps <strong>reducing acne<\/strong> and bad skin","text_2":"","text_3":"","icon_scale":120,"icon_color":"#121212","icon_1":"check_circle","filled_icon_1":false,"icon_2":"check_circle","filled_icon_2":false,"icon_3":"check_circle","filled_icon_3":false,"width":"100%","direction":"horizontal","column_gap":3,"enable_bg":false,"bg_color":"#f3f3f3","corner_radius":40,"padding":3,"border_size":0,"border_color":"#b7b7b7","margin_top":0,"margin_bottom":3}},"text_WQC8Kw":{"type":"text","settings":{"mobile_text_size":14,"desktop_text_size":16,"alignment":"left","text_color":"#121212","text_1":"<strong>Smooths wrinkles<\/strong> & fine lines in days","text_2":"","text_3":"","icon_scale":120,"icon_color":"#121212","icon_1":"check_circle","filled_icon_1":false,"icon_2":"check_circle","filled_icon_2":false,"icon_3":"check_circle","filled_icon_3":false,"width":"100%","direction":"horizontal","column_gap":3,"enable_bg":false,"bg_color":"#f3f3f3","corner_radius":40,"padding":3,"border_size":0,"border_color":"#b7b7b7","margin_top":0,"margin_bottom":3}},"text_GMdwaW":{"type":"text","settings":{"mobile_text_size":14,"desktop_text_size":16,"alignment":"left","text_color":"#121212","text_1":"<strong>Trusted Korean Beauty Formula<\/strong>","text_2":"","text_3":"","icon_scale":120,"icon_color":"#121212","icon_1":"check_circle","filled_icon_1":false,"icon_2":"check_circle","filled_icon_2":false,"icon_3":"check_circle","filled_icon_3":false,"width":"100%","direction":"horizontal","column_gap":3,"enable_bg":false,"bg_color":"#f3f3f3","corner_radius":40,"padding":3,"border_size":0,"border_color":"#b7b7b7","margin_top":3,"margin_bottom":15}},"custom_liquid_VhjKgp":{"type":"custom_liquid","settings":{"custom_liquid":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <style>\n    .custom-shipping-container {\n      display: flex;\n      padding: 6px 16px;\n      justify-content: space-between;\n      align-items: center;\n      background-color: #f6f6f6;\n      border-radius: 20px;\n      margin-top: 10px;\n    }\n\n    .custom-shipping-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n\n    .text-block-shipping {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-date {\n      font-weight: bold;\n    }\n\n    .shipping-worldwide {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-worldwide .bold {\n      font-weight: bold;\n    }\n\n    .green-circle {\n      animation: fade 1s ease-in-out infinite;\n    }\n\n    @keyframes fade {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.5; }\n    }\n\n    .flags-container {\n      display: flex;\n      gap: 6px;\n      align-items: center;\n    }\n    \n    .custom-icon {\n      width: 16px;\n      height: 12px;\n    }\n  <\/style>\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      function getNextWeekday(date) {\n        var day = date.getDay();\n        var daysToAdd = (day === 5) ? 1 : (day === 6) ? 2 : 1;\n        return new Date(date.setDate(date.getDate() + daysToAdd));\n      }\n\n      var today = new Date();\n      var shipDate = getNextWeekday(today);\n      \n      \/\/ Format date to have short month (e.g., \"Thu, Feb 22\")\n      var options = { weekday: 'short', month: 'short', day: 'numeric' };\n      var formattedDate = shipDate.toLocaleDateString('en-US', options);\n      document.getElementById('shipping-date').textContent = formattedDate;\n\n      \/\/ Fetch country data using GeoJS API\n      fetch('https:\/\/get.geojs.io\/v1\/ip\/geo.json')\n        .then(response => response.json())\n        .then(data => {\n          console.log(\"Geolocation API Response:\", data); \/\/ Debugging log\n\n          if (!data || !data.country_code) {\n            throw new Error(\"Invalid data from API\");\n          }\n          \n          var countryCode = data.country_code.toUpperCase(); \/\/ Get country code (e.g., \"GB\", \"US\")\n          var flagUrl = `https:\/\/flagcdn.com\/w40\/${countryCode.toLowerCase()}.png`;\n\n          \/\/ Set flag and country code\n          document.getElementById('country-flag').src = flagUrl;\n          document.getElementById('country-flag').alt = countryCode + \" Flag\";\n          document.getElementById('country-flag').style.display = \"inline\";\n          document.getElementById('country-text').innerHTML = `Fast <span class=\"bold\">${countryCode}<\/span> Shipping`;\n        })\n        .catch(error => {\n          console.error('Error fetching the IP information:', error);\n          document.getElementById('country-flag').style.display = \"none\"; \n          document.getElementById('country-text').innerHTML = \"Free Worldwide Shipping\";\n        });\n    });\n  <\/script>\n<\/head>\n<body>\n  <div class=\"custom-shipping-container\">\n    <div class=\"custom-shipping-item\">\n      <svg class=\"green-circle\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n        <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"\/>\n      <\/svg>\n      <div class=\"text-block-shipping\">Ships by <span id=\"shipping-date\" class=\"shipping-date\"><\/span><\/div>\n    <\/div>\n    <div class=\"custom-shipping-item flags-container\">\n      <img id=\"country-flag\" class=\"custom-icon\" src=\"\" alt=\"Country Flag\" style=\"display: none;\">\n      <div id=\"country-text\" class=\"shipping-worldwide\">Loading...<\/div>\n    <\/div>\n  <\/div>\n<\/body>\n<\/html>"}},"kaching_bundles_app_block_R67QfB":{"type":"shopify:\/\/apps\/kaching-bundles\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8","settings":{"product":"{{section.settings.product}}","manual_deal_block_id":""}},"variant_picker_BkbN79":{"type":"variant_picker","settings":{"picker_types":"pills, pills, pills","custom_labels":"","disable_prepend":false,"swatches_size":"medium","swatches_border_radius":100,"swatches_custom_colors":"disabled","swatches_custom_colors_list":"#000000, #FFFFFF","breaks_style":"normal","breaks_headline":"BUNDLE & SAVE","breaks_color_scheme":"accent-1","breaks_badges":"[empty], Most popular, [empty]","breaks_displayed_images":"variant_images","breaks_custom_images":"","breaks_image_width":70,"breaks_space_images":true,"breaks_labels":"[name], [name], [name]","breaks_benefits":"[empty], Free Shipping, Free Shipping","breaks_captions":"Variant 1 caption, Variant 2 caption, Variant 3 caption","breaks_price_texts":"[price], [price], [price]","breaks_compare_price_texts":"[compare_price], [compare_price], [compare_price]","margin_top":15,"margin_bottom":15}},"quantity_selector_QR7MHy":{"type":"quantity_selector","disabled":true,"settings":{"full_width_classic":false,"enable_quantity_discounts":false,"style":"normal","headline":"BUNDLE & SAVE","preselected":"option_1","update_prices":false,"enable_variant_selectors":true,"enable_variant_selectors_on_quantity_of_1":false,"hide_pickers_overlay":true,"pickers_label":"","image_width":70,"space_images":true,"color_scheme":"accent-1","option_1_quantity":1,"option_1_badge":"","option_1_label":"Buy [quantity]","option_1_benefit":"","option_1_caption":"You save [amount_saved]","option_1_percentage_off_text":"0","option_1_fixed_amount_off":"0","option_1_price_text":"[price]","option_1_compare_price":"compare_price","option_1_compare_price_text":"[compare_price]","option_2_quantity":2,"option_2_badge":"","option_2_label":"Buy [quantity]","option_2_benefit":"","option_2_caption":"You save [amount_saved]","option_2_percentage_off_text":"0","option_2_fixed_amount_off":"0","option_2_price_text":"[price]","option_2_compare_price":"compare_price","option_2_compare_price_text":"[compare_price]","option_3_quantity":3,"option_3_badge":"","option_3_label":"Buy [quantity]","option_3_benefit":"","option_3_caption":"You save [amount_saved]","option_3_percentage_off_text":"0","option_3_fixed_amount_off":"0","option_3_price_text":"[price]","option_3_compare_price":"compare_price","option_3_compare_price_text":"[compare_price]","option_4_quantity":4,"option_4_badge":"","option_4_label":"Buy [quantity]","option_4_benefit":"","option_4_caption":"You save [amount_saved]","option_4_percentage_off_text":"0","option_4_fixed_amount_off":"0","option_4_price_text":"[price]","option_4_compare_price":"compare_price","option_4_compare_price_text":"[compare_price]","margin_top":15,"margin_bottom":15}},"buy_buttons_ECaXXG":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"skip_cart":false,"uppercase_text":true,"icon_scale":120,"icon_spacing":10,"display_price":false,"enable_custom_color":false,"custom_color":"#dd1d1d","enable_secondary_btn":false,"secondary_btn_label":"Buy It Now","secondary_btn_enable_custom_color":false,"secondary_btn_custom_color":"#dd1d1d","margin_top":24,"margin_bottom":24}}},"block_order":["title_KPUhBa","price_Rej4Bc","text_id67WU","text_UNeHVB","text_UCEpqM","text_WQC8Kw","text_GMdwaW","custom_liquid_VhjKgp","kaching_bundles_app_block_R67QfB","variant_picker_BkbN79","quantity_selector_QR7MHy","buy_buttons_ECaXXG"],"name":"t:sections.featured-product.presets.name","settings":{"display_id":false,"visibility":"always-display","product":"bio-collagen-mask","color_scheme":"background-1","secondary_background":false,"media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","media_position":"left","image_zoom":"none","hide_variants":false,"enable_video_looping":false,"mobile_media_corner_radius":6,"full_media_width":false,"padding_top":16,"padding_bottom":24}},"ss_simple_faq_8Qnki9":{"type":"ss-simple-faq","blocks":{"text_AtVHYy":{"type":"text","settings":{"question":"How do I use the Mask?","answer":"<p>🧴 <strong>Evening Routine:<\/strong> Cleanse and tone your face, ensuring your skin is free from oil and creams.<\/p><p>🎭 <strong>Application:<\/strong> Start with the bottom piece, followed by the top. Gently press for optimal adherence. <em>Pro tip:<\/em> Tilt your head back for a perfect fit.<\/p><p>⏳ <strong>Duration:<\/strong><\/p><p><strong>Express Glow:<\/strong> 1-2 hours<\/p><p><strong>Maximum Results:<\/strong> Leave it on overnight (ensure it’s fully dry to prevent shifting).<\/p><p>💖 <strong>The Reveal:<\/strong> Gently remove the mask and pat the remaining essence into your skin. <em>Pro tip:<\/em> Use excess serum on your neck and décolleté.<\/p>"}},"text_HWmgj8":{"type":"text","settings":{"question":"How many masks come in a pack?","answer":"<p>Each pack comes with 4 masks. Each mask is single use. We recommend starting with 2 masks per week for a month in order to get your skin glowing fast and rejuvenated. After the first month, you can use one mask per week to maintain a healthy skin.<\/p>"}},"text_46gHgt":{"type":"text","settings":{"question":"What ingredients are in the mask?","answer":"<p>Water, glycerin, propylene glycol, betaine, sodium carrageenan, polyurethane-35, glucomannan, 1,2-hexanediol, hydroxyacetophenone, butylene glycol, hydroxyethylcellulose, pentylene glycol, dipotassium glycyrrhizate, panthenol, potassium chloride, allantoin, tocopheryl acetate (vitamin E), niacinamide (vitamin B3), hydrolyzed collagen, hydrolyzed sodium hyaluronate, sodium hyaluronate, hydroxyphenyl propamidobenzoic acid, Glycyrrhiza Uralensis (licorice) root extract, Tremella Fuciformis (snow mushroom) extract, fructose, Centella Asiatica extract, phosphatidylcholine, phenoxyethanol, ceramide NP, copper tripeptide-1, beta-sitosterol, beta-glucan, sodium stearoyl glutamate, ethylhexylglycerin, caprylhydroxamic acid, acetyl hexapeptide-8, palmitoyl tripeptide-5.<\/p>"}},"text_GPaJjh":{"type":"text","settings":{"question":"60-Day Money back-guarantee?","answer":"<p>Yes! We stand behind the quality of our products. If you’re not satisfied with your purchase, you can request a return within 60 days of receiving your order. Simply contact our support team, and we’ll guide you through the process.<\/p>"}},"text_HXmWN9":{"type":"text","disabled":true,"settings":{"question":"Question text","answer":"<p>Answer richtext<\/p>"}},"text_beV4my":{"type":"text","disabled":true,"settings":{"question":"Question text","answer":"<p>Answer richtext<\/p>"}},"text_tRAGe9":{"type":"text","settings":{"question":"What are the delivery times?","answer":"<p><strong>Processing Time: <\/strong>Once your order is placed, please allow 1 business day for us to process and prepare your order for shipment.<br\/><br\/><strong>Shipping Time: <\/strong>After your order is dispatched, it will typically take 3-5 business days to reach you, depending on your location.<br\/><br\/><strong>Tracking Information: <\/strong>Once your order has been shipped, you will receive an email containing your tracking number. You can use this to track your package and stay updated on its delivery status.<\/p>"}}},"block_order":["text_AtVHYy","text_HWmgj8","text_46gHgt","text_GPaJjh","text_HXmWN9","text_beV4my","text_tRAGe9"],"settings":{"heading":"Frequently Asked Questions","icon_color":"#ffffff","hover_color":"#efefef","question_color":"#ffffff","background_color":"#8b1638","answer_color":"#121212","answer_bg_color":"#ffffff","questions-font-size":1.5}},"ee8d9ca6-4a41-401f-83a3-37e138a112b9":{"type":"contact-form","settings":{"display_id":false,"visibility":"always-display","title":"Contact form","title_highlight_color":"#6d388b","heading_size":"h1","button_full_width":true,"color_scheme":"background-1","padding_top":36,"padding_bottom":36,"custom_colors_background":"#ffffff","custom_gradient_background":"","custom_colors_text":"#2e2a39","custom_colors_solid_button_background":"#dd1d1d","custom_colors_solid_button_text":"#ffffff"}}},"order":["image_banner_ELV3Jx","ss_hero_29_64ify6","hero_new_VAtAwq","cfca4268-6358-426c-98ab-d292aeef11e5","section_divider_nNjq9y","featured_collection_WN6a8U","ss_product_ingredients_6_ypJenR","ss_hero_38_DHcz6K","ss_testimonial_10_MzNXP3","ss_comparison_table_4_e43mkf","featured_product_WgwdGD","sp_video_slideshow_JFncM6","custom_liquid_gyrR9z","0f1fc9e4-bc4c-4052-9747-62d1f8472caa","featured_product_NqJJpX","ss_simple_faq_8Qnki9","ee8d9ca6-4a41-401f-83a3-37e138a112b9"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_ELV3Jx": {
+      "type": "image-banner",
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/Black_Friday_Desktop_8e023d34-9c30-42ef-9a2a-af9e2952dac6.jpg",
+        "image_1_visibility": "always-display",
+        "image_2_visibility": "always-display",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "url": "shopify://collections/all",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "transparent_container_color": "white",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ss_hero_29_64ify6": {
+      "type": "ss-hero-29",
+      "blocks": {
+        "review_PWd68A": {
+          "type": "review",
+          "settings": {
+            "stars_count": 5,
+            "stars_size": 18,
+            "stars_size_mobile": 14,
+            "stars_text": "<p><strong>40,000+</strong> Happy Customers</p>",
+            "review_custom": false,
+            "review_font": "poppins_n4",
+            "review_size": 16,
+            "review_size_mobile": 11,
+            "review_height": 130,
+            "review_mt": 0,
+            "review_mt_mobile": 0,
+            "review_color": "#ffffff",
+            "review_accent_color": "#ffffff",
+            "stars_color": "#ffffff",
+            "stars_bg_color": "#00b67a",
+            "stars_bg_half_color": "#dddddd"
+          }
+        },
+        "text_kB9fd4": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 18,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 52,
+            "text_mt_mobile": 34,
+            "text_color": "#ffffff"
+          }
+        },
+        "heading_CKthrC": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>EASTER SALE</h1>",
+            "heading_custom": false,
+            "heading_font": "poppins_n7",
+            "heading_size": 58,
+            "heading_size_mobile": 30,
+            "heading_height": 100,
+            "heading_mt": 20,
+            "heading_mt_mobile": 16,
+            "heading_color": "#ffffff",
+            "heading_accent_color": "#ffffff"
+          }
+        },
+        "text_aniJqJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>UP TO 75% OFF SITEWIDE </strong></p><p><strong>+ SPECIAL BUNDLE</strong></p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 26,
+            "text_size_mobile": 15,
+            "text_height": 120,
+            "text_mt": 28,
+            "text_mt_mobile": 26,
+            "text_color": "#ffffff"
+          }
+        },
+        "button_6HnPa8": {
+          "type": "button",
+          "settings": {
+            "button": "SHOP NOW",
+            "url": "shopify://collections/shop-all",
+            "button_custom": false,
+            "button_font": "poppins_n7",
+            "button_size": 21,
+            "button_size_mobile": 15,
+            "button_height": 100,
+            "button_padding_horizontal": 32,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 18,
+            "button_padding_vertical_mobile": 18,
+            "button_radius": 8,
+            "button_border_thickness": 1,
+            "button_mt": 48,
+            "button_mt_mobile": 58,
+            "button_style": "non_outline",
+            "button_color": "#ffffff",
+            "button_hover_color": "#121212",
+            "button_bg_color": "#8b1638",
+            "button_bg_hover_color": "#ffffff",
+            "button_border_color": "#8b1638",
+            "button_border_hover_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "review_PWd68A",
+        "text_kB9fd4",
+        "heading_CKthrC",
+        "text_aniJqJ",
+        "button_6HnPa8"
+      ],
+      "disabled": true,
+      "name": "SS - Hero #29",
+      "settings": {
+        "layout_height": "fixed_height",
+        "layout_fixed_height": 750,
+        "layout_fixed_height_mobile": 400,
+        "layout_padding_horizontal": 24,
+        "layout_padding_horizontal_mobile": 16,
+        "layout_padding_vertical": 0,
+        "layout_padding_vertical_mobile": 20,
+        "layout_radius": 0,
+        "bg_image": "shopify://shop_images/Black_Friday_Mobile_4.png",
+        "bg_image_mobile": "shopify://shop_images/Mobile_13.png",
+        "bg_image_overlay": 0,
+        "content_max_width": 72,
+        "content_align": "left",
+        "content_align_mobile": "center",
+        "content_vertical_align": "center",
+        "content_vertical_align_mobile": "center",
+        "features_gap": 16,
+        "features_gap_mobile": 12,
+        "features_mt": -100,
+        "features_mt_mobile": -72,
+        "feature_padding_horizontal": 16,
+        "feature_padding_horizontal_mobile": 14,
+        "feature_padding_vertical": 16,
+        "feature_padding_vertical_mobile": 14,
+        "feature_radius": 10,
+        "feature_border_thickness": 0,
+        "feature_align": "left",
+        "feature_align_mobile": "left",
+        "feature_shadow": true,
+        "feature_title_custom": false,
+        "feature_title_font": "josefin_sans_n4",
+        "feature_title_size": 24,
+        "feature_title_size_mobile": 20,
+        "feature_title_height": 130,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 15,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 150,
+        "feature_text_mt": 12,
+        "feature_text_mt_mobile": 8,
+        "feature_title_color": "#121212",
+        "feature_text_color": "#707070",
+        "feature_bg_color": "#ffffff",
+        "feature_border_color": "#121212",
+        "bg_image_overlay_color": "#121212",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": false
+      }
+    },
+    "hero_new_VAtAwq": {
+      "type": "hero-new",
+      "name": "Hero Banner V2",
+      "settings": {
+        "desktop_banner_image": "shopify://shop_images/ee324cc0115c7ec7d707756780f7685599c7096b.jpg",
+        "mobile_banner_image": "shopify://shop_images/ee324cc0115c7ec7d707756780f7685599c7096b_1.jpg",
+        "show_ratings": true,
+        "ratings_text": "<p>50,000+ Happy Customers</p>",
+        "ratings_text_color": "#121212",
+        "header_text": "<p>Summer Sale</p>",
+        "header_color": "#000",
+        "header_text_size": 75,
+        "em_header_text_size": 75,
+        "strong_header_text_size": 75,
+        "bottom_header_text": "<p>Korean-inspired collagen masks that deliver visible results after just one use.</p>",
+        "show_line": true,
+        "subheader_text": "<p>UP TO 75% OFF SITEWIDE</p>",
+        "subheader_color": "#000",
+        "show_button": true,
+        "button_text": "<p>Shop Now</p>",
+        "button_text_color": "#ffffff",
+        "button_color": "#8B1638",
+        "button_link": "shopify://collections/shop-all",
+        "show_tags": false
+      }
+    },
+    "cfca4268-6358-426c-98ab-d292aeef11e5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Black_Friday_Mobile_4.png",
+            "mobile_image": "shopify://shop_images/Mobile_11.png",
+            "image_overlay_opacity": 0,
+            "heading": "BLACK FRIDAY SALE",
+            "title_highlight_color": "#8b1638",
+            "heading_size": "h1",
+            "subheading": "Up to 80% OFF Sitewide",
+            "button_label": "Shop now",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "atc_button_label": "",
+            "atc_product": "",
+            "atc_skip_cart": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "color_scheme": "background-1",
+            "transparent_container_color": "black",
+            "text_alignment_mobile": "center",
+            "custom_colors_background": "#8b1638",
+            "custom_gradient_background": "radial-gradient(rgba(137, 143, 239, 1) 3%, rgba(120, 196, 245, 1) 100%)",
+            "custom_colors_text": "#f3f3f3",
+            "custom_colors_solid_button_background": "#8b1638",
+            "custom_colors_solid_button_text": "#8b1638",
+            "custom_colors_outline_button": "#dd1d1d"
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "visibility": "always-display",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "desktop_pagination_position": "over",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "mobile_pagination_position": "under",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "section_divider_nNjq9y": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "visibility": "always-display",
+        "shape": "diagonal_1",
+        "flip_horizontal": false,
+        "flip_vertical": false,
+        "shape_color": "accent-1",
+        "custom_shape_color": "#dd1d1d",
+        "background_color": "background-1",
+        "custom_background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_WN6a8U": {
+      "type": "featured-collection",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>Bestsellers</strong>",
+        "title_highlight_color": "#8b1638",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "color_scheme": "background-1",
+        "collection": "shop-all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "stretch_cards": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "cards_color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "badges": "regular",
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 28,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#8b1638"
+      }
+    },
+    "ss_product_ingredients_6_ypJenR": {
+      "type": "ss-product-ingredients-6",
+      "blocks": {
+        "heading_NnT3j4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Every Ingredient Carefully Chosen</strong></p>",
+            "heading_custom": false,
+            "heading_font": "poppins_n7",
+            "heading_size": 36,
+            "heading_size_mobile": 24,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#8b1638"
+          }
+        },
+        "text_WmV6A7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each ingredient in our Bio-Collagen Mask is <strong>thoughtfully selected and supported by science</strong>—not hype. We use no harsh fillers or hidden additives—just a clean, transparent formula formulated with well-researched ingredients like low-molecular collagen, hyaluronic acid, niacinamide, and more for visible, skin-loving results.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 13,
+            "text_size_mobile": 13,
+            "text_height": 130,
+            "text_mt": 4,
+            "text_mt_mobile": 12,
+            "text_color": "#121212"
+          }
+        },
+        "card_NTWq3A": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Collagen-ing.png",
+            "title": "Hydrolyzed Collagen",
+            "text": "<p>Deep Absorption</p>",
+            "source": "",
+            "modal_text": "<p><strong>Our Bio-Collagen Mask uses fish collagen</strong> — a type of animal collagen extracted from the skin, scales, and gills of fish. It is widely used in food, health care products, and cosmetics due to its excellent absorption and skin-rejuvenating properties. <strong>It helps boost firmness and elasticity</strong>, enhances hydration by locking in moisture, and <strong>supports skin repair</strong>—visibly reducing the appearance of fine lines and <strong>promoting a smoother, plumper complexion</strong>.<br/></p>",
+            "modal_subtitle": "",
+            "modal_sub_text": "",
+            "url": ""
+          }
+        },
+        "card_UPJaTJ": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Hyaluronix.png",
+            "title": "Hyaluronic Acid",
+            "text": "<p>Boosts Skin Hydration</p>",
+            "source": "",
+            "modal_text": "<p><strong>Hyaluronic acid </strong>is a moisture-binding ingredient that <strong>deeply hydrates the skin</strong>, helping it appear plump, smooth, and supple. It holds up to 1,000 times its weight in water,<strong> supporting skin elasticity</strong> and <strong>reducing the look of fine lines</strong>. In the Bio-Collagen Mask, it enhances absorption and boosts the mask’s firming and rejuvenating effects.</p>",
+            "modal_subtitle": "",
+            "modal_sub_text": "",
+            "url": ""
+          }
+        },
+        "card_hpjA6m": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Vitamin_E.png",
+            "title": "Vitamin E",
+            "text": "<p>Skin Repair</p>",
+            "source": "",
+            "modal_text": "<p><strong>Vitamin E </strong>is a powerful <strong>antioxidant</strong> that helps protect the skin from free radical damage and environmental stressors. It <strong>supports skin repair</strong>, <strong>soothes irritation</strong>, and <strong>strengthens the skin barrier</strong>. It works to nourish and protect the skin while enhancing moisture retention and promoting a smoother, healthier complexion.</p>",
+            "modal_subtitle": "",
+            "modal_sub_text": "",
+            "url": ""
+          }
+        },
+        "card_gbywcR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Niacinamide.png",
+            "title": "Niacinamide",
+            "text": "<p>Brightening Agent</p>",
+            "source": "",
+            "modal_text": "<p><strong>Niacinamide </strong>is an ingredient that helps <strong>brighten skin tone</strong>, <strong>reduce the appearance of pores</strong>, and <strong>improve skin texture</strong>. It also strengthens the skin barrier, regulates oil production, and soothes inflammation—making it ideal for sensitive or aging skin. In the Bio-Collagen Mask, it enhances the overall <strong>clarity, smoothness, and resilience</strong> of the skin.</p>",
+            "modal_subtitle": "",
+            "modal_sub_text": "",
+            "url": ""
+          }
+        },
+        "card_J4YxU4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Glycerin.png",
+            "title": "Glycerin",
+            "text": "<p>Moisture Lock</p>",
+            "source": "",
+            "modal_text": "<p><strong>Glycerin </strong>is a powerful humectant that draws moisture into the skin and <strong>helps maintain hydration levels</strong>. It works to soften rough patches, improve skin elasticity, and support the skin’s natural barrier. In the Bio-Collagen Mask, it helps lock in moisture,<strong> keeping the skin plump</strong>, smooth, and comfortable during and after use.</p>",
+            "modal_subtitle": "",
+            "modal_sub_text": "",
+            "url": ""
+          }
+        },
+        "card_Gqgzwt": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Galactomyces.png",
+            "title": "Galactomyces",
+            "text": "<p>Radiance Booster</p>",
+            "source": "",
+            "modal_text": "<p><strong>Galactomyces</strong> is a fermented yeast extract rich in vitamins, amino acids, and antioxidants that <strong>help nourish and revitalize the skin</strong>. It works to improve skin clarity, <strong>refine pores</strong>, and balance sebum production. It <strong>enhances radiance</strong>, <strong>smooths texture</strong>, and supports a brighter, more even complexion.<br/></p>",
+            "modal_subtitle": "",
+            "modal_sub_text": "",
+            "url": ""
+          }
+        },
+        "card_649xEy": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Title",
+            "text": "<p>Tell your story</p>",
+            "source": "Source",
+            "modal_text": "<p>Tell your story</p>",
+            "modal_subtitle": "MODAL SUBTITLE",
+            "modal_sub_text": "<p>Tell your story</p>",
+            "url": ""
+          }
+        },
+        "card_KTb94T": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Title",
+            "text": "<p>Tell your story</p>",
+            "source": "Source",
+            "modal_text": "<p>Tell your story</p>",
+            "modal_subtitle": "MODAL SUBTITLE",
+            "modal_sub_text": "<p>Tell your story</p>",
+            "url": ""
+          }
+        },
+        "card_ALjFEP": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "title": "Title",
+            "text": "<p>Tell your story</p>",
+            "source": "Source",
+            "modal_text": "<p>Tell your story</p>",
+            "modal_subtitle": "MODAL SUBTITLE",
+            "modal_sub_text": "<p>Tell your story</p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_NnT3j4",
+        "text_WmV6A7",
+        "card_NTWq3A",
+        "card_UPJaTJ",
+        "card_hpjA6m",
+        "card_gbywcR",
+        "card_J4YxU4",
+        "card_Gqgzwt",
+        "card_649xEy",
+        "card_KTb94T",
+        "card_ALjFEP"
+      ],
+      "name": "SS - Product ingredients #6",
+      "settings": {
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "content_maxwidth": 700,
+        "cards_view": 3,
+        "cards_view_mobile": 1,
+        "cards_gap": 22,
+        "cards_gap_mobile": 16,
+        "cards_mt": 48,
+        "cards_mt_mobile": 36,
+        "cards_limits": 6,
+        "card_padding_horizontal": 38,
+        "card_padding_horizontal_mobile": 4,
+        "card_padding_vertical": 44,
+        "card_padding_vertical_mobile": 30,
+        "card_radius": 0,
+        "card_border_thickness": 0,
+        "card_align": "left",
+        "card_align_mobile": "left",
+        "title_custom": false,
+        "title_font": "poppins_n4",
+        "title_size": 24,
+        "title_size_mobile": 16,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "poppins_n4",
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "text_height": 130,
+        "text_mt": 8,
+        "text_mt_mobile": 8,
+        "source_custom": false,
+        "source_font": "poppins_n4",
+        "source_size": 14,
+        "source_size_mobile": 12,
+        "source_height": 130,
+        "source_mt": 48,
+        "source_mt_mobile": 40,
+        "plus_icon_size": 24,
+        "plus_icon_size_mobile": 24,
+        "see_all": "See all",
+        "see_less": "See less",
+        "see_custom": false,
+        "see_font": "poppins_n4",
+        "see_size": 14,
+        "see_size_mobile": 14,
+        "see_height": 130,
+        "slides_per_view": 2,
+        "modal_slide_padding_horizontal": 56,
+        "modal_slide_padding_horizontal_mobile": 24,
+        "modal_slide_padding_vertical": 56,
+        "modal_slide_padding_vertical_mobile": 24,
+        "modal_slide_radius": 0,
+        "modal_slide_border_thickness": 0,
+        "modal_slide_align": "left",
+        "modal_slide_align_mobile": "left",
+        "modal_close_size": 16,
+        "modal_close_size_mobile": 16,
+        "slide_text_custom": false,
+        "slide_text_font": "poppins_n4",
+        "slide_text_size": 14,
+        "slide_text_size_mobile": 14,
+        "slide_text_height": 150,
+        "slide_text_mt": 24,
+        "slide_text_mt_mobile": 16,
+        "slide_title_custom": false,
+        "slide_title_font": "poppins_n4",
+        "slide_title_size": 12,
+        "slide_title_size_mobile": 12,
+        "slide_title_height": 150,
+        "slide_title_mt": 32,
+        "slide_title_mt_mobile": 24,
+        "slide_sub_text_custom": false,
+        "slide_sub_text_font": "poppins_n4",
+        "slide_sub_text_size": 14,
+        "slide_sub_text_size_mobile": 14,
+        "slide_sub_text_height": 130,
+        "slide_sub_text_mt": 8,
+        "slide_sub_text_mt_mobile": 8,
+        "button": "Learn more",
+        "button_custom": false,
+        "button_font": "poppins_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 24,
+        "button_padding_horizontal_mobile": 24,
+        "button_radius": 100,
+        "button_border_thickness": 1,
+        "button_mt": 32,
+        "button_mt_mobile": 24,
+        "button_style": "link",
+        "pagination_custom": false,
+        "pagination_font": "poppins_n4",
+        "pagination_size": 14,
+        "pagination_size_mobile": 14,
+        "pagination_height": 130,
+        "title_color": "#8b1638",
+        "text_color": "#121212",
+        "source_color": "#121212",
+        "plus_icon_color": "#ffffff",
+        "plus_icon_bg_color": "#afafaf",
+        "card_bg_color": "#f8f8fa",
+        "card_border_color": "#121212",
+        "see_color": "#121212",
+        "slide_text_color": "#121212",
+        "slide_title_color": "#a7afc9",
+        "slide_sub_text_color": "#121212",
+        "modal_close_color": "#121212",
+        "modal_slide_bg_color": "#ffffff",
+        "modal_slide_border_color": "#121212",
+        "button_color": "#121212",
+        "button_hover_color": "#121212",
+        "button_bg_color": "#f3f3f3",
+        "button_bg_hover_color": "#f3f3f3",
+        "button_border_color": "#121212",
+        "button_border_hover_color": "#121212",
+        "pagination_color": "#ffffff",
+        "pagination_arrow_color": "#ffffff",
+        "modal_overlay_color": "#121212",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1000,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "ss_hero_38_DHcz6K": {
+      "type": "ss-hero-38",
+      "blocks": {
+        "heading_DAqQJE": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What Sets Our Bio-Collagen Mask Apart?</p>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 26,
+            "heading_size_mobile": 24,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#8b1638"
+          }
+        },
+        "text_4Vbrfr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most sheet masks look the same—but there are <em>critical differences</em> that determine how well they actually perform for your skin. Here’s why ours stands out:</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 16,
+            "text_height": 150,
+            "text_mt": 16,
+            "text_mt_mobile": 12,
+            "text_color": "#121212"
+          }
+        },
+        "button_nQLmNp": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button": "Shop now",
+            "url": "",
+            "new_tab": false,
+            "button_style": "outline_arrow",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 20,
+            "button_size_mobile": 18,
+            "button_height": 100,
+            "button_padding_horizontal": 32,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 16,
+            "button_mt_mobile": 16,
+            "button_color": "#ffffff",
+            "button_hover_color": "#121212",
+            "button_bg_color": "#121212",
+            "button_bg_hover_color": "#ffffff",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        },
+        "review_G6z9XY": {
+          "type": "review",
+          "disabled": true,
+          "settings": {
+            "review_mt": 24,
+            "review_mt_mobile": 16,
+            "image_size": 40,
+            "image_size_mobile": 40,
+            "image_radius": 50,
+            "image_border_thickness": 2,
+            "stars_count": 5,
+            "stars_size": 18,
+            "stars_size_mobile": 16,
+            "review_align": "left",
+            "review_align_mobile": "left",
+            "stars_text": "Excellent 4.9",
+            "review_custom": false,
+            "review_font": "josefin_sans_n4",
+            "review_size": 16,
+            "review_size_mobile": 12,
+            "review_height": 130,
+            "review_color": "#121212",
+            "stars_color": "#ffffff",
+            "stars_bg_color": "#00b67a",
+            "stars_bg_half_color": "#dddddd",
+            "image_border_color": "#ffffff"
+          }
+        },
+        "bullet_fDftmA": {
+          "type": "bullet",
+          "settings": {
+            "text": "<p><strong>Korean-Inspired Skincare Formula</strong> - We don’t just add “collagen” for the label—our mask is infused with low molecular weight hydrolyzed collagen and probiotics (Galactomyces ferment filtrate), ingredients that are backed by dermatological research for visible skin hydration, firmness, and resilience. This formula is designed to mimic the results seen in clinical skin studies.<br/></p>"
+          }
+        },
+        "bullet_xWWenL": {
+          "type": "bullet",
+          "settings": {
+            "text": "<p><strong>Enhanced Absorption with Hydrogel Technology </strong>- Unlike thin cotton masks that dry out quickly, our unique jelly-like hydrogel texture locks in serum and molds to your skin for maximum contact. This ensures deep penetration of active ingredients and prevents quick evaporation—so your skin can drink in every drop of hydration.</p>"
+          }
+        },
+        "bullet_9F8GB3": {
+          "type": "bullet",
+          "settings": {
+            "text": "<p><strong>Sourced for Purity & Potency</strong> - <br/>Our mask is produced under strict quality standards, formulated without parabens, sulfates, artificial dyes, or harsh preservatives. Only skin-loving ingredients are included to target hydration, plumping, and smoothing.</p>"
+          }
+        },
+        "bullet_B8LpEK": {
+          "type": "bullet",
+          "settings": {
+            "text": "<p><strong>Inspired by skincare professionals</strong> - this mask blends scientific formulation with the experience of thousands of customers, helping skin appear more hydrated, visibly plumper-looking, and radiantly healthy after every use.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DAqQJE",
+        "text_4Vbrfr",
+        "button_nQLmNp",
+        "review_G6z9XY",
+        "bullet_fDftmA",
+        "bullet_xWWenL",
+        "bullet_9F8GB3",
+        "bullet_B8LpEK"
+      ],
+      "name": "SS - Hero #38",
+      "settings": {
+        "layout": "content_image",
+        "layout_mobile": "content_image",
+        "image_width": 50,
+        "layout_gap": 40,
+        "layout_gap_mobile": 20,
+        "content_align": "left",
+        "content_align_mobile": "center",
+        "content_vertical_align": "center",
+        "image": "shopify://shop_images/00688525fcc564c81156d04998786ad6.jpg",
+        "image_ratio": "square",
+        "image_ratio_mobile": "portrait",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "bullet_advanced": false,
+        "bullet_border_style": "dashed",
+        "bullet_border_thickness": 1,
+        "bullets_mt": 20,
+        "bullets_mt_mobile": 8,
+        "bullet_align": "left",
+        "bullet_align_mobile": "left",
+        "icon_size": 18,
+        "icon_size_mobile": 18,
+        "bullet_text_custom": false,
+        "bullet_text_font": "josefin_sans_n4",
+        "bullet_text_size": 15,
+        "bullet_text_size_mobile": 14,
+        "bullet_text_height": 150,
+        "features_advanced": false,
+        "features_gap": 20,
+        "features_gap_mobile": 12,
+        "features_mt": 12,
+        "features_mt_mobile": 12,
+        "feature_align": "center",
+        "feature_align_mobile": "center",
+        "feature_gap": 6,
+        "feature_gap_mobile": 6,
+        "feature_icon_size": 26,
+        "feature_icon_size_mobile": 20,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 14,
+        "feature_text_size_mobile": 14,
+        "feature_text_height": 150,
+        "feature_icon_color": "#121212",
+        "feature_text_color": "#121212",
+        "bullet_border_color": "#afafaf",
+        "bullet_text_color": "#121212",
+        "icon_color": "#ffffff",
+        "icon_bg_color": "#121212",
+        "image_border_color": "#121212",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": false
+      }
+    },
+    "ss_testimonial_10_MzNXP3": {
+      "type": "ss-testimonial-10",
+      "blocks": {
+        "testimonial_84JHMd": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2897_73215749-e2db-4b8e-90ae-26c7e0aa08d2.jpg",
+            "stars_count": 5,
+            "text": "<p>\"I was scared to try anything with collagen because of my acne-prone skin, but this one actually reduced redness and helped my breakouts heal faster.\"</p>",
+            "author": "- SYMONE GLAZE"
+          }
+        },
+        "testimonial_aYaAie": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/782128dd71acf43e2f4a370f15a304fa.jpg",
+            "stars_count": 5,
+            "text": "<p>\"My skin looked so tired from work stress, but after using this mask a few times, it felt plumper and smoother. It’s like a reset for my face.\"</p>",
+            "author": "- ELIF S"
+          }
+        },
+        "testimonial_gGcxAV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/1722543832__20240731_203542__original.png",
+            "stars_count": 5,
+            "text": "<p>\"I started noticing smile lines, and this mask really helped soften them. It’s not magic overnight, but my skin feels firmer and more elastic.\"</p>",
+            "author": "- KIRSTEN C"
+          }
+        },
+        "testimonial_4VyiXR": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg",
+            "stars_count": 5,
+            "text": "<p>\"I barely have time for skincare, but this collagen mask is my go-to before bed. It gives me that refreshed glow even after sleepless nights.\"</p>",
+            "author": "- VANESSA JOHNSON"
+          }
+        },
+        "testimonial_cmVNpz": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/2-min_4.png",
+            "stars_count": 5,
+            "text": "<p>\"I barely manage a 5-minute skincare routine. This mask is my cheat code for glowing skin when I don’t have time for 5 different products.\"</p>",
+            "author": "- KAYA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_84JHMd",
+        "testimonial_aYaAie",
+        "testimonial_gGcxAV",
+        "testimonial_4VyiXR",
+        "testimonial_cmVNpz"
+      ],
+      "disabled": true,
+      "settings": {
+        "body_padding_vertical": 36,
+        "body_padding_vertical_mobile": 10,
+        "body_padding_horizontal": 50,
+        "body_padding_horizontal_mobile": 12,
+        "body_radius": 12,
+        "body_border_thickness": 0,
+        "heading": "<p><strong>50,000+ Babes Love Nifora</strong></p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 26,
+        "heading_size_mobile": 22,
+        "heading_height": 90,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "<p>Here's what some of them have to say about their favorite product</p>",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 18,
+        "sub_heading_size_mobile": 14,
+        "sub_heading_height": 120,
+        "slider_view": 4,
+        "slider_view_mobile": 1.7,
+        "slider_gap": 36,
+        "slider_gap_mobile": 20,
+        "slider_mt": 20,
+        "image_radius": 12,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "stars_size": 14,
+        "stars_mt": 24,
+        "stars_align": "center",
+        "stars_align_mobile": "center",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 14,
+        "text_height": 110,
+        "text_mt": 12,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "author_custom": false,
+        "author_font": "josefin_sans_n4",
+        "author_size": 14,
+        "author_size_mobile": 10,
+        "author_height": 130,
+        "author_mt": 8,
+        "author_align": "left",
+        "author_align_mobile": "left",
+        "arrow_size": 32,
+        "arrow_size_mobile": 32,
+        "arrow_icon_size": 40,
+        "arrow_icon_size_mobile": 22,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 9,
+        "dots_mt": 19,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "body_bg_color": "#ffffff",
+        "body_border_color": "#000000",
+        "stars_color": "#00b67a",
+        "text_color": "#121212",
+        "author_color": "#121212",
+        "arrow_color": "#756e67",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#756e67",
+        "arrow_border_color": "#756e67",
+        "arrow_border_hover_color": "#756e67",
+        "dots_color": "#756e67",
+        "heading_color": "#8b1638",
+        "sub_heading_color": "#000000",
+        "background_color": "#f5f5f5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 24,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_comparison_table_4_e43mkf": {
+      "type": "ss-comparison-table-4",
+      "blocks": {
+        "item_ffCBDY": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Long-Lasting Hydration",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_JcLKKK": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Skin-Firming Effect",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_yWg3XW": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Visible Results After 1 Use",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_8eKKhA": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Gentle on All Skin Types",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_ffCBDY",
+        "item_JcLKKK",
+        "item_yWg3XW",
+        "item_8eKKhA"
+      ],
+      "name": "SS - Comparison Table #4",
+      "settings": {
+        "heading": "<h2>Why Choose Nifora?</h2>",
+        "heading_custom": false,
+        "heading_font": "poppins_n4",
+        "heading_size": 34,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "table_width": 80,
+        "table_columns": 2,
+        "table_align": "center",
+        "table_mt": 44,
+        "table_column_active": "1",
+        "table_column_active_radius": 16,
+        "table_column_active_border_thickness": 2,
+        "table_heading_image_size": 66,
+        "table_heading_image_size_mobile": 40,
+        "first_heading": "NIFORA",
+        "second_heading": "OTHERS",
+        "third_heading": "",
+        "four_heading": "",
+        "table_heading_custom": false,
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 16,
+        "table_heading_size_mobile": 10,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 12,
+        "table_heading_padding_horizontal_mobile": 4,
+        "table_heading_padding_vertical": 10,
+        "table_heading_padding_vertical_mobile": 10,
+        "table_row_padding_horizontal": 16,
+        "table_row_padding_horizontal_mobile": 10,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 10,
+        "table_row_border_thickness": 1,
+        "table_row_heading_image_size": 66,
+        "table_row_heading_image_size_mobile": 40,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": false,
+        "table_row_heading_font": "poppins_n4",
+        "table_row_heading_size": 22,
+        "table_row_heading_size_mobile": 16,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": false,
+        "table_row_text_font": "poppins_n4",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 52,
+        "table_row_image_size_mobile": 40,
+        "buttons_mt": 44,
+        "buttons_gap": 16,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "poppins_n4",
+        "button_size": 22,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 40,
+        "button_radius": 6,
+        "button_border_thickness": 2,
+        "second_button": "",
+        "second_button_url": "",
+        "second_button_custom": false,
+        "second_button_font": "poppins_n4",
+        "second_button_size": 22,
+        "second_button_size_mobile": 18,
+        "second_button_height": 100,
+        "second_button_padding_vertical": 20,
+        "second_button_padding_horizontal": 40,
+        "second_button_radius": 6,
+        "second_button_border_thickness": 2,
+        "table_heading_color": "#8b1638",
+        "table_heading_active_color": "#ffffff",
+        "table_heading_bg_active_color": "#8b1638",
+        "table_column_active_bg_color": "#ffffff",
+        "table_column_active_border_color": "#aa1b26",
+        "table_row_border_color": "#d3cabc",
+        "table_row_heading_color": "#2f1718",
+        "table_row_text_color": "#2f1718",
+        "table_row_active_text_color": "#aa1b26",
+        "button_color": "#a8252e",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "",
+        "button_bg_hover_color": "#a8252e",
+        "button_border_color": "#a8252e",
+        "button_border_hover_color": "#a8252e",
+        "second_button_color": "#ffffff",
+        "second_button_hover_color": "#ffffff",
+        "second_button_bg_color": "#a8252e",
+        "second_button_bg_hover_color": "#791119",
+        "second_button_border_color": "#a8252e",
+        "second_button_border_hover_color": "#791119",
+        "heading_color": "#2f1718",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 28,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "featured_product_WgwdGD": {
+      "type": "featured-product",
+      "blocks": {
+        "title_nJeQ6U": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "trustpilot_stars_YxV9aP": {
+          "type": "trustpilot_stars",
+          "settings": {
+            "rating": 5,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#ffffff",
+            "label": "(5000+ Reviews)",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "price_bTB4rz": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "hide_sale_badge": false,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "quantity_selector_3hjnVe": {
+          "type": "quantity_selector",
+          "settings": {
+            "full_width_classic": false,
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "update_prices": false,
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "color_scheme": "accent-1",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons_GDa3pk": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#dd1d1d",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
+        "payment_badges_nDWMt3": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_nJeQ6U",
+        "trustpilot_stars_YxV9aP",
+        "price_bTB4rz",
+        "quantity_selector_3hjnVe",
+        "buy_buttons_GDa3pk",
+        "payment_badges_nDWMt3"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "product": "bio-collagen-mask",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "mobile_media_corner_radius": 12,
+        "full_media_width": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "sp_video_slideshow_JFncM6": {
+      "type": "sp-video-slideshow",
+      "blocks": {
+        "video_y4mmDr": {
+          "type": "video",
+          "settings": {
+            "video_shopify": "shopify://files/videos/Kopie van SnapInsta.to_AQM7vDvTs_YhCPILHzjQwgvnrG6uw-KNNyl_6k6O80i1avUByr0_YS7_2010EtQye6RoS6jcQ3FXDJb570ysBofLybUhkk8j8u0e9ws.mp4",
+            "video_type": "background-chrome"
+          }
+        },
+        "video_XRRHLT": {
+          "type": "video",
+          "settings": {
+            "video_shopify": "shopify://files/videos/Kopie van SnapInsta.to_AQO4E7zSe0h75XtQDvcED0FEUftHInXknby4eL3AffUYcHXhvfd5aBqwSPgOvITF8WcieEARhk40FYdWuQvPmDoHOdI_nwkG-eXgCFk.mp4",
+            "video_type": "background-chrome"
+          }
+        },
+        "video_mm8QnL": {
+          "type": "video",
+          "settings": {
+            "video_shopify": "shopify://files/videos/Kopie van SnapInsta.to_AQP_TcL-48wrfoOoqcbZFDwA0V-Ml8J3NdZnzVGhAbezfQRMEJXjjP0Bdnovzr7PW_L2zd-SqCltekcXDulsuRmFHO96_pskedXmeBY.mp4",
+            "video_type": "background-chrome"
+          }
+        }
+      },
+      "block_order": [
+        "video_y4mmDr",
+        "video_XRRHLT",
+        "video_mm8QnL"
+      ],
+      "disabled": true,
+      "settings": {
+        "slideshow_height": "small",
+        "text_size": "medium"
+      }
+    },
+    "custom_liquid_gyrR9z": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "custom_liquid": "<!DOCTYPE html> \n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Responsive Photo Slider</title>\n    <style>\n        body {\n            font-family: 'Avenir Next', sans-serif;\n            background-color: #f7f7f7;\n            margin: 0;\n            padding: 0;\n        }\n\n        .slider-container {\n            position: relative;\n            max-width: 1200px;\n            margin: 20px auto;\n            overflow: hidden;\n            border-radius: 15px;\n            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);\n            background-color: #fff;\n            padding: 10px;\n        }\n\n        .slider {\n            display: flex;\n            will-change: transform;\n            transition: transform 0.4s ease-out;\n        }\n\n        .slide {\n            min-width: 70%;\n            box-sizing: border-box;\n            margin: 0 10px;\n            position: relative;\n            transition: transform 0.5s ease;\n        }\n\n        .slide img {\n            width: 100%;\n            height: auto;\n            border-radius: 10px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n        }\n\n        .headline {\n            font-size: 1.2rem;\n            font-weight: 700;\n            text-align: center;\n            color: #3a3a3a;\n            margin: 20px 0 10px 0;\n        }\n\n        .subheadline {\n            font-size: 1rem;\n            text-align: center;\n            color: #666;\n            margin-bottom: 30px;\n            max-width: 80%;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .before-after-header {\n            font-size: 1.3rem; /* Slightly smaller than the main headline */\n            font-weight: 600;\n            text-align: center;\n            color: #8b1638; /* Warm Nude */\n            margin-bottom: 10px;\n        }\n\n        /* Desktop View Adjustments */\n        @media (min-width: 768px) {\n            .slide {\n                min-width: 30%;\n            }\n        }\n\n        @media (min-width: 1024px) {\n            .slider-container {\n                max-width: 1400px;\n            }\n        }\n\n        /* Hover effect for slides */\n        .slide:hover img {\n            transform: scale(1.05);\n        }\n\n        /* Fancy text shadows */\n        .headline, .subheadline {\n            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);\n        }\n    </style>\n</head>\n<body>\n    <div class=\"headline\">Get a Healthier Skin ✨</div>\n    <div class=\"subheadline\">From dull and dry to glowy, hydrated and smooth! Our mask provides a glass-like finish, refines skin texture and is suitable for even the most sensitive skin. Perfect for an instant radiant look! 💖</div>\n\n    <!-- New Before & After Header -->\n    <div class=\"before-after-header\">Before & After</div>\n\n    <div class=\"slider-container\">\n        <div class=\"slider\">\n            <div class=\"slide\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0798/4028/0923/files/12_0dc3cdd5-a145-4b73-94c9-c2e3757ef30a.png?v=1748944785\" alt=\"Image 1\">\n            </div>\n            <div class=\"slide\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0798/4028/0923/files/32_df2e5825-dd39-4f21-b55d-bd7beae3dc54.png?v=1748874386\" alt=\"Image 2\">\n            </div>\n            <div class=\"slide\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0798/4028/0923/files/33.png?v=1748874385\" alt=\"Image 3\">\n            </div>\n            <div class=\"slide\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0798/4028/0923/files/34_75a854e0-a83a-4c19-bbae-acf02c786216.png?v=1748874385\" alt=\"Image 4\">\n            </div>\n        </div>\n    </div>\n\n    <script>\n        (function() {\n            const slider = document.querySelector('.slider');\n            const slides = document.querySelectorAll('.slide');\n            const slideWidth = slides[0].offsetWidth + 20; // Includes margin\n            const totalSlides = slides.length;\n\n            let isDragging = false;\n            let startX = 0;\n            let currentTranslate = 0;\n            let previousTranslate = 0;\n            let velocity = 0;\n\n            const setSliderPosition = () => {\n                slider.style.transform = `translateX(${currentTranslate}px)`;\n            };\n\n            const startDragging = (x) => {\n                isDragging = true;\n                startX = x;\n                slider.style.transition = 'none';\n            };\n\n            const drag = (x) => {\n                if (!isDragging) return;\n                const delta = x - startX;\n                currentTranslate = previousTranslate + delta;\n                setSliderPosition();\n                velocity = delta;\n            };\n\n            const stopDragging = () => {\n                if (!isDragging) return;\n                isDragging = false;\n\n                const momentumTranslate = currentTranslate + velocity * 3;\n                const maxTranslate = 0;\n                const minTranslate = -(slideWidth * (totalSlides - 1));\n\n                currentTranslate = Math.min(maxTranslate, Math.max(minTranslate, momentumTranslate));\n                previousTranslate = currentTranslate;\n\n                const index = Math.round(-currentTranslate / slideWidth);\n                currentTranslate = -index * slideWidth;\n                previousTranslate = currentTranslate;\n\n                slider.style.transition = 'transform 0.5s ease-out';\n                setSliderPosition();\n            };\n\n            slider.addEventListener('mousedown', (e) => startDragging(e.clientX));\n            slider.addEventListener('mousemove', (e) => drag(e.clientX));\n            slider.addEventListener('mouseup', stopDragging);\n            slider.addEventListener('mouseleave', stopDragging);\n            slider.addEventListener('touchstart', (e) => startDragging(e.touches[0].clientX));\n            slider.addEventListener('touchmove', (e) => drag(e.touches[0].clientX));\n            slider.addEventListener('touchend', stopDragging);\n\n            document.addEventListener('dragstart', (e) => e.preventDefault());\n        })();\n    </script>\n</body>\n</html>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa": {
+      "type": "results",
+      "blocks": {
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1": {
+          "type": "row",
+          "settings": {
+            "percentage": 90,
+            "row_text": "<p>Experienced smoother texture and more hydrated skin with reduced dryness within two weeks.</p>"
+          }
+        },
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2": {
+          "type": "row",
+          "settings": {
+            "percentage": 90,
+            "row_text": "<p>Saw refined pores, fewer fine lines, and a radiant glow — especially around the eyes and forehead.</p>"
+          }
+        },
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3": {
+          "type": "row",
+          "settings": {
+            "percentage": 90,
+            "row_text": "<p>Noticed brighter and more even-looking skin after just one use.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-1",
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-2",
+        "template--21507361505575__0f1fc9e4-bc4c-4052-9747-62d1f8472caa-row-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "<strong>Science Backed </strong>Results",
+        "title_highlight_color": "#8b1638",
+        "heading_size": "h1",
+        "text": "<p>Each mask is rigorously tested to meet dermatological standards, ensuring a safe and effective skincare solution.</p>",
+        "color_scheme": "background-1",
+        "layout": "results_second",
+        "results_headline": "<strong>Results</strong>",
+        "results_title_highlight_color": "#8b1638",
+        "results_headline_size": "h2",
+        "results_text": "",
+        "results_headline_alignment": "left",
+        "caption": "<p><em>*These results are based on feedback from customers who used the mask weekly as directed.</em></p>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_accent": "#8b1638",
+        "custom_colors_solid_button_background": "#8b1638",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
+    "featured_product_NqJJpX": {
+      "type": "featured-product",
+      "blocks": {
+        "title_KPUhBa": {
+          "type": "title",
+          "settings": {
+            "text_size": "h1",
+            "title_alignment": "left",
+            "uppercase_title": false,
+            "margin_top": 0,
+            "margin_bottom": 15
+          }
+        },
+        "price_Rej4Bc": {
+          "type": "price",
+          "settings": {
+            "layout": "price_first",
+            "price_color": "accent-1",
+            "compare_price_color": "text",
+            "hide_sale_badge": false,
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "text_id67WU": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Collagen Boost</strong> for your skin",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 2,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 2,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 9,
+            "margin_bottom": 6
+          }
+        },
+        "text_UNeHVB": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Instant glow </strong>after 1 mask a week",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 3,
+            "margin_bottom": 6
+          }
+        },
+        "text_UCEpqM": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "Helps <strong>reducing acne</strong> and bad skin",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 3
+          }
+        },
+        "text_WQC8Kw": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Smooths wrinkles</strong> & fine lines in days",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 0,
+            "margin_bottom": 3
+          }
+        },
+        "text_GMdwaW": {
+          "type": "text",
+          "settings": {
+            "mobile_text_size": 14,
+            "desktop_text_size": 16,
+            "alignment": "left",
+            "text_color": "#121212",
+            "text_1": "<strong>Trusted Korean Beauty Formula</strong>",
+            "text_2": "",
+            "text_3": "",
+            "icon_scale": 120,
+            "icon_color": "#121212",
+            "icon_1": "check_circle",
+            "filled_icon_1": false,
+            "icon_2": "check_circle",
+            "filled_icon_2": false,
+            "icon_3": "check_circle",
+            "filled_icon_3": false,
+            "width": "100%",
+            "direction": "horizontal",
+            "column_gap": 3,
+            "enable_bg": false,
+            "bg_color": "#f3f3f3",
+            "corner_radius": 40,
+            "padding": 3,
+            "border_size": 0,
+            "border_color": "#b7b7b7",
+            "margin_top": 3,
+            "margin_bottom": 15
+          }
+        },
+        "custom_liquid_VhjKgp": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <style>\n    .custom-shipping-container {\n      display: flex;\n      padding: 6px 16px;\n      justify-content: space-between;\n      align-items: center;\n      background-color: #f6f6f6;\n      border-radius: 20px;\n      margin-top: 10px;\n    }\n\n    .custom-shipping-item {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n    }\n\n    .text-block-shipping {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-date {\n      font-weight: bold;\n    }\n\n    .shipping-worldwide {\n      font-size: 12px;\n      color: #000;\n    }\n\n    .shipping-worldwide .bold {\n      font-weight: bold;\n    }\n\n    .green-circle {\n      animation: fade 1s ease-in-out infinite;\n    }\n\n    @keyframes fade {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.5; }\n    }\n\n    .flags-container {\n      display: flex;\n      gap: 6px;\n      align-items: center;\n    }\n    \n    .custom-icon {\n      width: 16px;\n      height: 12px;\n    }\n  </style>\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      function getNextWeekday(date) {\n        var day = date.getDay();\n        var daysToAdd = (day === 5) ? 1 : (day === 6) ? 2 : 1;\n        return new Date(date.setDate(date.getDate() + daysToAdd));\n      }\n\n      var today = new Date();\n      var shipDate = getNextWeekday(today);\n      \n      // Format date to have short month (e.g., \"Thu, Feb 22\")\n      var options = { weekday: 'short', month: 'short', day: 'numeric' };\n      var formattedDate = shipDate.toLocaleDateString('en-US', options);\n      document.getElementById('shipping-date').textContent = formattedDate;\n\n      // Fetch country data using GeoJS API\n      fetch('https://get.geojs.io/v1/ip/geo.json')\n        .then(response => response.json())\n        .then(data => {\n          console.log(\"Geolocation API Response:\", data); // Debugging log\n\n          if (!data || !data.country_code) {\n            throw new Error(\"Invalid data from API\");\n          }\n          \n          var countryCode = data.country_code.toUpperCase(); // Get country code (e.g., \"GB\", \"US\")\n          var flagUrl = `https://flagcdn.com/w40/${countryCode.toLowerCase()}.png`;\n\n          // Set flag and country code\n          document.getElementById('country-flag').src = flagUrl;\n          document.getElementById('country-flag').alt = countryCode + \" Flag\";\n          document.getElementById('country-flag').style.display = \"inline\";\n          document.getElementById('country-text').innerHTML = `Fast <span class=\"bold\">${countryCode}</span> Shipping`;\n        })\n        .catch(error => {\n          console.error('Error fetching the IP information:', error);\n          document.getElementById('country-flag').style.display = \"none\"; \n          document.getElementById('country-text').innerHTML = \"Free Worldwide Shipping\";\n        });\n    });\n  </script>\n</head>\n<body>\n  <div class=\"custom-shipping-container\">\n    <div class=\"custom-shipping-item\">\n      <svg class=\"green-circle\" xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n        <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"/>\n      </svg>\n      <div class=\"text-block-shipping\">Ships by <span id=\"shipping-date\" class=\"shipping-date\"></span></div>\n    </div>\n    <div class=\"custom-shipping-item flags-container\">\n      <img id=\"country-flag\" class=\"custom-icon\" src=\"\" alt=\"Country Flag\" style=\"display: none;\">\n      <div id=\"country-text\" class=\"shipping-worldwide\">Loading...</div>\n    </div>\n  </div>\n</body>\n</html>"
+          }
+        },
+        "kaching_bundles_app_block_R67QfB": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}",
+            "manual_deal_block_id": ""
+          }
+        },
+        "variant_picker_BkbN79": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_types": "pills, pills, pills",
+            "custom_labels": "",
+            "disable_prepend": false,
+            "swatches_size": "medium",
+            "swatches_border_radius": 100,
+            "swatches_custom_colors": "disabled",
+            "swatches_custom_colors_list": "#000000, #FFFFFF",
+            "breaks_style": "normal",
+            "breaks_headline": "BUNDLE & SAVE",
+            "breaks_color_scheme": "accent-1",
+            "breaks_badges": "[empty], Most popular, [empty]",
+            "breaks_displayed_images": "variant_images",
+            "breaks_custom_images": "",
+            "breaks_image_width": 70,
+            "breaks_space_images": true,
+            "breaks_labels": "[name], [name], [name]",
+            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
+            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
+            "breaks_price_texts": "[price], [price], [price]",
+            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "quantity_selector_QR7MHy": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "full_width_classic": false,
+            "enable_quantity_discounts": false,
+            "style": "normal",
+            "headline": "BUNDLE & SAVE",
+            "preselected": "option_1",
+            "update_prices": false,
+            "enable_variant_selectors": true,
+            "enable_variant_selectors_on_quantity_of_1": false,
+            "hide_pickers_overlay": true,
+            "pickers_label": "",
+            "image_width": 70,
+            "space_images": true,
+            "color_scheme": "accent-1",
+            "option_1_quantity": 1,
+            "option_1_badge": "",
+            "option_1_label": "Buy [quantity]",
+            "option_1_benefit": "",
+            "option_1_caption": "You save [amount_saved]",
+            "option_1_percentage_off_text": "0",
+            "option_1_fixed_amount_off": "0",
+            "option_1_price_text": "[price]",
+            "option_1_compare_price": "compare_price",
+            "option_1_compare_price_text": "[compare_price]",
+            "option_2_quantity": 2,
+            "option_2_badge": "",
+            "option_2_label": "Buy [quantity]",
+            "option_2_benefit": "",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off_text": "0",
+            "option_2_fixed_amount_off": "0",
+            "option_2_price_text": "[price]",
+            "option_2_compare_price": "compare_price",
+            "option_2_compare_price_text": "[compare_price]",
+            "option_3_quantity": 3,
+            "option_3_badge": "",
+            "option_3_label": "Buy [quantity]",
+            "option_3_benefit": "",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off_text": "0",
+            "option_3_fixed_amount_off": "0",
+            "option_3_price_text": "[price]",
+            "option_3_compare_price": "compare_price",
+            "option_3_compare_price_text": "[compare_price]",
+            "option_4_quantity": 4,
+            "option_4_badge": "",
+            "option_4_label": "Buy [quantity]",
+            "option_4_benefit": "",
+            "option_4_caption": "You save [amount_saved]",
+            "option_4_percentage_off_text": "0",
+            "option_4_fixed_amount_off": "0",
+            "option_4_price_text": "[price]",
+            "option_4_compare_price": "compare_price",
+            "option_4_compare_price_text": "[compare_price]",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "buy_buttons_ECaXXG": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "skip_cart": false,
+            "uppercase_text": true,
+            "icon_scale": 120,
+            "icon_spacing": 10,
+            "display_price": false,
+            "enable_custom_color": false,
+            "custom_color": "#dd1d1d",
+            "enable_secondary_btn": false,
+            "secondary_btn_label": "Buy It Now",
+            "secondary_btn_enable_custom_color": false,
+            "secondary_btn_custom_color": "#dd1d1d",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        }
+      },
+      "block_order": [
+        "title_KPUhBa",
+        "price_Rej4Bc",
+        "text_id67WU",
+        "text_UNeHVB",
+        "text_UCEpqM",
+        "text_WQC8Kw",
+        "text_GMdwaW",
+        "custom_liquid_VhjKgp",
+        "kaching_bundles_app_block_R67QfB",
+        "variant_picker_BkbN79",
+        "quantity_selector_QR7MHy",
+        "buy_buttons_ECaXXG"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "product": "bio-collagen-mask",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "mobile_media_corner_radius": 6,
+        "full_media_width": false,
+        "padding_top": 16,
+        "padding_bottom": 24
+      }
+    },
+    "ss_simple_faq_8Qnki9": {
+      "type": "ss-simple-faq",
+      "blocks": {
+        "text_AtVHYy": {
+          "type": "text",
+          "settings": {
+            "question": "How do I use the Mask?",
+            "answer": "<p>🧴 <strong>Evening Routine:</strong> Cleanse and tone your face, ensuring your skin is free from oil and creams.</p><p>🎭 <strong>Application:</strong> Start with the bottom piece, followed by the top. Gently press for optimal adherence. <em>Pro tip:</em> Tilt your head back for a perfect fit.</p><p>⏳ <strong>Duration:</strong></p><p><strong>Express Glow:</strong> 1-2 hours</p><p><strong>Maximum Results:</strong> Leave it on overnight (ensure it’s fully dry to prevent shifting).</p><p>💖 <strong>The Reveal:</strong> Gently remove the mask and pat the remaining essence into your skin. <em>Pro tip:</em> Use excess serum on your neck and décolleté.</p>"
+          }
+        },
+        "text_HWmgj8": {
+          "type": "text",
+          "settings": {
+            "question": "How many masks come in a pack?",
+            "answer": "<p>Each pack comes with 4 masks. Each mask is single use. We recommend starting with 2 masks per week for a month in order to get your skin glowing fast and rejuvenated. After the first month, you can use one mask per week to maintain a healthy skin.</p>"
+          }
+        },
+        "text_46gHgt": {
+          "type": "text",
+          "settings": {
+            "question": "What ingredients are in the mask?",
+            "answer": "<p>Water, glycerin, propylene glycol, betaine, sodium carrageenan, polyurethane-35, glucomannan, 1,2-hexanediol, hydroxyacetophenone, butylene glycol, hydroxyethylcellulose, pentylene glycol, dipotassium glycyrrhizate, panthenol, potassium chloride, allantoin, tocopheryl acetate (vitamin E), niacinamide (vitamin B3), hydrolyzed collagen, hydrolyzed sodium hyaluronate, sodium hyaluronate, hydroxyphenyl propamidobenzoic acid, Glycyrrhiza Uralensis (licorice) root extract, Tremella Fuciformis (snow mushroom) extract, fructose, Centella Asiatica extract, phosphatidylcholine, phenoxyethanol, ceramide NP, copper tripeptide-1, beta-sitosterol, beta-glucan, sodium stearoyl glutamate, ethylhexylglycerin, caprylhydroxamic acid, acetyl hexapeptide-8, palmitoyl tripeptide-5.</p>"
+          }
+        },
+        "text_GPaJjh": {
+          "type": "text",
+          "settings": {
+            "question": "60-Day Money back-guarantee?",
+            "answer": "<p>Yes! We stand behind the quality of our products. If you’re not satisfied with your purchase, you can request a return within 60 days of receiving your order. Simply contact our support team, and we’ll guide you through the process.</p>"
+          }
+        },
+        "text_HXmWN9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_beV4my": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_tRAGe9": {
+          "type": "text",
+          "settings": {
+            "question": "What are the delivery times?",
+            "answer": "<p><strong>Processing Time: </strong>Once your order is placed, please allow 1 business day for us to process and prepare your order for shipment.<br/><br/><strong>Shipping Time: </strong>After your order is dispatched, it will typically take 3-5 business days to reach you, depending on your location.<br/><br/><strong>Tracking Information: </strong>Once your order has been shipped, you will receive an email containing your tracking number. You can use this to track your package and stay updated on its delivery status.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_AtVHYy",
+        "text_HWmgj8",
+        "text_46gHgt",
+        "text_GPaJjh",
+        "text_HXmWN9",
+        "text_beV4my",
+        "text_tRAGe9"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "icon_color": "#ffffff",
+        "hover_color": "#efefef",
+        "question_color": "#ffffff",
+        "background_color": "#8b1638",
+        "answer_color": "#121212",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.5
+      }
+    },
+    "ee8d9ca6-4a41-401f-83a3-37e138a112b9": {
+      "type": "contact-form",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Contact form",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "button_full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "image_banner_ELV3Jx",
+    "ss_hero_29_64ify6",
+    "hero_new_VAtAwq",
+    "cfca4268-6358-426c-98ab-d292aeef11e5",
+    "section_divider_nNjq9y",
+    "featured_collection_WN6a8U",
+    "ss_product_ingredients_6_ypJenR",
+    "ss_hero_38_DHcz6K",
+    "ss_testimonial_10_MzNXP3",
+    "ss_comparison_table_4_e43mkf",
+    "featured_product_WgwdGD",
+    "sp_video_slideshow_JFncM6",
+    "custom_liquid_gyrR9z",
+    "0f1fc9e4-bc4c-4052-9747-62d1f8472caa",
+    "featured_product_NqJJpX",
+    "ss_simple_faq_8Qnki9",
+    "ee8d9ca6-4a41-401f-83a3-37e138a112b9"
+  ]
+}
