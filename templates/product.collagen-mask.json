@@ -417,7 +417,7 @@
         "kaching_bundles_app_block_ej3NMb": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "{{product}}",
+            "product": "bio-collagen-mask-1",
             "manual_deal_block_id": ""
           }
         },
@@ -2357,6 +2357,13 @@
         "display_id": false,
         "include_margins": true
       }
+    },
+    "1782563125afbbb0f6": {
+      "type": "apps",
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -2378,6 +2385,7 @@
     "image_with_text_gDGgdL",
     "ss_simple_faq_NxVU6q",
     "1743412114f5f405d4",
-    "1758652754b8a7d6b9"
+    "1758652754b8a7d6b9",
+    "1782563125afbbb0f6"
   ]
 }
