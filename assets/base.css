@@ -130,23 +130,17 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     justify-content: center;
   }
 }
-/* Hide only Judge.me top summary/header, keep filters and review cards */
-#judgeme_product_reviews .jdgm-rev-widg__header,
-#judgeme_product_reviews .jdgm-rev-widg__summary,
-#judgeme_product_reviews .jdgm-row-stars,
-#judgeme_product_reviews .jdgm-histogram,
-#judgeme_product_reviews .jdgm-widget-actions-wrapper,
-#judgeme_product_reviews .jdgm-write-rev-link,
-#judgeme_product_reviews .jdgm-rev-widg__title {
+/* Hide only the top Judge.me summary block */
+.jdgm-review-widget .jdgm-row-stars,
+.jdgm-review-widget .jdgm-rev-widg__header,
+.jdgm-review-widget .jdgm-widget-actions-wrapper {
   display: none !important;
 }
 
-/* Keep review list, filters, and sort visible */
-#judgeme_product_reviews .jdgm-rev-widg__body,
-#judgeme_product_reviews .jdgm-rev,
-#judgeme_product_reviews .jdgm-row-actions,
-#judgeme_product_reviews .jdgm-row-actions *,
-#judgeme_product_reviews .jdgm-rev-widg__reviews,
-#judgeme_product_reviews .jdgm-rev-widg__reviews * {
-  display: revert !important;
+/* Keep filters, sort, and reviews visible */
+.jdgm-review-widget .jdgm-row-actions,
+.jdgm-review-widget .jdgm-rev-widg__body,
+.jdgm-review-widget .jdgm-rev,
+.jdgm-review-widget .jdgm-rev-widg__reviews {
+  display: block !important;
 }
