@@ -47,18 +47,6 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 #judgeme_product_reviews .jdgm-rev__rating {
   color: #9f123f !important;
 }
-/* Hide only Judge.me duplicate summary/header */
-#judgeme_product_reviews .jdgm-rev-widg__header {
-  display: none !important;
-}
-
-/* Keep filters + review list visible */
-#judgeme_product_reviews .jdgm-row-actions,
-#judgeme_product_reviews .jdgm-rev-widg__body,
-#judgeme_product_reviews .jdgm-rev-widg__reviews,
-#judgeme_product_reviews .jdgm-rev {
-  display: block !important;
-}
 /* Hide ONLY the new Judge.me widget header */
 .jm-review-widget__header {
     display: none !important;
