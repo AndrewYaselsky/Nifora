@@ -56,3 +56,26 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 .jm-loading-overlay.jm-review-widget__body {
     display: none !important;
 }
+/* Show Judge.me review body/cards */
+.jm-review-widget__body,
+.jm-review-widget_body,
+.jm-review-widget-body,
+.jm-reviews,
+.jm-review-list,
+.jm-review {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Hide only the duplicate Judge.me summary/header */
+.jm-review-widget-header,
+.jm-review-widget__header {
+  display: none !important;
+}
+
+/* Remove large empty space */
+.jm-review-widget-header-and-body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
