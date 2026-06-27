@@ -30,12 +30,13 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 .nifora-stars {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 3px;
 }
 
-.nifora-stars > span:last-child {
+.rating-text {
   color: #222;
   font-size: 16px;
+  margin-left: 8px;
 }
 
 .nifora-review-left p {
@@ -44,20 +45,45 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   color: #222;
 }
 
-.svg-stars {
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
-  color: #98173d;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.svg-stars svg {
+.star {
   width: 18px;
   height: 18px;
-  fill: #98173d;
-  display: block;
+  display: inline-block;
+  background: #98173d;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 56%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 56%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.star.empty {
+  background: transparent;
+  border: 1.8px solid #98173d;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 56%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 56%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.star.half {
+  background: linear-gradient(to right, #98173d 50%, transparent 50%);
+  border: 1.8px solid #98173d;
 }
 
 .nifora-review-middle {
@@ -68,10 +94,14 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .nifora-row {
   display: grid;
-  grid-template-columns: 88px 140px 34px;
+  grid-template-columns: repeat(5, 18px) 140px 34px;
   align-items: center;
-  gap: 10px;
+  gap: 3px;
   margin-bottom: 7px;
+}
+
+.nifora-row .nifora-bar {
+  margin-left: 7px;
 }
 
 .nifora-bar {
@@ -92,6 +122,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   font-size: 14px;
   color: #777;
   text-align: left;
+  margin-left: 7px;
 }
 
 .nifora-review-right {
@@ -111,4 +142,29 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   font-weight: 700;
   text-decoration: none !important;
   border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .nifora-review-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .nifora-review-left {
+    text-align: center;
+  }
+
+  .nifora-stars {
+    justify-content: center;
+  }
+
+  .nifora-review-middle {
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .nifora-review-right a {
+    margin: 0 auto;
+  }
 }
