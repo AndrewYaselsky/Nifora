@@ -7,39 +7,43 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 .custom-review-summary {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 45px 20px 30px;
-  color: #222;
+  padding: 42px 20px 28px;
   border-bottom: 1px solid #f0dce2;
+  color: #222;
 }
 
 .custom-review-summary h2 {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 28px;
+  margin: 0 0 28px;
 }
 
 .review-summary-grid {
   display: grid;
-  grid-template-columns: 1.15fr 1.25fr 1fr;
+  grid-template-columns: 1.05fr 1.25fr 1fr;
   align-items: center;
 }
 
 .review-left {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
   min-height: 110px;
   border-right: 1px solid #efd8df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-main-stars,
+.small-stars {
+  color: #9f123f !important;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .review-main-stars {
-  color: #9f123f;
-  font-size: 20px;
+  font-size: 19px;
   letter-spacing: 1px;
-  white-space: nowrap;
-  line-height: 1;
 }
 
 .review-text {
@@ -49,35 +53,35 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 }
 
 .review-bars {
-  padding: 0 45px;
+  padding: 0 48px;
   border-right: 1px solid #efd8df;
 }
 
 .review-bar-row {
   display: grid;
-  grid-template-columns: 86px 140px 40px;
+  grid-template-columns: 84px 140px 36px;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 7px;
+  gap: 12px;
+  margin-bottom: 8px;
 }
 
 .small-stars {
-  color: #9f123f;
   font-size: 15px;
   letter-spacing: 1px;
-  white-space: nowrap;
-  line-height: 1;
 }
 
 .bar-bg {
   width: 140px;
   height: 14px;
-  background: #eeeeee;
+  background: #eeeeee !important;
+  position: relative;
 }
 
 .bar-fill {
   height: 100%;
-  background: #9f123f;
+  width: 0%;
+  background: #9f123f !important;
+  display: block;
 }
 
 .bar-count {
@@ -88,20 +92,20 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 .review-button-wrap {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .review-button {
   background: #9f123f;
-  color: #fff;
-  padding: 12px 48px;
+  color: #fff !important;
   min-width: 240px;
+  padding: 12px 40px;
   font-size: 16px;
   font-weight: 700;
-  text-decoration: none;
   text-align: center;
+  text-decoration: none;
 }
 
 .review-button:hover {
-  background: #8a0f35;
-  color: #fff;
+  background: #870f35;
 }
