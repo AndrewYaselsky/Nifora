@@ -21,7 +21,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .review-summary-grid {
   display: grid;
-  grid-template-columns: 1.05fr 1.25fr 1fr;
+  grid-template-columns: 1.1fr 1.25fr 1fr;
   align-items: center;
 }
 
@@ -31,7 +31,7 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .review-main-stars,
@@ -39,10 +39,12 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   color: #9f123f !important;
   line-height: 1;
   white-space: nowrap;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
 }
 
 .review-main-stars {
-  font-size: 19px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
@@ -59,14 +61,14 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .review-bar-row {
   display: grid;
-  grid-template-columns: 84px 140px 36px;
+  grid-template-columns: 90px 140px 40px;
   align-items: center;
   gap: 12px;
   margin-bottom: 8px;
 }
 
 .small-stars {
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
@@ -74,14 +76,12 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   width: 140px;
   height: 14px;
   background: #eeeeee !important;
-  position: relative;
 }
 
 .bar-fill {
   height: 100%;
   width: 0%;
   background: #9f123f !important;
-  display: block;
 }
 
 .bar-count {
@@ -106,11 +106,10 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   text-decoration: none;
 }
 
-.review-button:hover {
-  background: #870f35;
-  color: #fff;
-}
-
-.hidden-judgeme-badge {
-  display: none;
+.custom-hidden-judgeme {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
