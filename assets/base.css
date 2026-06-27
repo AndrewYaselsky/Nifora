@@ -130,14 +130,3 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     justify-content: center;
   }
 }
-/* Hide full Judge.me review section, but keep data available */
-.jdgm-widget:not(.jdgm-preview-badge),
-.jdgm-rev-widg,
-.jdgm-all-reviews-widget,
-.jdgm-rev-widg__body,
-.jdgm-rev-widg__summary,
-.jdgm-row-stars,
-.jdgm-row-actions,
-.jdgm-rev {
-  display: none !important;
-}
