@@ -130,10 +130,23 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
     justify-content: center;
   }
 }
-/* Hide only the Judge.me review summary at the top */
-.jdgm-rev-widg__summary,
-.jdgm-histogram,
-.jdgm-rev-widg__summary-inner,
-.jdgm-rev-widg__header {
-    display: none !important;
+/* Hide only Judge.me top summary/header, keep filters and review cards */
+#judgeme_product_reviews .jdgm-rev-widg__header,
+#judgeme_product_reviews .jdgm-rev-widg__summary,
+#judgeme_product_reviews .jdgm-row-stars,
+#judgeme_product_reviews .jdgm-histogram,
+#judgeme_product_reviews .jdgm-widget-actions-wrapper,
+#judgeme_product_reviews .jdgm-write-rev-link,
+#judgeme_product_reviews .jdgm-rev-widg__title {
+  display: none !important;
+}
+
+/* Keep review list, filters, and sort visible */
+#judgeme_product_reviews .jdgm-rev-widg__body,
+#judgeme_product_reviews .jdgm-rev,
+#judgeme_product_reviews .jdgm-row-actions,
+#judgeme_product_reviews .jdgm-row-actions *,
+#judgeme_product_reviews .jdgm-rev-widg__reviews,
+#judgeme_product_reviews .jdgm-rev-widg__reviews * {
+  display: revert !important;
 }
