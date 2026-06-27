@@ -59,3 +59,12 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 #judgeme_product_reviews .jdgm-rev {
   display: block !important;
 }
+/* Hide ONLY the new Judge.me widget header */
+.jm-review-widget__header {
+    display: none !important;
+}
+
+/* Hide the loading overlay in the header */
+.jm-loading-overlay.jm-review-widget__body {
+    display: none !important;
+}
