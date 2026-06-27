@@ -4,6 +4,72 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   position: relative !important;
   z-index: 0 !important;
 }
+.custom-review-summary {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 42px 20px 28px;
+  border-bottom: 1px solid #f0dce2;
+  color: #222;
+}
+
+.custom-review-summary h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 28px;
+}
+
+.review-summary-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1.25fr 1fr;
+  align-items: center;
+}
+
+.review-left {
+  min-height: 110px;
+  border-right: 1px solid #efd8df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.review-main-stars,
+.small-stars {
+  color: #9f123f;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.review-main-stars {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.review-text {
+  font-size: 16px;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.review-bars {
+  padding: 0 48px;
+  border-right: 1px solid #efd8df;
+}
+
+.review-bar-row {
+  display: grid;
+  grid-template-columns: 90px 140px 40px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.small-stars {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
 .bar-bg {
   width: 140px;
   height: 14px;
@@ -14,6 +80,57 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 .bar-fill {
   height: 100%;
   width: 0%;
-  background: #9f123f !important;
+  background: #9f123f;
   display: block;
+}
+
+.bar-count {
+  font-size: 14px;
+  color: #777;
+}
+
+.review-button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-button {
+  background: #9f123f;
+  color: #fff !important;
+  min-width: 240px;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .review-summary-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .review-left,
+  .review-bars {
+    border-right: none;
+    padding: 0;
+  }
+
+  .review-left {
+    flex-direction: column;
+  }
+
+  .review-text {
+    text-align: center;
+  }
+
+  .review-bar-row {
+    justify-content: center;
+  }
+}
+/* Hide the original Judge.me review widget */
+.jdgm-rev-widg {
+    display: none !important;
 }
