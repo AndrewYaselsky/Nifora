@@ -27,25 +27,37 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   text-align: left;
 }
 
-.nifora-stars,
-.nifora-row span {
-  color: #98173d;
-  font-size: 18px;
-  letter-spacing: 1px;
-  line-height: 1;
+.nifora-stars {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.nifora-stars span {
+.nifora-stars > span:last-child {
   color: #222;
   font-size: 16px;
-  letter-spacing: 0;
-  margin-left: 6px;
 }
 
 .nifora-review-left p {
   margin: 6px 0 0;
   font-size: 16px;
   color: #222;
+}
+
+.svg-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: #98173d;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.svg-stars svg {
+  width: 18px;
+  height: 18px;
+  fill: #98173d;
+  display: block;
 }
 
 .nifora-review-middle {
@@ -99,25 +111,4 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   font-weight: 700;
   text-decoration: none !important;
   border-radius: 0;
-}
-
-@media (max-width: 768px) {
-  .nifora-review-grid {
-    grid-template-columns: 1fr;
-    gap: 25px;
-  }
-
-  .nifora-review-left {
-    text-align: center;
-  }
-
-  .nifora-review-middle {
-    border: none;
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .nifora-review-right a {
-    margin: 0 auto;
-  }
 }
