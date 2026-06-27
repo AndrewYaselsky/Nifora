@@ -144,3 +144,6 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 .jdgm-review-widget .jdgm-rev-widg__reviews {
   display: block !important;
 }
+.jdgm-widget .jdgm-row-stars:first-of-type {
+  display: none !important;
+}
