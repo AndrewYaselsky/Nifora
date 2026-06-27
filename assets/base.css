@@ -4,7 +4,10 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   position: relative !important;
   z-index: 0 !important;
 }
+/* Judge.me Review Header Styling */
 .jdgm-rev-widg__header {
+  max-width: 1120px !important;
+  margin: 55px auto 35px !important;
   text-align: center !important;
 }
 
@@ -12,20 +15,29 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   font-size: 26px !important;
   font-weight: 700 !important;
   margin-bottom: 30px !important;
+  color: #111 !important;
 }
 
 .jdgm-rev-widg__summary {
   display: grid !important;
   grid-template-columns: 1fr 1.15fr 1fr !important;
   align-items: center !important;
-  max-width: 1120px !important;
-  margin: 0 auto 35px !important;
   column-gap: 50px !important;
 }
 
-.jdgm-rev-widg__summary-stars,
-.jdgm-rev-widg__summary-text {
+.jdgm-rev-widg__summary-inner {
   text-align: left !important;
+}
+
+.jdgm-rev-widg__summary-stars {
+  display: inline-flex !important;
+  margin-right: 8px !important;
+}
+
+.jdgm-rev-widg__summary-text {
+  display: inline-block !important;
+  font-size: 16px !important;
+  color: #222 !important;
 }
 
 .jdgm-histogram {
@@ -42,6 +54,10 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   margin-bottom: 7px !important;
 }
 
+.jdgm-histogram__star {
+  color: #98173d !important;
+}
+
 .jdgm-histogram__bar {
   width: 140px !important;
   height: 11px !important;
@@ -53,6 +69,12 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   height: 100% !important;
   background: #98173d !important;
   display: block !important;
+}
+
+.jdgm-histogram__frequency {
+  font-size: 14px !important;
+  color: #777 !important;
+  text-align: left !important;
 }
 
 .jdgm-write-rev-link {
@@ -68,6 +90,12 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   border-radius: 0 !important;
   text-decoration: none !important;
   border: none !important;
+  margin: 0 auto !important;
+}
+
+.jdgm-star,
+.jdgm-star:before {
+  color: #98173d !important;
 }
 
 .jdgm-rev-widg__medias,
