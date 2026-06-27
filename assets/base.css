@@ -108,4 +108,9 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .review-button:hover {
   background: #870f35;
+  color: #fff;
+}
+
+.hidden-judgeme-badge {
+  display: none;
 }
