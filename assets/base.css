@@ -9,14 +9,13 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   margin: 0 auto;
   padding: 42px 20px 28px;
   border-bottom: 1px solid #f0dce2;
-  color: #222;
 }
 
 .custom-review-summary h2 {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
-  margin: 0 0 28px;
+  margin-bottom: 28px;
 }
 
 .review-summary-grid {
@@ -34,34 +33,19 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   gap: 12px;
 }
 
+.review-main-stars,
+.small-stars {
+  color: #9f123f;
+  white-space: nowrap;
+}
+
+.review-main-stars {
+  font-size: 20px;
+}
+
 .review-text {
   font-size: 16px;
   line-height: 1.35;
-  text-align: left;
-}
-
-.custom-stars {
-  display: flex;
-  align-items: center;
-  gap: 2px;
-  color: #9f123f;
-}
-
-.custom-stars svg {
-  width: 18px;
-  height: 18px;
-  fill: #9f123f;
-  stroke: #9f123f;
-  stroke-width: 1.5;
-}
-
-.main-stars svg {
-  width: 19px;
-  height: 19px;
-}
-
-.empty-star {
-  fill: none !important;
 }
 
 .review-bars {
@@ -71,34 +55,30 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
 
 .review-bar-row {
   display: grid;
-  grid-template-columns: 92px 140px 40px;
+  grid-template-columns: 90px 140px 40px;
   align-items: center;
   gap: 12px;
   margin-bottom: 8px;
+}
+
+.small-stars {
+  font-size: 16px;
 }
 
 .bar-bg {
   width: 140px;
   height: 14px;
   background: #eeeeee;
-  overflow: hidden;
 }
 
 .bar-fill {
   height: 100%;
-  width: 0%;
   background: #9f123f;
-}
-
-.bar-count {
-  font-size: 14px;
-  color: #777;
 }
 
 .review-button-wrap {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .review-button {
@@ -110,15 +90,4 @@ html {scroll-behavior: smooth;}img, video {max-width: 100%;height: auto;vertical
   font-weight: 700;
   text-align: center;
   text-decoration: none;
-}
-
-.real-judgeme-source {
-  position: absolute !important;
-  left: -99999px !important;
-  top: auto !important;
-  width: 1px !important;
-  height: 1px !important;
-  overflow: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
 }
