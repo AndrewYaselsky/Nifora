@@ -2330,18 +2330,6 @@
         "questions-font-size": 1.5
       }
     },
-    "custom_liquid_NLCFVb": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "custom_liquid": "<div class=\"nifora-review-summary\">\n  <h2>Customer Reviews</h2>\n\n  <div class=\"nifora-review-grid\">\n    <div class=\"nifora-review-left\">\n      <div class=\"nifora-stars\">\n        <span class=\"star filled\"></span>\n        <span class=\"star filled\"></span>\n        <span class=\"star filled\"></span>\n        <span class=\"star filled\"></span>\n        <span class=\"star half\"></span>\n        <span class=\"rating-text\">4.43 out of 5</span>\n      </div>\n      <p>Based on <strong>1280</strong> reviews</p>\n    </div>\n\n    <div class=\"nifora-review-middle\">\n      <div class=\"nifora-row\">\n        <span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star filled\"></span>\n        <div class=\"nifora-bar\"><i style=\"width:74%\"></i></div><em>240</em>\n      </div>\n\n      <div class=\"nifora-row\">\n        <span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star empty\"></span>\n        <div class=\"nifora-bar\"><i style=\"width:13%\"></i></div><em>41</em>\n      </div>\n\n      <div class=\"nifora-row\">\n        <span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star empty\"></span><span class=\"star empty\"></span>\n        <div class=\"nifora-bar\"><i style=\"width:5%\"></i></div><em>17</em>\n      </div>\n\n      <div class=\"nifora-row\">\n        <span class=\"star filled\"></span><span class=\"star filled\"></span><span class=\"star empty\"></span><span class=\"star empty\"></span><span class=\"star empty\"></span>\n        <div class=\"nifora-bar\"><i style=\"width:4%\"></i></div><em>15</em>\n      </div>\n\n      <div class=\"nifora-row\">\n        <span class=\"star filled\"></span><span class=\"star empty\"></span><span class=\"star empty\"></span><span class=\"star empty\"></span><span class=\"star empty\"></span>\n        <div class=\"nifora-bar\"><i style=\"width:5%\"></i></div><em>17</em>\n      </div>\n    </div>\n\n    <div class=\"nifora-review-right\">\n      <a href=\"#judgeme_product_reviews\">Write a review</a>\n    </div>\n  </div>\n</div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1743412114f5f405d4": {
       "type": "apps",
       "blocks": {
@@ -2396,7 +2384,6 @@
     "comparison_slider_WTeL4z",
     "image_with_text_gDGgdL",
     "ss_simple_faq_NxVU6q",
-    "custom_liquid_NLCFVb",
     "1743412114f5f405d4",
     "1758652754b8a7d6b9",
     "1782563125afbbb0f6"
