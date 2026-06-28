@@ -2332,6 +2332,7 @@
     },
     "custom_liquid_nCRFFy": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
