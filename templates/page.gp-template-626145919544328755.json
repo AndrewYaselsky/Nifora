@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_626145919561105971": {
+      "settings": {
+        "checksum": "98bcc3023364ec6f301da9d24b18af52caff97f411263fdc897e2b9672445be7_1_1_1_0__1",
+        "ggOlNoo6Sjc_label": "<p>Check availability</p>",
+        "gggEaUWDg_A_text": "<p><strong>Summer Sale - Restocked &amp; Ready:</strong> You asked, we delivered! The Anti-Wrinkle Collagen Mask is back—grab yours before it sells out again. 💕</p>",
+        "section_preload": "true"
+      },
+      "type": "gp-section-626145919561105971"
+    },
+    "gp_section_626145919561171507": {
+      "settings": {
+        "checksum": "c464b1c220af1e5760b6d6c5f2f879a27ef9698744b310fb7728001680017c7f_1_1_1_0__1",
+        "gg3YOIEMo2D_text": "<p>\"My skin looked so tired from work stress, but after using this mask a few times, it felt plumper and smoother. It’s like a reset for my face.\"</p><p><strong>- ELIF S</strong></p>",
+        "gg8wpy4Wh6G_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/star_3.png",
+        "gg9UZJscc0k_text": "<p>\"I started noticing smile lines, and this mask really helped soften them. It’s not magic overnight, but my skin feels firmer and more elastic.\"</p><p><strong>- KIRSTEN C</strong></p>",
+        "ggF6X66eUXy_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/image16.jpg",
+        "ggGg6W2DOhY_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/image8.jpg",
+        "ggMqYN9oscj_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/image3.jpg",
+        "ggd7hqyunWV_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/star_3.png",
+        "ggjxPKqfKCL_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/star_3.png",
+        "gglXY9SXKTv_text": "<p>Here’s what real women have to say about the mask that fits their lifestyle:</p>",
+        "ggmb_1UjFH-_label": "<p>SHOP NOW</p>",
+        "ggtkkgLNH4h_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/star_3.png",
+        "ggtxfJbk8NB_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/image1.png",
+        "ggw2NErwnzM_text": "Your Glow-Up Starts Here — Just Like Theirs",
+        "ggx2ow1Z237_text": "<p>\"I barely have time for skincare, but this collagen mask is my go-to before bed. It gives me that refreshed glow even after sleepless nights.\"</p><p><strong>- VANESSA JOHNSON</strong></p>",
+        "ggx_EROubty_text": "<p>\"I was scared to try anything with collagen because of my acne-prone skin, but this one actually reduced redness and helped my breakouts heal faster.\"</p><p><strong>- SYMONE GLAZE</strong></p>"
+      },
+      "type": "gp-section-626145919561171507"
+    },
+    "gp_section_626145919577883187": {
+      "settings": {
+        "checksum": "2fcd5b150db48acd587d840496958c257b1d3393415166df16c609b2f8a11f85_1_1_1_0__1",
+        "g7hfE-G_wJZ_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/15_1.png",
+        "gPolaQyEtMW_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/17_1.png",
+        "gRDIJA1Jm42_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/16_1.png",
+        "gg-WuHZWR1w_text": "<p><strong>GUARANTEED:</strong> In just a couple of hours, the Nifora facial mask makes your skin glow so brightly you won’t believe your mirror. If you think you've surpassed Korean beauty standards with just one application, you’re right. This is what Nifora can do for you every time you use it.</p>",
+        "gg2-GpZVt1-_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/3_7.png",
+        "gg2z2PW3lzQ_text": "<p>Proven Results While You Sleep</p>",
+        "gg3W-iwl0Bd_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/6_6.png",
+        "gg5qwEZJcuL_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/4_7.png",
+        "ggO5ZpdKbF0_label": "<p>SHOP NOW</p>",
+        "ggZnRcM7c5b_text": "<p>No Irritation for Sensitive Skin</p>",
+        "gg_JJIPA5Tw_text": "<p>Try It for 60 Days, Totally Risk-Free</p>",
+        "ggeRmMc16gB_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/14_1.png",
+        "ggjC-dJKUWT_text": "<strong>Are you finally ready to give your skin the care it deserves? 💕</strong>",
+        "ggkYwV0RvL3_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/5_6.png",
+        "ggl9_qB-jA9_text": "<p>1 - 2 applications a week - instant results</p>",
+        "ggmWb4m2HFA_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/2_7.png"
+      },
+      "type": "gp-section-626145919577883187"
+    },
+    "gp_section_626145919594660403": {
+      "settings": {
+        "checksum": "0167a638bcf93b7aec6278d44aaa2225d9c5076ec82aec67cb1d186140a7ee31_1_1_1_0__1",
+        "gg1I25rv2az_text": "<p>Who says fighting wrinkles has to be expensive? <strong>The right products can deliver remarkable results without breaking the bank.</strong> This Anti-Wrinkle Collagen Mask is proof that you don't need luxury prices to get potent, effective ingredients <strong>for visibly smoother and more youthful-looking skin.</strong></p>",
+        "gg2e1m2cC1B_text": "<p>No time? No problem. This anti-wrinkle mask delivers noticeable results in just one step. <strong>There's no need for complicated layering or waiting around.</strong> In under two hours, my skin looks smoother, fresher, and has a healthy glow. <strong>It's my go-to for a quick and effective skin refresh, especially when I'm short on time.</strong></p>",
+        "gg3-ryG7PDx_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/4_7.png",
+        "gg7mIFh6pXb_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/14_2.png",
+        "gg8P26fUryi_label": "<p>SHOP NOW</p>",
+        "ggA658ziimh_text": "<p>The proof is in the results. <strong>Clinical reviews and user feedback confirm the effectiveness of this mask.</strong> With a high satisfaction rate, users report visible improvements in skin firmness, smoothness, and overall skin comfort. <strong>It has become a long-term favorite for women in their 30s, 40s, and beyond who are looking for real results.</strong></p>",
+        "ggDMsYPdOaL_text": "<p>After years of chasing glow with overpriced serums, I found this collagen mask that actually feels made for women like me. <strong>As someone in my 40s who’s tried countless masks,</strong> I finally get <strong>why over 15,000 women keep coming back to this one</strong> — it works.</p>",
+        "ggDsY4j7iCg_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/3_7.png",
+        "ggELAxbcF6Y_text": "<p>One of my favorite things about this mask is the <strong>refreshing, cooling sensation it provides.</strong> It’s a simple, luxurious way to unwind and take care of your skin at home. <strong>This spa-like experience soothes, hydrates, and leaves you with a radiant glow.</strong> If you haven't tried it yet, you're in for a treat.</p>",
+        "ggHaZg1HJ-u_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/2_7.png",
+        "ggJ3-7_jpjI_text": "<p>As we age, <strong>our skin's ability to retain moisture lessons, leading to the appearance of fine lines and a dull complexion.</strong> While regular moisturizers provide surface-level hydration, this mask goes deeper. Its unique gel texture sinks into the skin, delivering intense hydration that plumps up the skin and smooths out wrinkles. <strong>It leaves my skin feeling instantly soothed, hydrated, and glowing for hours.</strong> Even after a long day, my face still looks refreshed and revitalized.</p>",
+        "ggKdy7yOoKn_text": "7. The Data and the Real People Back It Up",
+        "ggMTtLiPXuX_text": "<p>By Nicole Johnson | Updated: August 2025</p>",
+        "ggNCSuMhJSO_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/12_2.png",
+        "ggOfBmitjRW_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/13_2.png",
+        "ggPWgmTwPwm_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/For_LP_9.png",
+        "ggQ9E31I1TS_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/4_8.png",
+        "ggUYRw8nmHu_text": "7 Reasons Why 40,000+ Women in 30’s, 40’s &amp; 50’s switched from trendy beauty products to our affordable Anti-Wrinkle Collagen Mask for Smoother &amp; Firmer Skin.",
+        "ggVQu2rVfXF_text": "5. It’s Safe for Sensitive and Reactive Skin",
+        "ggZ0KO9nzT-_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/5_6.png",
+        "gg_EmekCIcb_text": "6. Cooling &amp; Soothing Effect",
+        "gg_uJ1UkSmj_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/6_6.png",
+        "ggbFbBP2HOr_text": "3. Scientifically Proven Ingredients (Without Heavy Oils)",
+        "gggwGvdZpTa_text": "<p><strong>What you put on your skin matters.</strong> I was impressed to find that this mask is formulated with hydrolyzed marine collagen, <strong>which is broken down into smaller molecules to better penetrate the skin's surface.</strong> It’s also packed with skin-loving ingredients like <strong>Centella Asiatica to soothe and repair, and glycerin for an extra boost of hydration.</strong> This fragrance-free and gentle formula is designed to deliver visible results without irritation.</p>",
+        "ggoUY9dwYA6_text": "2. Deep Hydration &amp; Smooth Skin in Just One Use",
+        "ggs0eGoHRpy_label": "<p>SHOP NOW</p>",
+        "ggsWY_OmHqm_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/Anti-Wrinkle_Main_Photo_1_175ab694-d2b1-4cae-a2bb-0e991b2fdc09.png",
+        "ggsdxtqBRbP_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/1_8.png",
+        "ggtL_icosgY_text": "4. A Low-Effort Glow-Up for Busy Women",
+        "ggtUZTT-Jz9_text": "1. Affordable Skin Transformation",
+        "gguCnwVa854_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/Frame_1484580952_80c40562-ca10-49d4-9ebc-102373a42a14.png",
+        "ggv20YPCwvh_text": "<p>I'm always cautious when recommending masks, <strong>as many contain ingredients that can irritate sensitive skin.</strong> This mask stands out because of its minimal and gentle formula. <strong>It's designed to be well-tolerated by a wide range of skin types, offering a soothing and calming experience even for those with reactive skin.</strong></p>",
+        "ggzF8IwNJdT_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/a42llv_1cd48bf7-ccbb-41e2-b138-c102bae3f781.gif",
+        "ggzF8IwNJdT_srcSet_mobile_src": "https://cdn.shopify.com/s/files/1/0798/4028/0923/files/a42llv.gif?v=1756138727",
+        "ggzd5H2V5f7_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/0829/5330/6368/files/10_2.png"
+      },
+      "type": "gp-section-626145919594660403"
+    }
+  },
+  "order": [
+    "gp_section_626145919561105971",
+    "gp_section_626145919594660403",
+    "gp_section_626145919577883187",
+    "gp_section_626145919561171507"
+  ],
+  "layout": "theme.gempages.blank"
+}
